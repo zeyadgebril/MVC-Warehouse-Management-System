@@ -1,0 +1,2088 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WarehousePro - Revolutionary Inventory Management</title>
+    <link rel="icon" href="./icon.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        user-select: none;
+      }
+
+      :root {
+        --primary-blue: #3b82f6;
+        --secondary-blue: #2563eb;
+        --dark-blue: #1e40af;
+        --light-blue: #60a5fa;
+        --cyan: #06b6d4;
+        --purple: #8b5cf6;
+        --black: #000000;
+        --dark-gray: #0f0f0f;
+        --medium-gray: #1a1a1a;
+        --light-gray: #2a2a2a;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background: var(--black);
+        color: white;
+        overflow-x: hidden;
+        line-height: 1.6;
+      }
+
+      /* Animated Background */
+      /* Animated background particles */
+      .particles {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        pointer-events: none;
+      }
+
+      .particle {
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background: #3b82f6;
+        border-radius: 50%;
+        animation: float 6s infinite linear;
+        pointer-events: none;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(100vh) rotate(0deg);
+          opacity: 0;
+        }
+        10% {
+          opacity: 1;
+        }
+        90% {
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-100px) rotate(360deg);
+          opacity: 0;
+        }
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+
+      /* Enhanced Navigation */
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px) saturate(180%);
+        border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+        z-index: 1000;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+
+      nav.scrolled {
+        background: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(30px) saturate(200%);
+        box-shadow: 0 8px 32px rgba(59, 130, 246, 0.1),
+          0 0 50px rgba(59, 130, 246, 0.05);
+        border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+      }
+
+      .nav-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 0;
+      }
+      .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3b82f6;
+        animation: glow 2s ease-in-out infinite alternate;
+      }
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 5px #3b82f6;
+        }
+        to {
+          text-shadow: 0 0 20px #3b82f6, 0 0 30px #3b82f6;
+        }
+      }
+
+      @keyframes logoGlow {
+        0%,
+        100% {
+          filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.3));
+        }
+        50% {
+          filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.6))
+            drop-shadow(0 0 30px rgba(139, 92, 246, 0.2));
+        }
+      }
+
+      .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 3rem;
+      }
+
+      .nav-links a {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        font-weight: 500;
+        position: relative;
+        transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        padding: 0.5rem 0;
+      }
+
+      .nav-links a:hover {
+        color: var(--primary-blue);
+        transform: translateY(-2px);
+      }
+
+      .nav-links a::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 50%;
+        background: linear-gradient(90deg, var(--primary-blue), var(--cyan));
+        transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transform: translateX(-50%);
+      }
+
+      .nav-links a:hover::before {
+        width: 100%;
+      }
+
+      /* Enhanced Hero Section */
+      .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        padding: 8rem 0 4rem;
+      }
+
+      .floating-particles {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+      }
+
+      .hero-content {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        gap: 6rem;
+        align-items: center;
+        z-index: 2;
+        position: relative;
+      }
+
+      .hero-text h1 {
+        font-size: 4.5rem;
+        font-weight: 800;
+        margin-bottom: 1.5rem;
+        background: linear-gradient(
+          135deg,
+          #ffffff 0%,
+          var(--primary-blue) 30%,
+          var(--cyan) 70%,
+          var(--purple) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        line-height: 1.1;
+        animation: textReveal 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        position: relative;
+      }
+
+      .hero-text h1::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--black);
+        animation: slideOut 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s
+          forwards;
+      }
+
+      @keyframes textReveal {
+        from {
+          transform: translateY(50px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideOut {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(100%);
+        }
+      }
+
+      .hero-text .subtitle {
+        font-size: 1.4rem;
+        margin-bottom: 3rem;
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 400;
+        animation: fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s both;
+        line-height: 1.6;
+      }
+
+      .hero-text .highlight {
+        color: var(--primary-blue);
+        font-weight: 600;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          transform: translateY(30px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      .cta-buttons {
+        display: flex;
+        gap: 1.5rem;
+        animation: fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s both;
+      }
+
+      .cta-primary {
+        background: linear-gradient(
+          135deg,
+          var(--primary-blue) 0%,
+          var(--secondary-blue) 100%
+        );
+        color: white;
+        padding: 1.2rem 2.5rem;
+        border: none;
+        border-radius: 60px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        box-shadow: 0 8px 32px rgba(59, 130, 246, 0.3),
+          0 0 0 1px rgba(59, 130, 246, 0.1);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .cta-primary::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.2),
+          transparent
+        );
+        transition: left 0.6s ease;
+      }
+
+      .cta-primary:hover::before {
+        left: 100%;
+      }
+
+      .cta-primary:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 48px rgba(59, 130, 246, 0.4),
+          0 0 0 1px rgba(59, 130, 246, 0.2);
+      }
+
+      .cta-secondary {
+        background: transparent;
+        color: white;
+        padding: 1.2rem 2.5rem;
+        border: 2px solid rgba(59, 130, 246, 0.3);
+        border-radius: 60px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        backdrop-filter: blur(20px);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .cta-secondary:hover {
+        border-color: var(--primary-blue);
+        background: rgba(59, 130, 246, 0.1);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 32px rgba(59, 130, 246, 0.2);
+      }
+
+      /* Enhanced Warehouse SVG */
+      .hero-visual {
+        display: flex;
+        justify-content: center;
+        animation: slideInScale 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s
+          both;
+        position: relative;
+      }
+
+      @keyframes slideInScale {
+        from {
+          transform: translateX(100px) scale(0.8);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0) scale(1);
+          opacity: 1;
+        }
+      }
+
+      .warehouse-container {
+        position: relative;
+        filter: drop-shadow(0 20px 60px rgba(59, 130, 246, 0.2));
+      }
+
+      .warehouse-svg {
+        width: 100%;
+        width: 600px;
+        height: auto;
+      }
+
+      .warehouse-building {
+        animation: buildingPulse 4s ease-in-out infinite;
+      }
+
+      @keyframes buildingPulse {
+        0%,
+        100% {
+          filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.3));
+          transform: scale(1);
+        }
+        50% {
+          filter: drop-shadow(0 0 40px rgba(59, 130, 246, 0.6))
+            drop-shadow(0 0 60px rgba(139, 92, 246, 0.2));
+          transform: scale(1.02);
+        }
+      }
+
+      .data-stream {
+        animation: dataFlow 3s linear infinite;
+      }
+
+      @keyframes dataFlow {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+      }
+
+      /* Enhanced Features Section */
+      .features {
+        padding: 8rem 0;
+        position: relative;
+      }
+
+      .features::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          var(--primary-blue),
+          transparent
+        );
+      }
+
+      .section-header {
+        text-align: center;
+        margin-bottom: 5rem;
+      }
+
+      .section-header h2 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin-bottom: 1.5rem;
+        background: linear-gradient(
+          135deg,
+          var(--primary-blue) 0%,
+          var(--cyan) 50%,
+          var(--purple) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .section-header p {
+        font-size: 1.2rem;
+        color: rgba(255, 255, 255, 0.6);
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        gap: 2.5rem;
+      }
+
+      .feature-card {
+        background: linear-gradient(
+          135deg,
+          rgba(59, 130, 246, 0.05) 0%,
+          rgba(139, 92, 246, 0.05) 100%
+        );
+        backdrop-filter: blur(20px) saturate(180%);
+        padding: 3rem;
+        border-radius: 24px;
+        border: 1px solid rgba(59, 130, 246, 0.1);
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+      .feature-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(59, 130, 246, 0.1),
+          transparent
+        );
+        transition: left 0.8s ease;
+      }
+
+      .feature-card:hover::before {
+        left: 100%;
+      }
+
+      .feature-card:hover {
+        transform: translateY(-12px) scale(1.02);
+        box-shadow: 0 32px 64px rgba(59, 130, 246, 0.2),
+          0 0 0 1px rgba(59, 130, 246, 0.2);
+      }
+
+      .feature-icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(
+          135deg,
+          var(--primary-blue),
+          var(--secondary-blue)
+        );
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        position: relative;
+        box-shadow: 0 8px 32px rgba(59, 130, 246, 0.3);
+      }
+
+      .feature-icon::after {
+        content: "";
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: linear-gradient(
+          135deg,
+          var(--primary-blue),
+          var(--cyan),
+          var(--purple)
+        );
+        border-radius: 22px;
+        z-index: -1;
+        animation: iconGlow 3s ease-in-out infinite;
+      }
+
+      @keyframes iconGlow {
+        0%,
+        100% {
+          opacity: 0.5;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      .feature-card h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: white;
+      }
+
+      .feature-card p {
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.7;
+      }
+
+      /* Stats Section */
+      .stats {
+        padding: 6rem 0;
+        background: linear-gradient(
+          135deg,
+          rgba(59, 130, 246, 0.05) 0%,
+          rgba(139, 92, 246, 0.05) 100%
+        );
+        border-top: 1px solid rgba(59, 130, 246, 0.1);
+        border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+      }
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 3rem;
+        text-align: center;
+      }
+
+      .stat-item {
+        animation: countUp 2s ease-out;
+      }
+
+      .stat-number {
+        font-size: 3.5rem;
+        font-weight: 800;
+        background: linear-gradient(
+          135deg,
+          var(--primary-blue) 0%,
+          var(--cyan) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 0.5rem;
+      }
+
+      .stat-label {
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      /* Enhanced Contact Form */
+      .contact {
+        padding: 8rem 0;
+        position: relative;
+      }
+
+      .form-container {
+        max-width: 700px;
+        margin: 0 auto;
+        background: linear-gradient(
+          135deg,
+          rgba(59, 130, 246, 0.08) 0%,
+          rgba(139, 92, 246, 0.08) 100%
+        );
+        backdrop-filter: blur(30px) saturate(180%);
+        padding: 4rem;
+        border-radius: 32px;
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        box-shadow: 0 32px 64px rgba(0, 0, 0, 0.3),
+          0 0 0 1px rgba(59, 130, 246, 0.1);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .form-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          var(--primary-blue),
+          transparent
+        );
+      }
+
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-bottom: 2rem;
+      }
+      /* Form Styling */
+      .form-group {
+        margin-bottom: 20px;
+        position: relative;
+        animation: formSlideIn 0.8s ease-out both;
+      }
+
+      .form-group:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+      .form-group:nth-child(3) {
+        animation-delay: 0.2s;
+      }
+      .form-group:nth-child(4) {
+        animation-delay: 0.3s;
+      }
+      .form-group:nth-child(5) {
+        animation-delay: 0.4s;
+      }
+      .form-group:nth-child(6) {
+        animation-delay: 0.5s;
+      }
+
+      @keyframes formSlideIn {
+        0% {
+          transform: translateX(-30px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 15px 20px;
+        background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+        border: 2px solid rgba(96, 165, 250, 0.3);
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        position: relative;
+        font-family: inherit;
+        resize: vertical;
+      }
+
+      textarea {
+        min-height: 80px;
+        max-height: 120px;
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: none;
+        background: linear-gradient(135deg, #1e40af, #2563eb);
+        border-color: #60a5fa;
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.5),
+          0 0 40px rgba(96, 165, 250, 0.3);
+        transform: translateY(-2px);
+      }
+
+      input::placeholder,
+      textarea::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+        transition: all 0.3s ease;
+      }
+
+      input:focus::placeholder,
+      textarea:focus::placeholder {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+
+      /* Floating Labels */
+      .floating-label {
+        position: absolute;
+        left: 20px;
+        top: 15px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 16px;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+        padding: 0 5px;
+        border-radius: 4px;
+      }
+
+      input:focus ~ .floating-label,
+      input:not(:placeholder-shown) ~ .floating-label,
+      textarea:focus ~ .floating-label,
+      textarea:not(:placeholder-shown) ~ .floating-label {
+        top: -10px;
+        left: 15px;
+        font-size: 12px;
+        color: #60a5fa;
+        background: linear-gradient(135deg, #1e40af, #2563eb);
+        box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
+      }
+
+      input[type="number"] {
+        width: 100%;
+        padding: 15px 20px;
+        background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+        border: 2px solid rgba(96, 165, 250, 0.3);
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        position: relative;
+        font-family: inherit;
+        box-sizing: border-box;
+      }
+
+      input[type="number"]:focus {
+        outline: none;
+        background: linear-gradient(135deg, #1e40af, #2563eb);
+        border-color: #60a5fa;
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.5),
+          0 0 40px rgba(96, 165, 250, 0.3);
+        transform: translateY(-2px);
+      }
+
+      input[type="number"]::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+        transition: all 0.3s ease;
+      }
+
+      input[type="number"]:focus::placeholder {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+
+      /* Custom number input spinner styling */
+      input[type="number"]::-webkit-outer-spin-button,
+      input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type="number"] {
+        --moz-appearance: textfield;
+      } /* Custom increment/decrement buttons */
+      .number-input-wrapper {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+      }
+
+      .number-controls {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+
+      .number-btn {
+        width: 24px;
+        height: 18px;
+        background: linear-gradient(135deg, #3b82f6, #60a5fa);
+        border: 1px solid rgba(96, 165, 250, 0.5);
+        border-radius: 4px;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+        user-select: none;
+      }
+
+      .number-btn:hover {
+        background: linear-gradient(135deg, #2563eb, #3b82f6);
+        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4);
+        transform: scale(1.1);
+      }
+
+      .number-btn:active {
+        transform: scale(0.95);
+        box-shadow: 0 1px 4px rgba(59, 130, 246, 0.6);
+      }
+
+      /* Floating Labels */
+      .floating-label {
+        position: absolute;
+        left: 20px;
+        top: 15px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 16px;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+        padding: 0 5px;
+        border-radius: 4px;
+      }
+
+      input[type="number"]:focus ~ .floating-label,
+      input[type="number"]:not(:placeholder-shown) ~ .floating-label,
+      input[type="number"]:valid ~ .floating-label {
+        top: -10px;
+        left: 15px;
+        font-size: 12px;
+        color: #60a5fa;
+        background: linear-gradient(135deg, #1e40af, #2563eb);
+        box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
+      }
+
+      /* Value indicator */
+      .value-indicator {
+        position: absolute;
+        right: 45px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(96, 165, 250, 0.2);
+        color: #60a5fa;
+        padding: 2px 8px;
+        border-radius: 8px;
+        font-size: 12px;
+        opacity: 0;
+        transition: all 0.3s ease;
+        pointer-events: none;
+      }
+
+      input[type="number"]:focus ~ .value-indicator,
+      input[type="number"]:not(:placeholder-shown) ~ .value-indicator {
+        opacity: 1;
+      }
+
+      /* Min/Max range indicator */
+      .range-indicator {
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: rgba(96, 165, 250, 0.2);
+        border-radius: 1px;
+        overflow: hidden;
+      }
+
+      .range-progress {
+        height: 100%;
+        background: linear-gradient(90deg, #3b82f6, #60a5fa);
+        border-radius: 1px;
+        transition: width 0.3s ease;
+        width: 0%;
+      }
+
+      .submit-btn {
+        width: 100%;
+        background: linear-gradient(
+          135deg,
+          var(--primary-blue) 0%,
+          var(--secondary-blue) 100%
+        );
+        color: white;
+        padding: 1.5rem;
+        border: none;
+        border-radius: 16px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        box-shadow: 0 8px 32px rgba(59, 130, 246, 0.3);
+        position: relative;
+        overflow: hidden;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .submit-btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.2),
+          transparent
+        );
+        transition: left 0.6s ease;
+      }
+
+      .submit-btn:hover::before {
+        left: 100%;
+      }
+
+      .submit-btn:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 48px rgba(59, 130, 246, 0.4);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 1024px) {
+        .hero-content {
+          grid-template-columns: 1fr;
+          gap: 4rem;
+          text-align: center;
+        }
+
+        .hero-text h1 {
+          font-size: 3.5rem;
+        }
+
+        .features-grid {
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 0 1rem;
+        }
+
+        .hero-text h1 {
+          font-size: 2.8rem;
+        }
+
+        .nav-links {
+          display: none;
+        }
+
+        .cta-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .form-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .stats-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      /* Scroll animations */
+      .fade-in {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+
+      .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .slide-in-left {
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+
+      .slide-in-left.visible {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      .slide-in-right {
+        opacity: 0;
+        transform: translateX(50px);
+        transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+
+      .slide-in-right.visible {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      .animated-btn {
+        position: relative;
+        padding: 16px 32px;
+        background: #000;
+        color: #fff;
+        border: 2px solid #007bff;
+        border-radius: 8px;
+        font-size: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        overflow: hidden;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        outline: none;
+        box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+      }
+
+      .animated-btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(0, 123, 255, 0.4),
+          transparent
+        );
+        transition: left 0.5s;
+      }
+
+      .animated-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 123, 255, 0.5);
+        border-color: #00a8ff;
+        background: linear-gradient(45deg, #000, #001a33);
+      }
+
+      .animated-btn:hover::before {
+        left: 100%;
+      }
+
+      .animated-btn:active {
+        transform: translateY(0);
+        box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+        transition: all 0.1s;
+      }
+
+      /* Pulse animation (only on hover) */
+      .animated-btn:hover {
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 8px 25px rgba(0, 123, 255, 0.5);
+        }
+        50% {
+          box-shadow: 0 8px 25px rgba(0, 123, 255, 0.8),
+            0 0 0 10px rgba(0, 123, 255, 0);
+        }
+        100% {
+          box-shadow: 0 8px 25px rgba(0, 123, 255, 0.5);
+        }
+      }
+
+      /* Optional: Style for the text and icon */
+      .auth-text {
+        /* Additional text styling if needed */
+      }
+
+      .auth-icon {
+        transition: transform 0.3s ease;
+      }
+
+      .animated-btn:hover .auth-icon {
+        transform: translateX(4px);
+      }
+
+      .ripple {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(0, 123, 255, 0.6);
+        transform: scale(0);
+        animation: ripple-animation 0.6s linear;
+        pointer-events: none;
+      }
+
+      @keyframes ripple-animation {
+        to {
+          transform: scale(4);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animated-bg"></div>
+
+    <div class="particles" id="particles"></div>
+
+    <nav id="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">WarehousePro</div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#stats">Performance</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="auth-section">
+            <a href="./Login.html" class="animated-btn" id="authButton">
+              <span class="auth-text">Login / Sign Up</span>
+              <span class="auth-icon">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="floating-particles"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Revolutionary Warehouse Intelligence</h1>
+            <p class="subtitle">
+              Transform your inventory operations with
+              <span class="highlight">AI-powered analytics</span>, real-time
+              tracking, and intelligent automation that scales with your
+              business.
+            </p>
+            <div class="cta-buttons">
+              <button class="cta-primary">Start Free Trial</button>
+              <button class="cta-secondary">Watch Demo</button>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="warehouse-container">
+              <svg
+                class="warehouse-svg"
+                viewBox="0 0 600 480"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Enhanced Warehouse Building -->
+                <defs>
+                  <linearGradient
+                    id="buildingGrad"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #2d3748; stop-opacity: 1"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #1a202c; stop-opacity: 1"
+                    />
+                  </linearGradient>
+                  <linearGradient
+                    id="roofGrad"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #4a5568; stop-opacity: 1"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #2d3748; stop-opacity: 1"
+                    />
+                  </linearGradient>
+                  <filter id="glow">
+                    <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+                    <feMerge>
+                      <feMergeNode in="coloredBlur" />
+                      <feMergeNode in="SourceGraphic" />
+                    </feMerge>
+                  </filter>
+                </defs>
+
+                <g class="warehouse-building">
+                  <!-- Main Building -->
+                  <rect
+                    x="80"
+                    y="180"
+                    width="340"
+                    height="140"
+                    fill="url(#buildingGrad)"
+                    stroke="#3B82F6"
+                    stroke-width="2"
+                    rx="5"
+                  />
+
+                  <!-- Roof -->
+                  <polygon
+                    points="80,180 250,120 420,180"
+                    fill="url(#roofGrad)"
+                    stroke="#3B82F6"
+                    stroke-width="2"
+                  />
+
+                  <!-- Windows with animated lights -->
+                  <rect
+                    x="100"
+                    y="200"
+                    width="35"
+                    height="50"
+                    fill="#1E40AF"
+                    opacity="0.8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      values="0.4;1;0.4"
+                      dur="3s"
+                      repeatCount="indefinite"
+                    />
+                  </rect>
+                  <rect
+                    x="150"
+                    y="200"
+                    width="35"
+                    height="50"
+                    fill="#2563EB"
+                    opacity="0.6"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      values="0.3;0.9;0.3"
+                      dur="2.5s"
+                      begin="0.5s"
+                      repeatCount="indefinite"
+                    />
+                  </rect>
+                  <rect
+                    x="200"
+                    y="200"
+                    width="35"
+                    height="50"
+                    fill="#3B82F6"
+                    opacity="0.9"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      values="0.5;1;0.5"
+                      dur="2s"
+                      begin="1s"
+                      repeatCount="indefinite"
+                    />
+                  </rect>
+                  <rect
+                    x="250"
+                    y="200"
+                    width="35"
+                    height="50"
+                    fill="#1E40AF"
+                    opacity="0.7"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      values="0.4;0.8;0.4"
+                      dur="3.5s"
+                      begin="0.8s"
+                      repeatCount="indefinite"
+                    />
+                  </rect>
+                  <rect
+                    x="300"
+                    y="200"
+                    width="35"
+                    height="50"
+                    fill="#2563EB"
+                    opacity="0.8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      values="0.6;1;0.6"
+                      dur="2.8s"
+                      begin="1.2s"
+                      repeatCount="indefinite"
+                    />
+                  </rect>
+                  <rect
+                    x="350"
+                    y="200"
+                    width="35"
+                    height="50"
+                    fill="#3B82F6"
+                    opacity="0.5"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      values="0.3;0.7;0.3"
+                      dur="2.2s"
+                      begin="0.3s"
+                      repeatCount="indefinite"
+                    />
+                  </rect>
+
+                  <!-- Loading Dock -->
+                  <rect
+                    x="380"
+                    y="260"
+                    width="30"
+                    height="60"
+                    fill="#2563EB"
+                    stroke="#3B82F6"
+                    stroke-width="1"
+                  />
+                </g>
+
+                <!-- Enhanced Conveyor Belt System -->
+                <g class="conveyor-system">
+                  <line
+                    x1="50"
+                    y1="340"
+                    x2="450"
+                    y2="340"
+                    stroke="#3B82F6"
+                    stroke-width="12"
+                    stroke-dasharray="15,10"
+                    opacity="0.8"
+                  >
+                    <animate
+                      attributeName="stroke-dashoffset"
+                      values="0;25"
+                      dur="2s"
+                      repeatCount="indefinite"
+                    />
+                  </line>
+                  <circle
+                    cx="60"
+                    cy="340"
+                    r="12"
+                    fill="#2563EB"
+                    filter="url(#glow)"
+                  />
+                  <circle
+                    cx="440"
+                    cy="340"
+                    r="12"
+                    fill="#2563EB"
+                    filter="url(#glow)"
+                  />
+
+                  <!-- Moving packages -->
+                  <g class="moving-packages">
+                    <rect
+                      x="120"
+                      y="325"
+                      width="20"
+                      height="20"
+                      fill="#3B82F6"
+                      rx="2"
+                      opacity="0.9"
+                    >
+                      <animateTransform
+                        attributeName="transform"
+                        type="translate"
+                        values="0,0; 320,0; 320,0; 0,0"
+                        dur="4s"
+                        repeatCount="indefinite"
+                      />
+                      <animate
+                        attributeName="opacity"
+                        values="0.9;0.9;0;0"
+                        dur="4s"
+                        repeatCount="indefinite"
+                      />
+                    </rect>
+                    <rect
+                      x="80"
+                      y="330"
+                      width="15"
+                      height="15"
+                      fill="#60A5FA"
+                      rx="2"
+                      opacity="0.8"
+                    >
+                      <animateTransform
+                        attributeName="transform"
+                        type="translate"
+                        values="0,0; 360,0; 360,0; 0,0"
+                        dur="3.5s"
+                        begin="0.5s"
+                        repeatCount="indefinite"
+                      />
+                      <animate
+                        attributeName="opacity"
+                        values="0.8;0.8;0;0"
+                        dur="3.5s"
+                        begin="0.5s"
+                        repeatCount="indefinite"
+                      />
+                    </rect>
+                    <rect
+                      x="160"
+                      y="328"
+                      width="18"
+                      height="18"
+                      fill="#2563EB"
+                      rx="2"
+                      opacity="0.7"
+                    >
+                      <animateTransform
+                        attributeName="transform"
+                        type="translate"
+                        values="0,0; 280,0; 280,0; 0,0"
+                        dur="4.5s"
+                        begin="1s"
+                        repeatCount="indefinite"
+                      />
+                      <animate
+                        attributeName="opacity"
+                        values="0.7;0.7;0;0"
+                        dur="4.5s"
+                        begin="1s"
+                        repeatCount="indefinite"
+                      />
+                    </rect>
+                  </g>
+                </g>
+
+                <!-- Advanced Crane System -->
+                <g class="crane-system">
+                  <line
+                    x1="350"
+                    y1="100"
+                    x2="350"
+                    y2="200"
+                    stroke="#3B82F6"
+                    stroke-width="6"
+                    filter="url(#glow)"
+                  />
+                  <line
+                    x1="320"
+                    y1="100"
+                    x2="400"
+                    y2="100"
+                    stroke="#3B82F6"
+                    stroke-width="4"
+                    filter="url(#glow)"
+                  />
+                  <circle
+                    cx="375"
+                    cy="100"
+                    r="5"
+                    fill="#60A5FA"
+                    filter="url(#glow)"
+                  />
+
+                  <!-- Animated crane hook -->
+                  <g class="crane-hook">
+                    <line
+                      x1="375"
+                      y1="100"
+                      x2="375"
+                      y2="160"
+                      stroke="#3B82F6"
+                      stroke-width="2"
+                    >
+                      <animate
+                        attributeName="y2"
+                        values="160;180;160"
+                        dur="3s"
+                        repeatCount="indefinite"
+                      />
+                    </line>
+                    <rect
+                      x="370"
+                      y="155"
+                      width="10"
+                      height="8"
+                      fill="#2563EB"
+                      rx="1"
+                    >
+                      <animate
+                        attributeName="y"
+                        values="155;175;155"
+                        dur="3s"
+                        repeatCount="indefinite"
+                      />
+                    </rect>
+                  </g>
+                </g>
+
+                <!-- Data Visualization Elements -->
+                <g class="data-viz">
+                  <!-- Floating data points -->
+                  <g class="data-stream">
+                    <circle cx="150" cy="140" r="3" fill="#60A5FA" opacity="0">
+                      <animate
+                        attributeName="opacity"
+                        values="0;1;0"
+                        dur="2s"
+                        repeatCount="indefinite"
+                      />
+                      <animateTransform
+                        attributeName="transform"
+                        type="translate"
+                        values="0,0; 20,-30; 40,-60"
+                        dur="3s"
+                        repeatCount="indefinite"
+                      />
+                    </circle>
+                    <circle cx="250" cy="130" r="2" fill="#3B82F6" opacity="0">
+                      <animate
+                        attributeName="opacity"
+                        values="0;1;0"
+                        dur="2.5s"
+                        begin="0.5s"
+                        repeatCount="indefinite"
+                      />
+                      <animateTransform
+                        attributeName="transform"
+                        type="translate"
+                        values="0,0; -15,-40; -30,-80"
+                        dur="3.5s"
+                        begin="0.5s"
+                        repeatCount="indefinite"
+                      />
+                    </circle>
+                    <circle
+                      cx="320"
+                      cy="145"
+                      r="2.5"
+                      fill="#8B5CF6"
+                      opacity="0"
+                    >
+                      <animate
+                        attributeName="opacity"
+                        values="0;1;0"
+                        dur="2.2s"
+                        begin="1s"
+                        repeatCount="indefinite"
+                      />
+                      <animateTransform
+                        attributeName="transform"
+                        type="translate"
+                        values="0,0; 10,-35; 20,-70"
+                        dur="3.2s"
+                        begin="1s"
+                        repeatCount="indefinite"
+                      />
+                    </circle>
+                  </g>
+
+                  <!-- Holographic displays -->
+                  <g class="holo-display" opacity="0.7">
+                    <rect
+                      x="30"
+                      y="80"
+                      width="80"
+                      height="50"
+                      fill="none"
+                      stroke="#06B6D4"
+                      stroke-width="1"
+                      rx="5"
+                    >
+                      <animate
+                        attributeName="opacity"
+                        values="0.3;0.8;0.3"
+                        dur="4s"
+                        repeatCount="indefinite"
+                      />
+                    </rect>
+                    <text
+                      x="50"
+                      y="100"
+                      fill="#06B6D4"
+                      font-size="8"
+                      font-family="monospace"
+                    >
+                      INVENTORY
+                    </text>
+                    <text
+                      x="50"
+                      y="115"
+                      fill="#06B6D4"
+                      font-size="6"
+                      font-family="monospace"
+                    >
+                      98.2% OPTIMAL
+                    </text>
+                  </g>
+
+                  <g class="holo-display-2" opacity="0.6">
+                    <rect
+                      x="420"
+                      y="90"
+                      width="70"
+                      height="45"
+                      fill="none"
+                      stroke="#8B5CF6"
+                      stroke-width="1"
+                      rx="5"
+                    >
+                      <animate
+                        attributeName="opacity"
+                        values="0.4;0.9;0.4"
+                        dur="3.5s"
+                        begin="1s"
+                        repeatCount="indefinite"
+                      />
+                    </rect>
+                    <text
+                      x="430"
+                      y="105"
+                      fill="#8B5CF6"
+                      font-size="7"
+                      font-family="monospace"
+                    >
+                      EFFICIENCY
+                    </text>
+                    <text
+                      x="440"
+                      y="120"
+                      fill="#8B5CF6"
+                      font-size="6"
+                      font-family="monospace"
+                    >
+                      +23.7%
+                    </text>
+                  </g>
+                </g>
+
+                <!-- Ambient lighting effects -->
+                <g class="ambient-glow">
+                  <circle
+                    cx="250"
+                    cy="300"
+                    r="100"
+                    fill="url(#ambientGlow)"
+                    opacity="0.1"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      values="0.05;0.2;0.05"
+                      dur="6s"
+                      repeatCount="indefinite"
+                    />
+                  </circle>
+                </g>
+
+                <defs>
+                  <radialGradient id="ambientGlow">
+                    <stop
+                      offset="0%"
+                      style="stop-color: #3b82f6; stop-opacity: 1"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #3b82f6; stop-opacity: 0"
+                    />
+                  </radialGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+      <div class="container">
+        <div class="stats-grid fade-in">
+          <div class="stat-item">
+            <div class="stat-number" data-target="99.8">0</div>
+            <div class="stat-label">Uptime Guarantee</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="47">0</div>
+            <div class="stat-label">Efficiency Boost</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="10000">0</div>
+            <div class="stat-label">Companies Trust Us</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="24">0</div>
+            <div class="stat-label">Support Available</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Cutting-Edge Capabilities</h2>
+          <p>
+            Harness the power of next-generation technology to revolutionize
+            your warehouse operations and stay ahead of the competition.
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card slide-in-left">
+            <div class="feature-icon">🤖</div>
+            <h3>AI-Powered Predictions</h3>
+            <p>
+              Advanced machine learning algorithms analyze patterns and predict
+              inventory needs, preventing stockouts and reducing waste with 97%
+              accuracy.
+            </p>
+          </div>
+          <div class="feature-card slide-in-right">
+            <div class="feature-icon">⚡</div>
+            <h3>Real-Time Processing</h3>
+            <p>
+              Lightning-fast data processing with microsecond response times.
+              Track every movement, transaction, and change as it happens across
+              your entire operation.
+            </p>
+          </div>
+          <div class="feature-card slide-in-left">
+            <div class="feature-icon">🛡️</div>
+            <h3>Enterprise Security</h3>
+            <p>
+              Military-grade encryption, zero-trust architecture, and compliance
+              with SOC 2, GDPR, and industry standards. Your data is
+              fortress-protected.
+            </p>
+          </div>
+          <div class="feature-card slide-in-right">
+            <div class="feature-icon">📊</div>
+            <h3>Advanced Analytics</h3>
+            <p>
+              Interactive dashboards with 40+ KPIs, custom reports, and
+              predictive insights. Transform raw data into actionable business
+              intelligence.
+            </p>
+          </div>
+          <div class="feature-card slide-in-left">
+            <div class="feature-icon">🔄</div>
+            <h3>Smart Automation</h3>
+            <p>
+              Intelligent workflows that adapt to your business rules. Automate
+              reordering, routing, and task assignment with 99.9% accuracy.
+            </p>
+          </div>
+          <div class="feature-card slide-in-right">
+            <div class="feature-icon">🌐</div>
+            <h3>Global Scalability</h3>
+            <p>
+              Multi-location support with unified operations. Scale from single
+              warehouse to global enterprise with seamless integration
+              capabilities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Transform Your Warehouse Today</h2>
+          <p>
+            Join thousands of companies already using WarehousePro to
+            revolutionize their operations.
+          </p>
+        </div>
+        <div class="form-container fade-in">
+          <form id="contactForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Business Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+              <div class="form-group">
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company" required />
+              </div>
+              <div class="form-group">
+                <label for="warehouses">Number of Warehouses</label>
+                <input
+                  type="number"
+                  id="warehouses"
+                  name="warehouses"
+                  min="1"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group full-width">
+              <label for="message"
+                >Tell us about your warehouse challenges</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Describe your current pain points, goals, and what you'd like to achieve with WarehousePro..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              Get Your Custom Demo
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Enhanced navbar scroll effect
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar");
+        const scrollY = window.scrollY;
+
+        if (scrollY > 100) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+
+      // Smooth scrolling with offset for fixed navbar
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            const offsetTop = target.offsetTop - 100;
+            window.scrollTo({
+              top: offsetTop,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      // Enhanced intersection observer for animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.classList.add("visible");
+            }, index * 100);
+          }
+        });
+      }, observerOptions);
+
+      // Observe all animated elements
+      document
+        .querySelectorAll(".fade-in, .slide-in-left, .slide-in-right")
+        .forEach((el) => {
+          observer.observe(el);
+        });
+
+      // Animated counter for stats
+      function animateCounter(element, target, duration = 2000) {
+        const start = 0;
+        const increment = target / (duration / 16);
+        let current = start;
+
+        const timer = setInterval(() => {
+          current += increment;
+          if (current >= target) {
+            current = target;
+            clearInterval(timer);
+          }
+
+          if (target >= 1000) {
+            element.textContent = Math.floor(current).toLocaleString() + "+";
+          } else if (target < 100 && target % 1 !== 0) {
+            element.textContent = current.toFixed(1) + "%";
+          } else {
+            element.textContent =
+              Math.floor(current) +
+              (target === 24 ? "/7" : target >= 100 ? "%" : "");
+          }
+        }, 16);
+      }
+
+      // Trigger counter animations when stats section is visible
+      const statsObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const counters = entry.target.querySelectorAll(".stat-number");
+            counters.forEach((counter) => {
+              const target = parseFloat(counter.dataset.target);
+              animateCounter(counter, target);
+            });
+            statsObserver.unobserve(entry.target);
+          }
+        });
+      });
+
+      const statsSection = document.querySelector(".stats");
+      if (statsSection) {
+        statsObserver.observe(statsSection);
+      }
+
+      // Enhanced form submission with better UX
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const submitBtn = this.querySelector(".submit-btn");
+          const originalText = submitBtn.textContent;
+
+          // Loading state
+          submitBtn.textContent = "Processing...";
+          submitBtn.disabled = true;
+          submitBtn.style.background =
+            "linear-gradient(135deg, #6366F1 0%, #4F46E5 100%)";
+
+          // Add loading animation
+          submitBtn.style.position = "relative";
+          submitBtn.innerHTML = `
+                <span style="opacity: 0.7;">Processing</span>
+                <span style="animation: pulse 1s infinite;">...</span>
+            `;
+
+          // Simulate API call
+          setTimeout(() => {
+            submitBtn.innerHTML = "✓ Demo Scheduled!";
+            submitBtn.style.background =
+              "linear-gradient(135deg, #10B981 0%, #059669 100%)";
+
+            // Show success message
+            const successMsg = document.createElement("div");
+            successMsg.innerHTML =
+              '<p style="color: #10B981; text-align: center; margin-top: 1rem; font-weight: 600;">🎉 Thank you! We\'ll contact you within 24 hours to schedule your personalized demo.</p>';
+            this.appendChild(successMsg);
+
+            setTimeout(() => {
+              submitBtn.innerHTML = originalText;
+              submitBtn.disabled = false;
+              submitBtn.style.background =
+                "linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%)";
+              this.reset();
+              successMsg.remove();
+            }, 4000);
+          }, 2000);
+        });
+
+      // Add parallax effect to hero section
+      window.addEventListener("scroll", () => {
+        const scrolled = window.pageYOffset;
+        const heroContent = document.querySelector(".hero-content");
+        const warehouseSvg = document.querySelector(".warehouse-svg");
+
+        if (heroContent && scrolled < window.innerHeight) {
+          heroContent.style.transform = `translateY(${scrolled * 0.3}px)`;
+          if (warehouseSvg) {
+            warehouseSvg.style.transform = `translateY(${
+              scrolled * 0.2
+            }px) rotate(${scrolled * 0.02}deg)`;
+          }
+        }
+      });
+
+      // Initialize particles
+      // Create animated particles
+      function createParticles() {
+        const particlesContainer = document.getElementById("particles");
+        const particleCount = 50; // Adjust number of particles as needed
+
+        for (let i = 0; i < particleCount; i++) {
+          const particle = document.createElement("div");
+          particle.className = "particle";
+
+          // Random positioning
+          particle.style.left = Math.random() * 100 + "%";
+
+          // Random animation properties
+          particle.style.animationDelay = Math.random() * 6 + "s";
+          particle.style.animationDuration = Math.random() * 3 + 3 + "s";
+
+          // Random size variation
+          const size = Math.random() * 3 + 1;
+          particle.style.width = size + "px";
+          particle.style.height = size + "px";
+
+          // Random opacity variation
+          particle.style.opacity = Math.random() * 0.5 + 0.3;
+
+          particlesContainer.appendChild(particle);
+        }
+      }
+
+      // Initialize particles when DOM is loaded
+      document.addEventListener("DOMContentLoaded", createParticles);
+
+      // Add mouse movement effect for cards
+      document.querySelectorAll(".feature-card").forEach((card) => {
+        card.addEventListener("mousemove", (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          const centerX = rect.width / 2;
+          const centerY = rect.height / 2;
+
+          const rotateX = (y - centerY) / 10;
+          const rotateY = (centerX - x) / 10;
+
+          card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-12px) scale(1.02)`;
+        });
+
+        card.addEventListener("mouseleave", () => {
+          card.style.transform = "";
+        });
+      });
+
+      // Add dynamic background color based on scroll
+      window.addEventListener("scroll", () => {
+        const scrollPercent =
+          window.pageYOffset /
+          (document.documentElement.scrollHeight - window.innerHeight);
+        const hue = 240 + scrollPercent * 60; // Blue to purple transition
+        document.documentElement.style.setProperty("--scroll-hue", hue);
+      });
+    </script>
+  </body>
+</html>
