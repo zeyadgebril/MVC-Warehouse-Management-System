@@ -1131,6 +1131,39 @@
           opacity: 0;
         }
       }
+
+      /* System Info */
+      .system-info {
+        position: relative;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 12px;
+        text-align: center;
+        animation: systemInfoFadeIn 1s ease-out 2s both;
+      }
+
+      @keyframes systemInfoFadeIn {
+        0% {
+          opacity: 0;
+          transform: translateX(-50%) translateY(20px);
+        }
+
+        100% {
+          opacity: 1;
+          transform: translateX(-50%) translateY(0);
+        }
+      }
+
+      .version {
+        margin-top: 5px;
+        font-size: 10px;
+        color: rgba(96, 165, 250, 0.6);
+      }
     </style>
   </head>
   <body>
@@ -1720,7 +1753,7 @@
             <div class="stat-label">Efficiency Boost</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number" data-target="10000">0</div>
+            <div class="stat-number" data-target="100">0</div>
             <div class="stat-label">Companies Trust Us</div>
           </div>
           <div class="stat-item">
@@ -1861,6 +1894,14 @@
       </div>
     </section>
 
+    <div class="system-info">
+      <div>Warehouse Management System</div>
+      <div class="version">Version 1.0.4 | Secure Connection</div>
+      <div class="version">
+        © 2025 Crocodrax. All rights reserved. Built with ❤️ for our users.
+      </div>
+    </div>
+
     <script>
       // Enhanced navbar scroll effect
       window.addEventListener("scroll", function () {
@@ -1925,7 +1966,7 @@
             clearInterval(timer);
           }
 
-          if (target >= 1000) {
+          if (target >= 100) {
             element.textContent = Math.floor(current).toLocaleString() + "+";
           } else if (target < 100 && target % 1 !== 0) {
             element.textContent = current.toFixed(1) + "%";
@@ -2021,7 +2062,7 @@
       // Create animated particles
       function createParticles() {
         const particlesContainer = document.getElementById("particles");
-        const particleCount = 50; // Adjust number of particles as needed
+        const particleCount = 150; // Adjust number of particles as needed
 
         for (let i = 0; i < particleCount; i++) {
           const particle = document.createElement("div");
