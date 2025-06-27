@@ -1,14 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Warehouse_Management_System.Models;
 using Warehouse_Management_System.Repository.ProductRepositoryFile;
 
 namespace Warehouse_Management_System.Repository
 {
     public class UnitOfWork
     {
-        private readonly DbContext db;
+        private readonly dbContext db;
         private IProductRepository _productRepository;
 
-        public UnitOfWork(DbContext db)
+        public UnitOfWork(dbContext db)
         {
             this.db = db;
         }

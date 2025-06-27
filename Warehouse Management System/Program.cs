@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Warehouse_Management_System.MapperConfig;
 using Warehouse_Management_System.Models;
 using Warehouse_Management_System.Repository;
@@ -19,19 +20,25 @@ namespace Warehouse_Management_System
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(20);
                 options.Cookie.HttpOnly = true;
-                options.Cookie.IsEssential= true;
+                options.Cookie.IsEssential = true;
             });
             //======================Injection============================
             builder.Services.AddScoped<UnitOfWork>();
             //======================SQLInjection=========================
+            builder.Services.AddDbContext<dbContext>(
+                options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
             //====================UserManagerInjection===================
-            //builder.Services.AddIdentity<ApplicationUser, IdentityUser>(option =>
-            //{
-                    //ConfigurationBinder for the user
-            //}).AddEntityFrameworkStores<OwerNewContext>();
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(option =>
+            {
+                option.Password.RequireNonAlphanumeric = false;
+                option.Password.RequiredLength = 4;
+                option.Password.RequireUppercase = false;
+
+            }).AddEntityFrameworkStores<dbContext>();
             //======================EndInjection=========================
-            
+
             //======================Automapper=========================
             builder.Services.AddAutoMapper(typeof(mapperConfig));
 

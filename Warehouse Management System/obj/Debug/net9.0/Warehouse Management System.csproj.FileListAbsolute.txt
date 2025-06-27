@@ -117,3 +117,242 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Warehouse Management System\Warehouse Ma
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Warehouse Management System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.pdb
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Warehouse Management System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.genruntimeconfig.cache
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Warehouse Management System\Warehouse Management System\obj\Debug\net9.0\ref\Warehouse Management System.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.csproj.AssemblyReference.cache
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.AssemblyInfoInputs.cache
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.AssemblyInfo.cs
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.csproj.CoreCompileInputs.cache
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.RazorAssemblyInfo.cache
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.RazorAssemblyInfo.cs
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.sourcelink.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\refint\Warehouse Management System.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.pdb
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\appsettings.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Warehouse Management System.staticwebassets.runtime.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Warehouse Management System.staticwebassets.endpoints.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Warehouse Management System.exe
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Warehouse Management System.deps.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Warehouse Management System.runtimeconfig.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Warehouse Management System.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Warehouse Management System.pdb
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Formats.Asn1.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\scopedcss\bundle\Warehouse Management System.styles.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\scopedcss\projectbundle\Warehouse Management System.bundle.scp.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\drf2u2cfgw-b9sayid5wm.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\e7pdfdlh5e-61n19gt1b8.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\zdrsouqp30-xtxxf3hu2r.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\pzyb343e1j-t1cqhe9u97.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\i1ht58uf09-c2jlpeoesf.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\699gh8lflw-sejl45xvog.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\1z0qbsbq7q-aexeepp0ev.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\27b9st0l1h-xvp3kq03qx.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\8afmgicv4o-ausgxo2sd3.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\xtnx13961y-22vffe00uq.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\y251v8x3et-cosvhxvwiu.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\v6tfc8hoe2-qesaa3a1fm.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\fc4nw74y1s-fvhpjtyr6v.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\pef4zylsym-tmc1g35s3z.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\zix350s16h-fsbi9cje9m.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\mkwqlmjixr-rxsg74s51o.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\txt2iqsuud-ee0r1s7dh0.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\0brpg65thl-q9ht133ko3.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\a97h3xqksf-jd9uben2k1.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\n9aj8k7wvr-gye83jo8yx.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\mlhuy8qrd2-r4e9w2rdcm.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\nhlngl9dmi-wl58j5mj3v.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\slt8meu1qa-c2oey78nd0.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\hiooqv0nz9-d4r6k3f320.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\9nnjwkfbmf-j5mq2jizvt.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\sxnw05v06g-keugtjm085.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\zvyrixnfe0-nvvlpmu67g.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\ijturh4hyh-zub09dkrxp.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\ueeov6l8fq-pj5nd1wqec.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\xrj7t1dxmk-43atpzeawx.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\zgr1s83oly-v0zj4ognzu.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\20uagssxcy-ynyaa8k90p.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\ex5blr2nbo-hrwsygsryq.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\5nrzvrhbwy-c63t5i9ira.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\ix3w8iq8ny-ft3s53vfgj.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\t34rtdzzgj-4094rpi4f9.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\q930kr75ev-6pdc2jztkx.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\cwyygc3do5-hd3gran6i8.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\ipxkhwsqx5-iovd86k7lj.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\6u7rac0m2l-ltid2c489k.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\6anyv96s7k-kbrnm935zg.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\pejn61bgd0-8vyfqsqgz1.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\yj4200x7of-y7v9cxd14o.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\q6rndogjoy-u9q1upor1n.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\5vn7migv7t-h1s4sie4z3.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\j20dr04jg5-4d85u1mtcx.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\vvnxa0lmfs-0j3bgjxly4.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\k44wycmfjn-03hjc8e09r.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\1qlivwis7z-48y08845bh.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\sbummf6lhi-356vix0kms.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\mnl9zkyz9p-83jwlth58m.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\g69zh9eyzu-mrlpezrjn3.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\yx265iykpp-worgj0nhwm.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\3cbzoklnty-gk0pw8i4co.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\3l09mrfa99-x0q3zqp4vz.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\5r1nh30guz-d6nrnj6jjx.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\pe2x0bhy8x-m9qm4tazc0.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\7r88megff0-ttgo8qnofa.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\07v82ll9p4-jjsuc0puko.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\cy9o3xsldn-9vr69e8ynj.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\4ywdbdfesw-87fc7y1x7t.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\xs40jk9vpj-mlv21k5csn.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\j335a60ltb-tms63wlhc7.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\compressed\z8oxke0hvh-tms63wlhc7.gz
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets\msbuild.Warehouse Management System.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets\msbuild.Warehouse Management System.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets\msbuild.build.Warehouse Management System.props
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Warehouse Management System.props
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Warehouse Management System.props
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehous.93145F21.Up2Date
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\Warehouse Management System.genruntimeconfig.cache
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\obj\Debug\net9.0\ref\Warehouse Management System.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll

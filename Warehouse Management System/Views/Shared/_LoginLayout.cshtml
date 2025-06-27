@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse Management System - Login</title>
+    <style>
+        @await RenderSectionAsync("CSS",false)
+    </style>
+</head>
+<body>
+    <a href="#" class="back-home" onclick="goHome()">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+        </svg>
+        Back to Home
+    </a>
+
+    <div class="bg-animation">
+        <div class="floating-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+    <div class="system-info">
+        <div>Warehouse Management System</div>
+        <div class="version">Version 1.0.4 | Secure Connection</div>
+    </div>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
