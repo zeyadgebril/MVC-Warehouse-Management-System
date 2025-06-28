@@ -24,8 +24,12 @@ namespace Warehouse_Management_System.Controllers
         [HttpGet]
         public IActionResult ApproveUserVirify(string id,string request)
         {
+            if (id != null || request != null)
+            {
+                unitOfWork.AdminRepository.SetRequest(id, request);
+            }
 
-            return View();
+            return View("Index","Admin");
         }
     }
 }

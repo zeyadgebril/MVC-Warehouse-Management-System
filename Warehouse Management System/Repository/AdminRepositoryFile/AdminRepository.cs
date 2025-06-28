@@ -60,6 +60,7 @@ namespace Warehouse_Management_System.Repository.AdminRepositoryFile
                     User.IsDeleted = true;
                 }
             }
+            db.SaveChanges();
         }
     }
 }
