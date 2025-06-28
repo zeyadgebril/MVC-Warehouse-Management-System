@@ -1,15 +1,23 @@
-﻿using Warehouse_Management_System.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Warehouse_Management_System.Models;
 
 namespace Warehouse_Management_System.Repository.ProductRepositoryFile
 {
     public class ProductRepository : IProductRepository
     {
         private readonly dbContext db;
+        private DbContext db1;
 
         public ProductRepository(dbContext db)
         {
             this.db = db;
         }
+
+        public ProductRepository(DbContext db1)
+        {
+            this.db1 = db1;
+        }
+
         public void add(Product entity)
         {
             db.Products.Add(entity);
