@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a58SpSidnCQ067utUoi7crFH155tnbKpUZUILcx496Y=",
+  "Hash": "ivCOvJN4izGDKwzVgy7PoXuRhPiNNLxKD8cEBMXNy2s=",
   "Source": "Warehouse Management System",
   "BasePath": "_content/Warehouse Management System",
   "Mode": "Default",
@@ -393,6 +393,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\4mwe2i9z30-hop6i1g8go.gz",
+      "SourceId": "Warehouse Management System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Warehouse Management System",
+      "RelativePath": "js/DashboardLayout#[.{fingerprint=hop6i1g8go}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\js\\DashboardLayout.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "t9ujwqwf3e",
+      "Integrity": "/1f2iRTAkm6iIbCokqUgGOWLQcp4ugVspj2wBH0NAJ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\js\\DashboardLayout.js"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\4vmdk955cs-xw9ktltpoq.gz",
@@ -2054,6 +2075,27 @@
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Warehouse Management System.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\z8pvrbrz8s-km6vgd0fuo.gz",
+      "SourceId": "Warehouse Management System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Warehouse Management System",
+      "RelativePath": "css/DashboardLayout#[.{fingerprint=km6vgd0fuo}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\css\\DashboardLayout.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mgf056i73w",
+      "Integrity": "utTpumGW5hrzvbnQv6JvVH+CWy+zikVLjBgM343CZok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\css\\DashboardLayout.css"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\zbp81wupfc-22n2g2hpag.gz",
       "SourceId": "Warehouse Management System",
       "SourceType": "Discovered",
@@ -2222,6 +2264,27 @@
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Warehouse Management System.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\css\\DashboardLayout.css",
+      "SourceId": "Warehouse Management System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\",
+      "BasePath": "_content/Warehouse Management System",
+      "RelativePath": "css/DashboardLayout#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "km6vgd0fuo",
+      "Integrity": "tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DashboardLayout.css"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\css\\LandingPage.css",
       "SourceId": "Warehouse Management System",
       "SourceType": "Discovered",
@@ -2304,6 +2367,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\js\\DashboardLayout.js",
+      "SourceId": "Warehouse Management System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\",
+      "BasePath": "_content/Warehouse Management System",
+      "RelativePath": "js/DashboardLayout#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hop6i1g8go",
+      "Integrity": "f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\DashboardLayout.js"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\js\\LandingPage.js",
@@ -4534,6 +4618,304 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/DashboardLayout.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\z8pvrbrz8s-km6vgd0fuo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000698812020"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"utTpumGW5hrzvbnQv6JvVH+CWy+zikVLjBgM343CZok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc="
+        }
+      ]
+    },
+    {
+      "Route": "css/DashboardLayout.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\css\\DashboardLayout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc="
+        }
+      ]
+    },
+    {
+      "Route": "css/DashboardLayout.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\z8pvrbrz8s-km6vgd0fuo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"utTpumGW5hrzvbnQv6JvVH+CWy+zikVLjBgM343CZok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-utTpumGW5hrzvbnQv6JvVH+CWy+zikVLjBgM343CZok="
+        }
+      ]
+    },
+    {
+      "Route": "css/DashboardLayout.km6vgd0fuo.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\z8pvrbrz8s-km6vgd0fuo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000698812020"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"utTpumGW5hrzvbnQv6JvVH+CWy+zikVLjBgM343CZok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "km6vgd0fuo"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DashboardLayout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc="
+        }
+      ]
+    },
+    {
+      "Route": "css/DashboardLayout.km6vgd0fuo.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\css\\DashboardLayout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "km6vgd0fuo"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DashboardLayout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tKjB5LtlwPHMOC6NLSF2XQYnxxwlHr16yVY+lMBWGGc="
+        }
+      ]
+    },
+    {
+      "Route": "css/DashboardLayout.km6vgd0fuo.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\z8pvrbrz8s-km6vgd0fuo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"utTpumGW5hrzvbnQv6JvVH+CWy+zikVLjBgM343CZok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "km6vgd0fuo"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DashboardLayout.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-utTpumGW5hrzvbnQv6JvVH+CWy+zikVLjBgM343CZok="
+        }
+      ]
+    },
+    {
       "Route": "css/LandingPage.css",
       "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\r9ewy0yp32-d8b5zuposj.gz",
       "Selectors": [
@@ -4558,7 +4940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Jun 2025 01:17:07 GMT"
+          "Value": "Sat, 28 Jun 2025 19:51:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4611,7 +4993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Jun 2025 01:17:07 GMT"
+          "Value": "Sat, 28 Jun 2025 19:51:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4648,7 +5030,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Jun 2025 01:17:07 GMT"
+          "Value": "Sat, 28 Jun 2025 19:51:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4695,7 +5077,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Jun 2025 01:17:07 GMT"
+          "Value": "Sat, 28 Jun 2025 19:51:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4756,7 +5138,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Jun 2025 01:17:07 GMT"
+          "Value": "Sat, 28 Jun 2025 19:51:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4801,7 +5183,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Jun 2025 01:17:07 GMT"
+          "Value": "Sat, 28 Jun 2025 19:51:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5722,6 +6104,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-Pllwex+pHnF/D1JATjXTI7/xKipK9LDAwU7UzoiSTjU="
+        }
+      ]
+    },
+    {
+      "Route": "js/DashboardLayout.hop6i1g8go.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\4mwe2i9z30-hop6i1g8go.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001652892562"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "604"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/1f2iRTAkm6iIbCokqUgGOWLQcp4ugVspj2wBH0NAJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:40:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hop6i1g8go"
+        },
+        {
+          "Name": "label",
+          "Value": "js/DashboardLayout.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g="
+        }
+      ]
+    },
+    {
+      "Route": "js/DashboardLayout.hop6i1g8go.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\js\\DashboardLayout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:40:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hop6i1g8go"
+        },
+        {
+          "Name": "label",
+          "Value": "js/DashboardLayout.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g="
+        }
+      ]
+    },
+    {
+      "Route": "js/DashboardLayout.hop6i1g8go.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\4mwe2i9z30-hop6i1g8go.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/1f2iRTAkm6iIbCokqUgGOWLQcp4ugVspj2wBH0NAJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:40:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hop6i1g8go"
+        },
+        {
+          "Name": "label",
+          "Value": "js/DashboardLayout.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/1f2iRTAkm6iIbCokqUgGOWLQcp4ugVspj2wBH0NAJ0="
+        }
+      ]
+    },
+    {
+      "Route": "js/DashboardLayout.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\4mwe2i9z30-hop6i1g8go.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001652892562"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "604"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/1f2iRTAkm6iIbCokqUgGOWLQcp4ugVspj2wBH0NAJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:40:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g="
+        }
+      ]
+    },
+    {
+      "Route": "js/DashboardLayout.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\js\\DashboardLayout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:40:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f0KQQIEscuX5ABrBnk8Ngjs9YgH+EFIDbbQxMhm/A4g="
+        }
+      ]
+    },
+    {
+      "Route": "js/DashboardLayout.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\Debug\\net9.0\\compressed\\4mwe2i9z30-hop6i1g8go.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/1f2iRTAkm6iIbCokqUgGOWLQcp4ugVspj2wBH0NAJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 21:40:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/1f2iRTAkm6iIbCokqUgGOWLQcp4ugVspj2wBH0NAJ0="
         }
       ]
     },

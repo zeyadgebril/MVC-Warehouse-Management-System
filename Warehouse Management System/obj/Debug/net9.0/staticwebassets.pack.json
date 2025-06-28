@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Warehouse Management System.tms63wlhc7.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\css\\DashboardLayout.css",
+      "PackagePath": "staticwebassets\\css\\DashboardLayout.css"
+    },
+    {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\css\\LandingPage.css",
       "PackagePath": "staticwebassets\\css\\LandingPage.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\icon.ico",
       "PackagePath": "staticwebassets\\icon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\js\\DashboardLayout.js",
+      "PackagePath": "staticwebassets\\js\\DashboardLayout.js"
     },
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\js\\LandingPage.js",

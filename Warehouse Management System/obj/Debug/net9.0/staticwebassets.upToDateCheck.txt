@@ -16,6 +16,7 @@ C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Manage
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation\LICENSE.md
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\v5-font-face.min.css
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\brands.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\js\DashboardLayout.js
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\svg-with-js.css
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\fontawesome.css
@@ -93,16 +94,19 @@ C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Manage
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\fontawesome.js
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\css\DashboardLayout.css
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\sprites\solid.svg
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\js\site.js
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\js\LandingPage.js
 C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\css\DashboardLayout.css
 wwwroot\css\LandingPage.css
 wwwroot\css\site.css
 wwwroot\css\WatingForAdminApproval.css
 wwwroot\icon.ico
+wwwroot\js\DashboardLayout.js
 wwwroot\js\LandingPage.js
 wwwroot\js\site.js
 wwwroot\js\WatingForAdminApproval.js

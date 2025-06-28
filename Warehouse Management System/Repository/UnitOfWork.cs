@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Warehouse_Management_System.Models;
+using Warehouse_Management_System.Repository.AdminRepositoryFile;
 using Warehouse_Management_System.Repository.ProductRepositoryFile;
 using Warehouse_Management_System.Repository.UserLogsRepositoryFile;
 
@@ -10,6 +11,7 @@ namespace Warehouse_Management_System.Repository
         private readonly dbContext db;
         private IProductRepository _productRepository;
         private IUserLogsRepository _userLogsRepository;
+        private IAdminRepository _IAdminRepository;
 
         public UnitOfWork(dbContext db)
         {
@@ -32,6 +34,15 @@ namespace Warehouse_Management_System.Repository
                 if (_userLogsRepository == null)
                     _userLogsRepository = new UserLogsRepository(db);
                 return _userLogsRepository;
+            }
+        }
+        public IAdminRepository AdminRepository
+        {
+            get
+            {
+                if (_IAdminRepository == null)
+                    _IAdminRepository = new AdminRepository(db);
+                return _IAdminRepository;
             }
         }
 
