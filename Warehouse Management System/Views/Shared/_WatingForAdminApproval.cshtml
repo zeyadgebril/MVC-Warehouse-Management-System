@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]x</title>
+    <link rel="icon" href="/icon.ico" />
+    <link rel="stylesheet" href="~/css/WatingForAdminApproval.css" asp-append-version="true" />
+	<link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="grid-background"></div>
+      <a asp-action="Index" asp-controller="Home" class="back-home" onclick="goHome()">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+        </svg>
+        Back to Home
+    </a>
+    <div class="security-scanner">
+        <div class="scanner-line"></div>
+        <div class="scanner-line vertical"></div>
+    </div>
+
+    <div class="floating-particles" id="particles"></div>
+
+    <div class="admin-status-panel">
+        <div class="admin-header">
+            <i class="fas fa-shield-alt me-2"></i>
+            Admin Panel Status
+        </div>
+        <div class="admin-row">
+            <div class="admin-dot pending"></div>
+            <span>Request Pending</span>
+        </div>
+
+        <div class="admin-row">
+            <div class="admin-dot processing"></div>
+            <span>Processing Queue</span>
+        </div>
+    </div>
+
+    <div class="container-fluid approval-container">
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10 col-md-11 col-12">
+                <div class="approval-content">
+                    <!-- Security Lock Icon -->
+                    <div class="security-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+
+                    <!-- Enhanced Warehouse Security SVG -->
+                    <svg class="warehouse-svg"
+                         width="350"
+                         height="200"
+                         viewBox="0 0 350 200"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <filter id="securityGlow">
+                                <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                            <linearGradient id="securityGrad"
+                                            x1="0%"
+                                            y1="0%"
+                                            x2="100%"
+                                            y2="100%">
+                                <stop offset="0%"
+                                      style="stop-color: #ffc107; stop-opacity: 0.3" />
+                                <stop offset="100%"
+                                      style="stop-color: #fd7e14; stop-opacity: 0.8" />
+                            </linearGradient>
+                        </defs>
+
+                        <!-- Warehouse Base -->
+                        <rect x="50"
+                              y="80"
+                              width="250"
+                              height="100"
+                              fill="url(#securityGrad)"
+                              stroke="#007bff"
+                              stroke-width="2"
+                              filter="url(#securityGlow)">
+                            <animate attributeName="stroke-opacity"
+                                     values="0.3;1;0.3"
+                                     dur="3s"
+                                     repeatCount="indefinite" />
+                        </rect>
+
+                        <!-- Security Roof -->
+                        <polygon points="30,80 175,30 320,80"
+                                 fill="none"
+                                 stroke="#ffc107"
+                                 stroke-width="3"
+                                 filter="url(#securityGlow)">
+                            <animate attributeName="stroke-opacity"
+                                     values="0.4;1;0.4"
+                                     dur="2.5s"
+                                     repeatCount="indefinite" />
+                        </polygon>
+
+                        <!-- Security Gates -->
+                        <rect x="70"
+                              y="120"
+                              width="40"
+                              height="60"
+                              fill="none"
+                              stroke="#dc3545"
+                              stroke-width="2">
+                            <animate attributeName="stroke"
+                                     values="#dc3545;#ffc107;#dc3545"
+                                     dur="2s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="130"
+                              y="120"
+                              width="40"
+                              height="60"
+                              fill="none"
+                              stroke="#28a745"
+                              stroke-width="2">
+                            <animate attributeName="stroke-opacity"
+                                     values="0.5;1;0.5"
+                                     dur="1.8s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="190"
+                              y="120"
+                              width="40"
+                              height="60"
+                              fill="none"
+                              stroke="#dc3545"
+                              stroke-width="2">
+                            <animate attributeName="stroke"
+                                     values="#dc3545;#ffc107;#dc3545"
+                                     dur="2s"
+                                     begin="1s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="250"
+                              y="120"
+                              width="40"
+                              height="60"
+                              fill="none"
+                              stroke="#dc3545"
+                              stroke-width="2">
+                            <animate attributeName="stroke"
+                                     values="#dc3545;#ffc107;#dc3545"
+                                     dur="2s"
+                                     begin="0.5s"
+                                     repeatCount="indefinite" />
+                        </rect>
+
+                        <!-- Security Windows -->
+                        <rect x="80"
+                              y="90"
+                              width="20"
+                              height="15"
+                              fill="#ffc107"
+                              stroke="#fd7e14"
+                              stroke-width="1"
+                              opacity="0.3">
+                            <animate attributeName="opacity"
+                                     values="0.2;0.9;0.2"
+                                     dur="3s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="140"
+                              y="90"
+                              width="20"
+                              height="15"
+                              fill="#ffc107"
+                              stroke="#fd7e14"
+                              stroke-width="1"
+                              opacity="0.3">
+                            <animate attributeName="opacity"
+                                     values="0.2;0.9;0.2"
+                                     dur="3s"
+                                     begin="1s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="200"
+                              y="90"
+                              width="20"
+                              height="15"
+                              fill="#ffc107"
+                              stroke="#fd7e14"
+                              stroke-width="1"
+                              opacity="0.3">
+                            <animate attributeName="opacity"
+                                     values="0.2;0.9;0.2"
+                                     dur="3s"
+                                     begin="2s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="260"
+                              y="90"
+                              width="20"
+                              height="15"
+                              fill="#ffc107"
+                              stroke="#fd7e14"
+                              stroke-width="1"
+                              opacity="0.3">
+                            <animate attributeName="opacity"
+                                     values="0.2;0.9;0.2"
+                                     dur="3s"
+                                     begin="1.5s"
+                                     repeatCount="indefinite" />
+                        </rect>
+
+                        <!-- Security Guard -->
+                        <g>
+                            <animateTransform attributeName="transform"
+                                              type="translate"
+                                              values="20,150; 320,150; 20,150"
+                                              dur="15s"
+                                              repeatCount="indefinite" />
+                            <circle cx="0"
+                                    cy="0"
+                                    r="8"
+                                    fill="none"
+                                    stroke="#28a745"
+                                    stroke-width="2" />
+                            <rect x="-5"
+                                  y="8"
+                                  width="10"
+                                  height="15"
+                                  fill="none"
+                                  stroke="#28a745"
+                                  stroke-width="1.5" />
+                            <line x1="-3"
+                                  y1="12"
+                                  x2="-8"
+                                  y2="18"
+                                  stroke="#28a745"
+                                  stroke-width="1.5" />
+                            <line x1="3"
+                                  y1="12"
+                                  x2="8"
+                                  y2="18"
+                                  stroke="#28a745"
+                                  stroke-width="1.5" />
+                            <line x1="-3"
+                                  y1="23"
+                                  x2="-8"
+                                  y2="30"
+                                  stroke="#28a745"
+                                  stroke-width="1.5" />
+                            <line x1="3"
+                                  y1="23"
+                                  x2="8"
+                                  y2="30"
+                                  stroke="#28a745"
+                                  stroke-width="1.5" />
+                        </g>
+
+                        <!-- Security Cameras -->
+                        <g stroke="#007bff" stroke-width="2" fill="none">
+                            <rect x="45" y="75" width="8" height="6">
+                                <animate attributeName="fill-opacity"
+                                         values="0;0.3;0"
+                                         dur="2s"
+                                         repeatCount="indefinite" />
+                            </rect>
+                            <line x1="53" y1="78" x2="58" y2="73">
+                                <animateTransform attributeName="transform"
+                                                  type="rotate"
+                                                  values="0 53 78;30 53 78;-30 53 78;0 53 78"
+                                                  dur="4s"
+                                                  repeatCount="indefinite" />
+                            </line>
+
+                            <rect x="297" y="75" width="8" height="6">
+                                <animate attributeName="fill-opacity"
+                                         values="0;0.3;0"
+                                         dur="2s"
+                                         begin="1s"
+                                         repeatCount="indefinite" />
+                            </rect>
+                            <line x1="297" y1="78" x2="292" y2="73">
+                                <animateTransform attributeName="transform"
+                                                  type="rotate"
+                                                  values="0 297 78;-30 297 78;30 297 78;0 297 78"
+                                                  dur="4s"
+                                                  begin="2s"
+                                                  repeatCount="indefinite" />
+                            </line>
+                        </g>
+
+                        <!-- Access Control Panel -->
+                        <rect x="310"
+                              y="140"
+                              width="15"
+                              height="25"
+                              fill="none"
+                              stroke="#ffc107"
+                              stroke-width="2"
+                              filter="url(#securityGlow)" />
+                        <rect x="312" y="145" width="3" height="3" fill="#28a745">
+                            <animate attributeName="fill"
+                                     values="#28a745;#dc3545;#28a745"
+                                     dur="1s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="318" y="145" width="3" height="3" fill="#dc3545">
+                            <animate attributeName="fill"
+                                     values="#dc3545;#ffc107;#dc3545"
+                                     dur="1.2s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="312" y="152" width="3" height="3" fill="#007bff">
+                            <animate attributeName="fill-opacity"
+                                     values="0.3;1;0.3"
+                                     dur="0.8s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="318" y="152" width="3" height="3" fill="#ffc107">
+                            <animate attributeName="fill-opacity"
+                                     values="1;0.3;1"
+                                     dur="1.5s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                    </svg>
+
+                    <h1 class="approval-title">
+                        <i class="fas fa-hourglass-half me-3"></i>
+                        Awaiting Admin Approval
+                    </h1>
+
+                    <p class="approval-message">
+                        Your access request to the warehouse management system has been
+                        submitted successfully.<br />
+                        A system administrator will review your credentials and grant
+                        access permissions shortly.
+                    </p>
+
+                    <div class="approval-progress">
+                        <div class="progress-steps">
+                            <div class="progress-line">
+                                <div class="progress-fill"></div>
+                            </div>
+
+                            <div class="step completed">
+                                <i class="fas fa-check"></i>
+                                <div class="step-label">Request Submitted</div>
+                            </div>
+
+                            <div class="step active">
+                                <i class="fas fa-user-cog"></i>
+                                <div class="step-label">Admin Review</div>
+                            </div>
+
+                            <div class="step">
+                                <i class="fas fa-key"></i>
+                                <div class="step-label">Access Granted</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="admin-actions">
+                        <a href="#"
+                           class="btn-action btn-contact"
+                           onclick="return false;">
+                            <i class="fas fa-phone me-2"></i>
+                            Contact Admin
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+
+    <script src="/js/WatingForAdminApproval.js"></script>
+</body>
+</html>
