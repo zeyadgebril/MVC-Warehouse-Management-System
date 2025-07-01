@@ -1,0 +1,30 @@
+﻿@model List<Warehouse>
+@{
+    ViewData["Title"] = "Index";
+}
+<body class="bg-dark"></body>
+
+<div class="container border border-2 border-danger ">
+    <button class="btn  d-block btn-primary ms-auto">Add Warehouse</button>
+    <table class="text-center table mt-3 table-dark table-striped table-bordered table-active">
+        <tr>
+            <th>Warehouse Name</th>
+            <th>Warehouse Location</th>
+            <th>Products</th>
+            <th>Low Stock</th>
+            <th>Last Update</th>
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Location</td>
+                <td>@item.Location</td>
+                @* <td>@item.Products.Count</td> *@
+            </tr>
+        }
+    </table>
+</div>
+
+
