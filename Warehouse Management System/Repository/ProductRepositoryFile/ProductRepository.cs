@@ -4,14 +4,16 @@ namespace Warehouse_Management_System.Repository.ProductRepositoryFile
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly dbContext db;
+        private readonly MvcDbContext db; 
 
-        public ProductRepository(dbContext db)
+        public ProductRepository(MvcDbContext db)
         {
             this.db = db;
         }
         public void add(Product entity)
         {
+
+
             db.Products.Add(entity);
         }
         //SoftDelete
@@ -24,7 +26,7 @@ namespace Warehouse_Management_System.Repository.ProductRepositoryFile
                 Update(data);
             }
         }
-        //get all exipt the deleted ones
+        //get all except the deleted ones
         public List<Product> getAll()
         {
            return db.Set<Product>().Where(e=>e.IsDeleted!=true).ToList();
@@ -41,5 +43,10 @@ namespace Warehouse_Management_System.Repository.ProductRepositoryFile
         {
             db.Entry(entity).State=Microsoft.EntityFrameworkCore.EntityState.Modified;
         }
+        public void Save() 
+        {
+            db.SaveChanges();
+        }
+
     }
 }

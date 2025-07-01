@@ -1,0 +1,258 @@
+﻿@model Warehouse_Management_System.ViewModels.ProductViewModel
+
+@{
+	ViewData["Title"] = "Create Product";
+}
+
+<div class="container mt-4">
+	<div class="row justify-content-center">
+		<div class="col-md-8">
+			<div class="card card-dark">
+				<div class="card-header bg-dark-custom">
+					<h4 class="mb-0 text-white">
+						<i class="fas fa-plus-circle"></i> Create New Product
+					</h4>
+				</div>
+				<div class="card-body">
+					<form asp-action="Create" method="post">
+						<div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group mb-3">
+									<label asp-for="Name" class="form-label text-white"></label>
+									<input asp-for="Name" class="form-control" placeholder="Enter product name" />
+									<span asp-validation-for="Name" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group mb-3">
+									<label asp-for="CategoryId" class="form-label text-white"></label>
+									<input asp-for="CategoryId" class="form-control" type="number" placeholder="Category ID" />
+									<span asp-validation-for="CategoryId" class="text-danger"></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group mb-3">
+							<label asp-for="Description" class="form-label text-white"></label>
+							<textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter product description"></textarea>
+							<span asp-validation-for="Description" class="text-danger"></span>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group mb-3">
+									<label asp-for="AvailableStock" class="form-label text-white"></label>
+									<input asp-for="AvailableStock" class="form-control" type="number" min="0" />
+									<span asp-validation-for="AvailableStock" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group mb-3">
+									<label asp-for="CurrentQuantity" class="form-label text-white"></label>
+									<input asp-for="CurrentQuantity" class="form-control" type="number" min="0" />
+									<span asp-validation-for="CurrentQuantity" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group mb-3">
+									<label asp-for="MinAvailableStock" class="form-label text-white"></label>
+									<input asp-for="MinAvailableStock" class="form-control" type="number" min="0" />
+									<span asp-validation-for="MinAvailableStock" class="text-danger"></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group mb-3">
+									<label asp-for="UnitPrice" class="form-label text-white"></label>
+									<div class="input-group">
+										<span class="input-group-text">$</span>
+										<input asp-for="UnitPrice" class="form-control" type="number" step="0.01" min="0" />
+									</div>
+									<span asp-validation-for="UnitPrice" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group mb-3">
+									<label asp-for="CostPrice" class="form-label text-white"></label>
+									<div class="input-group">
+										<span class="input-group-text">$</span>
+										<input asp-for="CostPrice" class="form-control" type="number" step="0.01" min="0" />
+									</div>
+									<span asp-validation-for="CostPrice" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group mb-3">
+									<label asp-for="Weight" class="form-label text-white"></label>
+									<div class="input-group">
+										<input asp-for="Weight" class="form-control" type="number" step="0.01" min="0" />
+										<span class="input-group-text">kg</span>
+									</div>
+									<span asp-validation-for="Weight" class="text-danger"></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8">
+								<div class="form-group mb-3">
+									<label asp-for="ImageURL" class="form-label text-white"></label>
+									<input asp-for="ImageURL" class="form-control" type="text"
+										   placeholder="Enter image URL (https://example.com/image.jpg) or local path (/images/product.jpg)" />
+									<small class="form-text text-light-muted">
+										You can enter either a full URL or a local path to an image file.
+									</small>
+									<span asp-validation-for="ImageURL" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group mb-3">
+									<label class="form-label text-white">&nbsp;</label>
+									<div class="form-check">
+										<input type="checkbox" class="form-check-input"
+											   name="IsActive" value="true"
+										@(Model?.IsActive == true ? "checked" : "") />
+										<input type="hidden" name="IsActive" value="false" />
+										<label class="form-check-label text-white">
+											Active
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr style="border-color: #404040;">
+
+						<div class="d-flex justify-content-between">
+							<a asp-action="Index" class="btn btn-secondary">
+								<i class="fas fa-arrow-left"></i> Back to List
+							</a>
+							<button type="submit" class="btn btn-primary">
+								<i class="fas fa-save"></i> Create Product
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<style>
+		body {
+			background-color: #1a1a1a;
+			color: #ffffff !important;
+		}
+
+		.bg-dark-custom {
+			background-color: #2d2d2d !important;
+		}
+
+		.card-dark {
+			background-color: #2d2d2d;
+			border: 1px solid #404040;
+			color: #ffffff !important;
+		}
+
+		.table-dark-custom {
+			background-color: #000000;
+			color: #B1DDF1;
+		}
+
+			.table-dark-custom th {
+				background-color: #000000;
+				border-color: #B1DDF1;
+				color: #B1DDF1;
+			}
+
+			.table-dark-custom td {
+				border-color: #B1DDF1;
+				background-color: #000000;
+				color: #B1DDF1;
+			}
+
+		.text-light-muted {
+			color: #B1DDF1 !important;
+		}
+
+		.alert-success-dark {
+			background-color: #1e4d3e;
+			border-color: #2d7a5f;
+			color: #a3d9c4;
+		}
+
+		.form-control, .form-select {
+			background-color: #404040;
+			border: 1px solid #6c757d;
+			color: #fff !important;
+		}
+
+			.form-control:focus, .form-select:focus {
+				background-color: #404040;
+				border-color: #0d6efd;
+				box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+				color: #fff !important;
+			}
+
+		.input-group-text {
+			background-color: #6c757d;
+			border-color: #6c757d;
+			color: #fff !important;
+		}
+
+		.card-header {
+			border-bottom: 1px solid #404040;
+		}
+
+		.card-body {
+			color: #ffffff !important;
+		}
+
+		.form-check-input:checked {
+			background-color: #0d6efd;
+			border-color: #0d6efd;
+		}
+
+		.form-check-input {
+			background-color: #404040;
+			border-color: #6c757d;
+		}
+
+		.btn-primary {
+			background-color: #0d6efd;
+			border-color: #0d6efd;
+			color: #ffffff !important;
+		}
+
+			.btn-primary:hover {
+				background-color: #0b5ed7;
+				border-color: #0a58ca;
+				color: #ffffff !important;
+			}
+
+		.btn-secondary {
+			background-color: #6c757d;
+			border-color: #6c757d;
+			color: #ffffff !important;
+		}
+
+			.btn-secondary:hover {
+				color: #ffffff !important;
+			}
+
+		.form-text {
+			font-size: 0.875em;
+			margin-top: 0.25rem;
+		}
+	</style>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+}

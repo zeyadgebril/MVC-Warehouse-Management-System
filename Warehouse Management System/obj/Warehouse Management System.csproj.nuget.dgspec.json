@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Warehouse Management System\\Warehouse Management System\\Warehouse Management System.csproj": {}
+    "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Warehouse Management System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Warehouse Management System\\Warehouse Management System\\Warehouse Management System.csproj": {
+    "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Warehouse Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Warehouse Management System\\Warehouse Management System\\Warehouse Management System.csproj",
+        "projectUniqueName": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Warehouse Management System.csproj",
         "projectName": "Warehouse Management System",
-        "projectPath": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Warehouse Management System\\Warehouse Management System\\Warehouse Management System.csproj",
-        "packagesPath": "C:\\Users\\Zeyad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Warehouse Management System\\Warehouse Management System\\obj\\",
+        "projectPath": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Warehouse Management System.csproj",
+        "packagesPath": "C:\\Users\\Omar Gallo\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zeyad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omar Gallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -57,6 +57,10 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             }
           },
           "imports": [
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

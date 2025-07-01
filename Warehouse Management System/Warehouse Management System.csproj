@@ -11,11 +11,17 @@
     <Folder Include="CustomAttribute\" />
     <Folder Include="Filter\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="efpt.config.json.user" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
   </ItemGroup>
 
 </Project>

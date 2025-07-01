@@ -1,0 +1,261 @@
+﻿@model Warehouse_Management_System.ViewModels.ProductViewModel
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card card-dark">
+                <div class="card-header bg-dark-custom">
+                    <h4 class="mb-0 text-light">
+                        <i class="fas fa-info-circle"></i> Product Details
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2 class="text-primary"><span asp-for="Name">@Model.Name</span></h2>
+
+                            @if (!string.IsNullOrEmpty(Model.Description))
+                            {
+                                <p class="text-light-muted mb-4"><span asp-for="Description">@Model.Description</span></p>
+                            }
+
+                            <dl class="row">
+                                <dt class="col-sm-4 text-light">Product ID:</dt>
+                                <dd class="col-sm-8"><span class="badge bg-secondary"><span asp-for="ProductId">@Model.ProductId</span></span></dd>
+
+                                @if (!string.IsNullOrEmpty(Model.CategoryName))
+                                {
+                                    <dt class="col-sm-4 text-light">Category:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="CategoryName">@Model.CategoryName</span></dd>
+                                }
+
+                                <dt class="col-sm-4 text-light"><label asp-for="AvailableStock"></label>:</dt>
+                                <dd class="col-sm-8">
+                                    <span class="badge @(Model.AvailableStock <= Model.MinAvailableStock ? "bg-danger" : "bg-success") fs-6">
+                                        <span asp-for="AvailableStock">@Model.AvailableStock</span> units
+                                    </span>
+                                    @if (Model.AvailableStock <= Model.MinAvailableStock)
+                                    {
+                                        <small class="text-danger ms-2">
+                                            <i class="fas fa-exclamation-triangle"></i> Low stock alert!
+                                        </small>
+                                    }
+                                </dd>
+
+                                <dt class="col-sm-4 text-light"><label asp-for="CurrentQuantity"></label>:</dt>
+                                <dd class="col-sm-8 text-light-muted"><span asp-for="CurrentQuantity">@Model.CurrentQuantity</span> units</dd>
+
+                                <dt class="col-sm-4 text-light"><label asp-for="MinAvailableStock"></label></dt>
+                                <dd class="col-sm-8 text-light-muted"><span asp-for="MinAvailableStock">@Model.MinAvailableStock</span> units</dd>
+                                <br />
+
+
+                                <dt class="col-sm-4 text-light"><label asp-for="UnitPrice"></label>:</dt>
+                                <dd class="col-sm-8">
+                                    <span class="fs-5 text-success fw-bold">
+                                        <span asp-for="UnitPrice">@Model.UnitPrice?.ToString("C")</span>
+                                    </span>
+                                </dd>
+
+                                @if (Model.CostPrice.HasValue)
+                                {
+                                    <dt class="col-sm-4 text-light"><label asp-for="CostPrice"></label>:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="CostPrice">@Model.CostPrice?.ToString("C")</span></dd>
+                                }
+
+                                @if (Model.Weight.HasValue)
+                                {
+                                    <dt class="col-sm-4 text-light"><label asp-for="Weight"></label>:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="Weight">@Model.Weight</span> kg</dd>
+                                }
+
+                                <dt class="col-sm-4 text-light">Status:</dt>
+                                <dd class="col-sm-8">
+                                    @if (Model.IsActive == true)
+                                    {
+                                        <span class="badge bg-success fs-6">
+                                            <i class="fas fa-check-circle"></i> Active
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary fs-6">
+                                            <i class="fas fa-pause-circle"></i> Inactive
+                                        </span>
+                                    }
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="col-md-4">
+                            @if (!string.IsNullOrEmpty(Model.ImageURL))
+                            {
+                                <div class="text-center">
+                                    <img src="@Model.ImageURL" alt="@Model.Name" class="img-fluid rounded border shadow"
+                                         style="max-height: 300px; border-color: #404040 !important;"
+                                         onerror="this.src='https://via.placeholder.com/300x300?text=No+Image';" />
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="text-center">
+                                    <img src="https://via.placeholder.com/300x300?text=No+Image" alt="No Image"
+                                         class="img-fluid rounded border" style="border-color: #404040 !important;" />
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+
+
+
+
+
+
+            <div class="card mb-4 card-dark">
+                <div class="card-header bg-dark-custom">
+                    <h5 class="mb-0 text-light">
+                        <i class="fas fa-cogs"></i> Quick Actions
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-grid gap-2">
+                        <a asp-action="Edit" asp-route-id="@Model.ProductId" class="btn btn-warning">
+                            <i class="fas fa-edit"></i> Edit Product
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@Model.ProductId" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Delete Product
+                        </a>
+                        <a asp-action="Index" class="btn btn-secondary">
+                            <i class="fas fa-list"></i> Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Product Statistics  -->
+
+
+
+            <div class="card card-dark">
+                <div class="card-header bg-dark-custom">
+                    <h5 class="mb-0 text-light">
+                        <i class="fas fa-chart-bar"></i> Product Statistics
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="border-end" style="border-color: #404040 !important;">
+                                <h4 class="text-primary">@(Model.AvailableStock ?? 0)</h4>
+                                <small class="text-light-muted">Available</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <h4 class="text-info">@(Model.CurrentQuantity ?? 0)</h4>
+                            <small class="text-light-muted">Current</small>
+                        </div>
+                    </div>
+                    <hr style="border-color: #404040;">
+                    @if (Model.UnitPrice.HasValue && Model.CostPrice.HasValue)
+                    {
+                        <div class="row text-center">
+                            <div class="col-12">
+                                <h5 class="text-success">
+                                    Margin: @((Model.UnitPrice.Value - Model.CostPrice.Value).ToString("C"))
+                                </h5>
+                                <small class="text-light-muted">
+                                    (@(((Model.UnitPrice.Value - Model.CostPrice.Value) / Model.UnitPrice.Value * 100).ToString("F1"))%)
+                                </small>
+                            </div>
+                        </div>
+                    }
+
+                    @if (Model.CreatedDate.HasValue || Model.LastUpdated.HasValue)
+                    {
+                        <hr style="border-color: #404040;">
+                        <div class="small text-light-muted">
+                            @if (Model.CreatedDate.HasValue)
+                            {
+                                <div><strong>Created:</strong> <span asp-for="CreatedDate">@Model.CreatedDate.Value.ToString("MMM dd, yyyy")</span></div>
+                            }
+                            @if (Model.LastUpdated.HasValue)
+                            {
+                                <div><strong>Updated:</strong> <span asp-for="LastUpdated">@Model.LastUpdated.Value.ToString("MMM dd, yyyy")</span></div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        .bg-dark-custom {
+            background-color: #2d2d2d !important;
+        }
+
+        .card-dark {
+            background-color: #2d2d2d;
+            border: 1px solid #404040;
+        }
+
+        .table-dark-custom {
+            background-color: #000000;
+            color: #B1DDF1;
+        }
+
+            .table-dark-custom th {
+                background-color: #000000;
+                border-color: #B1DDF1;
+                color: #B1DDF1;
+            }
+
+            .table-dark-custom td {
+                border-color: #B1DDF1;
+                background-color: #000000;
+                color: #B1DDF1;
+            }
+
+        .text-light-muted {
+            color: #B1DDF1 !important;
+        }
+
+        .alert-success-dark {
+            background-color: #1e4d3e;
+            border-color: #2d7a5f;
+            color: #a3d9c4;
+        }
+
+        .text-light {
+            color: #ffffff !important;
+        }
+
+        .card-header {
+            border-bottom: 1px solid #404040;
+        }
+
+        .card-body {
+            color: #B1DDF1;
+        }
+    </style>
+
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+}
