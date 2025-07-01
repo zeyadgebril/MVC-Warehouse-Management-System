@@ -15,6 +15,8 @@ namespace Warehouse_Management_System.Controllers
 
         public IActionResult Index()
         {
+
+            //hello
             return View();
         }
     }
