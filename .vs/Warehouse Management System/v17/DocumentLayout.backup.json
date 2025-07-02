@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|d:\\iti-itp\\asp.net core mvc\\mvc-warehouse system project\\mvc-warehouse-management-system\\warehouse management system\\views\\warehouse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\warehouse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|d:\\iti-itp\\asp.net core mvc\\mvc-warehouse system project\\mvc-warehouse-management-system\\warehouse management system\\viewmodel\\mohamed-h\\warehousenamelocationproductslistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\viewmodel\\mohamed-h\\warehousenamelocationproductslistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|d:\\iti-itp\\asp.net core mvc\\mvc-warehouse system project\\mvc-warehouse-management-system\\warehouse management system\\repository\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|d:\\iti-itp\\asp.net core mvc\\mvc-warehouse system project\\mvc-warehouse-management-system\\warehouse management system\\viewmodel\\mohamed-h\\productdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\viewmodel\\mohamed-h\\productdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|d:\\iti-itp\\asp.net core mvc\\mvc-warehouse system project\\mvc-warehouse-management-system\\warehouse management system\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|d:\\iti-itp\\asp.net core mvc\\mvc-warehouse system project\\mvc-warehouse-management-system\\warehouse management system\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|d:\\iti-itp\\asp.net core mvc\\mvc-warehouse system project\\mvc-warehouse-management-system\\warehouse management system\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDetailsVM.cs",
+              "DocumentMoniker": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\ViewModel\\Mohamed-H\\ProductDetailsVM.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\ViewModel\\Mohamed-H\\ProductDetailsVM.cs",
+              "ToolTip": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\ViewModel\\Mohamed-H\\ProductDetailsVM.cs",
+              "RelativeToolTip": "Warehouse Management System\\ViewModel\\Mohamed-H\\ProductDetailsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T00:13:58.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\IRepository.cs",
+              "ToolTip": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T22:48:08.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WarehouseRepository.cs",
+              "DocumentMoniker": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\WarehouseRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\WarehouseRepository.cs",
+              "ToolTip": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\WarehouseRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\WarehouseRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T22:43:03.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "ToolTip": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T22:42:48.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WarehouseNameLocationProductsListVM.cs",
+              "DocumentMoniker": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\ViewModel\\Mohamed-H\\WarehouseNameLocationProductsListVM.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\ViewModel\\Mohamed-H\\WarehouseNameLocationProductsListVM.cs",
+              "ToolTip": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\ViewModel\\Mohamed-H\\WarehouseNameLocationProductsListVM.cs",
+              "RelativeToolTip": "Warehouse Management System\\ViewModel\\Mohamed-H\\WarehouseNameLocationProductsListVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T22:39:06.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Warehouse\\Index.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Warehouse\\Index.cshtml",
+              "ToolTip": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Warehouse\\Index.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Warehouse\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T22:17:48.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WarehouseController.cs",
+              "DocumentMoniker": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\WarehouseController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\WarehouseController.cs",
+              "ToolTip": "D:\\ITI-ITP\\ASP.Net Core MVC\\MVC-Warehouse System Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\WarehouseController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\WarehouseController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T10:24:07.603Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
