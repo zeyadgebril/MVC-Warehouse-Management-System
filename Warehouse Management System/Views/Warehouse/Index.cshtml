@@ -1,4 +1,4 @@
-﻿@model List<Warehouse>
+﻿@model List<WarehouseNameLocationProductsListVM>
 @{
     ViewData["Title"] = "Index";
 }
@@ -20,7 +20,9 @@
             <tr>
                 <td>@item.Name</td>
                 <td>@item.Location</td>
-                <td>@item.Location</td>
+                <td>@item.ProductCount</td>
+                <td>@item.LowStock</td>
+                <td>@item.LastUpdate</td>
                 @* <td>@item.Products.Count</td> *@
             </tr>
         }
