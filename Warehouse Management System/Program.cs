@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Warehouse_Management_System.MapperConfig;
 using Warehouse_Management_System.Models;
 using Warehouse_Management_System.Repository;
+using Warehouse_Management_System.Repository.SupplierRepositoryFile;
 
 namespace Warehouse_Management_System
 {
@@ -19,21 +21,28 @@ namespace Warehouse_Management_System
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(20);
                 options.Cookie.HttpOnly = true;
-                options.Cookie.IsEssential= true;
+                options.Cookie.IsEssential = true;
             });
             //======================Injection============================
             builder.Services.AddScoped<UnitOfWork>();
+            builder.Services.AddDbContext<MvcDbContextContext>(
+                options => options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<DbContext, MvcDbContextContext>();
             //======================SQLInjection=========================
 
             //====================UserManagerInjection===================
             //builder.Services.AddIdentity<ApplicationUser, IdentityUser>(option =>
             //{
-                    //ConfigurationBinder for the user
+            //ConfigurationBinder for the user
             //}).AddEntityFrameworkStores<OwerNewContext>();
             //======================EndInjection=========================
-            
+
             //======================Automapper=========================
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddControllersWithViews();
+
             builder.Services.AddAutoMapper(typeof(mapperConfig));
+            builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
 
             var app = builder.Build();
 

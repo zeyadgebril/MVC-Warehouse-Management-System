@@ -1,0 +1,49 @@
+﻿@model List<Supplier>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<body style="background-color: #1f2937; min-height: 100vh;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h1 class="text-light">Suppliers</h1>
+                    <a href="/Supplier/New" class="btn btn-primary"
+                       style="background-color: #3b82f6; border-color: #3b82f6;">
+                        Add New
+                    </a>
+                </div>
+
+                <div class="card border-0 shadow" style="background-color: #4b5563;">
+                    <div class="card-body p-0">
+                        <table class="table table-hover mb-0 table-dark" style="background-color: #4b5563; color: #f9fafb;">
+                            <thead style="background-color: #374151;">
+                                <tr>
+                                    <th class="text-light py-3 px-4" style="border-color: #6b7280;">Id</th>
+                                    <th class="text-light py-3 px-4" style="border-color: #6b7280;">Name</th>
+                                    <th class="text-light py-3 px-4" style="border-color: #6b7280;">Details</th>
+                                </tr>
+                            </thead>
+                            <tbody style="background-color: #4b5563;">
+                                @foreach (var item in Model)
+                                {
+                                    <tr style="background-color: #4b5563;">
+                                        <td class="text-light py-3 px-4" style="border-color: #6b7280; background-color: #4b5563;">@item.SupplierID</td>
+                                        <td class="text-light py-3 px-4" style="border-color: #6b7280; background-color: #4b5563;">@item.Name</td>
+                                        <td class="py-3 px-4" style="border-color: #6b7280; background-color: #4b5563;">
+                                            <a href="/Supplier/Details/@item.SupplierID" class="btn btn-sm btn-outline-light"
+                                               style="border-color: #9ca3af; color: #f9fafb;">
+                                                Details
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

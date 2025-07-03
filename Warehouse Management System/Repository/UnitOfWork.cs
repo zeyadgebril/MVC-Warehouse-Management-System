@@ -1,27 +1,48 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Warehouse_Management_System.Models;
 using Warehouse_Management_System.Repository.ProductRepositoryFile;
+using Warehouse_Management_System.Repository.SupplierRepositoryFile;
 
 namespace Warehouse_Management_System.Repository
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
-        private readonly DbContext db;
-        private IProductRepository _productRepository;
+        private readonly MvcDbContextContext context;
+        private ISupplierRepository _suppliers;
 
-        public UnitOfWork(DbContext db)
+        public UnitOfWork(MvcDbContextContext context)
         {
-            this.db = db;
+            this.context = context;
         }
 
-        public IProductRepository ProductRepository
+        public ISupplierRepository Suppliers
         {
-			get 
-			{
-				if (_productRepository == null)
-					_productRepository = new ProductRepository(db);
-				return _productRepository; 
-			}
-		}
+            get
+            {
+                if (_suppliers == null)
+                    _suppliers = new SupplierRepository(context);
+                return _suppliers;
+            }
+        }
 
-	}
+        public ISupplierRepository SupplierRepository => throw new NotImplementedException();
+
+        // Add other repositories as needed
+        // public ICustomerRepository Customers => _customers ??= new CustomerRepository(context);
+
+        public int Save()
+        {
+            return context.SaveChanges();
+        }
+
+        public async Task<int> SaveAsync()
+        {
+            return await context.SaveChangesAsync();
+        }
+
+        public void Dispose()
+        {
+            context.Dispose();
+        }
+    }
 }

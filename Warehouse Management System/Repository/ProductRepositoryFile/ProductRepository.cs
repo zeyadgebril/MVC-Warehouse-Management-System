@@ -2,7 +2,7 @@
 
 namespace Warehouse_Management_System.Repository.ProductRepositoryFile
 {
-    public class ProductRepository : IProductRepository
+   /* public class ProductRepository : IProductRepository
     {
         private readonly dbContext db;
 
@@ -41,5 +41,5 @@ namespace Warehouse_Management_System.Repository.ProductRepositoryFile
         {
             db.Entry(entity).State=Microsoft.EntityFrameworkCore.EntityState.Modified;
         }
-    }
+    }*/
 }

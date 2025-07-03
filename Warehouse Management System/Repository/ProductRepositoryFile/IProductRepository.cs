@@ -2,8 +2,8 @@
 using Warehouse_Management_System.Models;
 namespace Warehouse_Management_System.Repository.Product
 {
-    public interface IProductRepository:IRepository<Product> 
+   /* public interface IProductRepository:IRepository<Product> 
     {
 
-    }
+    }*/
 }
