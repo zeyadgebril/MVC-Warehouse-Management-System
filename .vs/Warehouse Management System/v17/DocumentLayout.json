@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\models\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\models\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\models\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\models\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\repository\\productrepositoryfile\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\productrepositoryfile\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\repository\\productrepositoryfile\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,6 +27,34 @@
       "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\mapperconfig\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\bysupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\bysupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\repository\\productrepositoryfile\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\productrepositoryfile\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\projectmvc\\mvc-warehouse-management-system\\warehouse management system\\models\\mvcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,17 +114,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\ProductRepositoryFile\\ProductRepository.cs",
               "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\ProductRepository.cs",
               "RelativeToolTip": "Warehouse Management System\\Repository\\ProductRepositoryFile\\ProductRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAqwCkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T02:13:27.261Z",
               "IsPinned": true,
@@ -134,7 +138,7 @@
               "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Warehouse Management System\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAowJ4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAQwEwBAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T17:55:32.21Z",
               "IsPinned": true,
@@ -154,46 +158,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\ViewModel\\ProductViewModel.cs",
-              "RelativeDocumentMoniker": "Warehouse Management System\\Models\\ViewModel\\ProductViewModel.cs",
-              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\ViewModel\\ProductViewModel.cs",
-              "RelativeToolTip": "Warehouse Management System\\Models\\ViewModel\\ProductViewModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T04:51:43.939Z",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
+              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
+              "ViewState": "AgIAACABAAAAAAAAAAAAADQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T08:36:11.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "BySupplier.cshtml",
+              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\BySupplier.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\BySupplier.cshtml",
+              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\BySupplier.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\BySupplier.cshtml",
+              "ViewState": "AgIAALEAAAAAAAAAAAAmwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T21:06:46.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Index.cshtml",
               "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Index.cshtml",
               "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Index.cshtml",
               "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Index.cshtml",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAwwJIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-30T08:35:28.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
+              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAAwPgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T14:25:07.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\ViewModel\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Models\\ViewModel\\ProductViewModel.cs",
+              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\ViewModel\\ProductViewModel.cs",
+              "RelativeToolTip": "Warehouse Management System\\Models\\ViewModel\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T04:51:43.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Edit.cshtml",
               "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Edit.cshtml",
               "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Edit.cshtml",
               "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Edit.cshtml",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAAMgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAPwAAAAAAAAAAADwvxYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-30T08:36:51.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Models\\Product.cs",
@@ -201,24 +244,42 @@
               "RelativeToolTip": "Warehouse Management System\\Models\\Product.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAUwCkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T17:28:10.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
-              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
-              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
-              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAwwHQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T08:36:11.78Z",
+              "WhenOpened": "2025-06-29T17:28:10.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
+              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:15:08.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mapperConfig.cs",
+              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\MapperConfig\\mapperConfig.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\MapperConfig\\mapperConfig.cs",
+              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\MapperConfig\\mapperConfig.cs",
+              "RelativeToolTip": "Warehouse Management System\\MapperConfig\\mapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:10:53.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Program.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Program.cs",
@@ -231,20 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "mapperConfig.cs",
-              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\MapperConfig\\mapperConfig.cs",
-              "RelativeDocumentMoniker": "Warehouse Management System\\MapperConfig\\mapperConfig.cs",
-              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\MapperConfig\\mapperConfig.cs",
-              "RelativeToolTip": "Warehouse Management System\\MapperConfig\\mapperConfig.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T02:10:53.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Details.cshtml",
               "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Details.cshtml",
@@ -252,12 +300,24 @@
               "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Details.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAgwDUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T13:47:52.109Z",
+              "WhenOpened": "2025-07-01T13:47:52.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwBUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:12:51.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Shared\\_Layout.cshtml",
@@ -270,36 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
-              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
-              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T14:25:07.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\UnitOfWork.cs",
-              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "Warehouse Management System\\Repository\\UnitOfWork.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T02:12:51.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\IRepository.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\IRepository.cs",
@@ -307,23 +338,12 @@
               "RelativeToolTip": "Warehouse Management System\\Repository\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T02:13:03.604Z"
+              "WhenOpened": "2025-06-29T02:13:03.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
-              "ToolTip": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
-              "RelativeToolTip": "Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T02:15:08.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MvcDbContext.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\MvcDbContext.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Models\\MvcDbContext.cs",
@@ -331,11 +351,12 @@
               "RelativeToolTip": "Warehouse Management System\\Models\\MvcDbContext.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAAM0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T17:27:45.264Z"
+              "WhenOpened": "2025-06-29T17:27:45.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\appsettings.json",
               "RelativeDocumentMoniker": "Warehouse Management System\\appsettings.json",
@@ -343,11 +364,12 @@
               "RelativeToolTip": "Warehouse Management System\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T07:38:38.984Z"
+              "WhenOpened": "2025-06-30T07:38:38.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Models\\ApplicationUser.cs",
@@ -359,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProductHistory.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\ProductHistory.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Models\\ProductHistory.cs",
@@ -371,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Home\\Index.cshtml",
@@ -383,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Models\\ErrorViewModel.cs",
@@ -395,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\HomeController.cs",
@@ -407,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Home\\Privacy.cshtml",
@@ -419,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Warehouse Management System\\Views\\_ViewImports.cshtml",
@@ -431,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Warehouse Management System\\Views\\_ViewStart.cshtml",

@@ -43,10 +43,10 @@ namespace Warehouse_Management_System.Repository.ProductRepositoryFile
         {
             db.Entry(entity).State=Microsoft.EntityFrameworkCore.EntityState.Modified;
         }
-        public void Save() 
-        {
-            db.SaveChanges();
-        }
+        //public void Save() 
+        //{
+        //    db.SaveChanges();
+        //}
 
     }
 }

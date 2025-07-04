@@ -14,6 +14,22 @@ namespace Warehouse_Management_System.Repository
             this.db = db;
         }
 
+        public IQueryable<Category> GetCategories() => db.Categories;
+
+        public IQueryable<Supplier> GetSuppliers() => db.Suppliers;
+
+        // Add this method to get products by supplier
+        public List<Product> GetProductsBySupplier(int supplierId)
+        {
+            return db.Supplier_Products
+                .Where(sp => sp.SupplierID == supplierId && sp.isDeleted != true)
+                .Include(sp => sp.Product)
+                .ThenInclude(p => p.Category)
+                .Select(sp => sp.Product)
+                .Where(p => p.IsDeleted != true)
+                .ToList();
+        }
+
         public IProductRepository ProductRepository
         {
             get
@@ -23,8 +39,18 @@ namespace Warehouse_Management_System.Repository
                 return _productRepository;
             }
         }
-        public void Save() {
-        db.SaveChanges();
+
+        public void Save()
+        {
+            try
+            {
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error saving changes to database: {ex.Message}", ex);
+            }
         }
     }
 }
+

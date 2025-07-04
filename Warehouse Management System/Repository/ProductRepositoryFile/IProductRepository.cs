@@ -5,6 +5,6 @@ namespace Warehouse_Management_System.Repository.ProductRepositoryFile
     public interface IProductRepository:IRepository<Product> 
     {
 
-        public void Save();
+        //public void Save();
     }
 }

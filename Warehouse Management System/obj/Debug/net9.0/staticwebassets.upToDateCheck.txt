@@ -62,6 +62,7 @@ C:\ProjectMvc\MVC-Warehouse-Management-System\Warehouse Management System\wwwroo
 C:\ProjectMvc\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Image\12098140-1a98-4483-a69f-37eb08fcb6ea_download.jpg
 wwwroot\Images\laptop.jpg
 wwwroot\Images\SmartPhone.webp
 wwwroot\js\site.js

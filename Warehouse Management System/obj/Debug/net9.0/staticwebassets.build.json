@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wnbyO7sHzIKq2b/y5laB64MwVO2PerDcIuK4oxWlZAI=",
+  "Hash": "6eiPbDVwc99rK/e/waTG14dzBmS5+aFXSJwCKn/HA0M=",
   "Source": "Warehouse Management System",
   "BasePath": "_content/Warehouse Management System",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\Image\\12098140-1a98-4483-a69f-37eb08fcb6ea_download.jpg",
+      "SourceId": "Warehouse Management System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\",
+      "BasePath": "_content/Warehouse Management System",
+      "RelativePath": "Image/12098140-1a98-4483-a69f-37eb08fcb6ea_download#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pk9lwhy9jq",
+      "Integrity": "R3jc0omATo6yhOjRZQtWUq0WrZqENWQbhLGvWKOHsbI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\12098140-1a98-4483-a69f-37eb08fcb6ea_download.jpg"
     },
     {
       "Identity": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\Images\\laptop.jpg",
@@ -3366,6 +3387,88 @@
       ]
     },
     {
+      "Route": "Image/12098140-1a98-4483-a69f-37eb08fcb6ea_download.jpg",
+      "AssetFile": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\Image\\12098140-1a98-4483-a69f-37eb08fcb6ea_download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R3jc0omATo6yhOjRZQtWUq0WrZqENWQbhLGvWKOHsbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 23:44:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R3jc0omATo6yhOjRZQtWUq0WrZqENWQbhLGvWKOHsbI="
+        }
+      ]
+    },
+    {
+      "Route": "Image/12098140-1a98-4483-a69f-37eb08fcb6ea_download.pk9lwhy9jq.jpg",
+      "AssetFile": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\Image\\12098140-1a98-4483-a69f-37eb08fcb6ea_download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R3jc0omATo6yhOjRZQtWUq0WrZqENWQbhLGvWKOHsbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 23:44:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pk9lwhy9jq"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/12098140-1a98-4483-a69f-37eb08fcb6ea_download.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R3jc0omATo6yhOjRZQtWUq0WrZqENWQbhLGvWKOHsbI="
+        }
+      ]
+    },
+    {
       "Route": "Images/laptop.jpg",
       "AssetFile": "C:\\ProjectMvc\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\Images\\laptop.jpg",
       "Selectors": [],
@@ -3388,7 +3491,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 14:34:53 GMT"
+          "Value": "Tue, 01 Jul 2025 18:38:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3425,7 +3528,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 14:34:53 GMT"
+          "Value": "Tue, 01 Jul 2025 18:38:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3470,7 +3573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 14:35:37 GMT"
+          "Value": "Tue, 01 Jul 2025 18:38:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3515,7 +3618,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 14:35:37 GMT"
+          "Value": "Tue, 01 Jul 2025 18:38:23 GMT"
         },
         {
           "Name": "Cache-Control",

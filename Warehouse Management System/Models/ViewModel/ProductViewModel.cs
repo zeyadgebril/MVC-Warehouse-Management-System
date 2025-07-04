@@ -1,9 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 
 namespace Warehouse_Management_System.ViewModels
 {
     public class ProductViewModel
     {
+        [Display(Name = "Upload Image")]
+        public IFormFile ImageFile { get; set; }
+
         public int ProductId { get; set; }
 
         [Required(ErrorMessage = "Product name is required")]
