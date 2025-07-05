@@ -18,9 +18,18 @@ namespace Warehouse_Management_System.Repository
             Db.Set<TEntity>().Add(entity);
         }
 
-        public void delete(TEntity entity)
+        public void delete(int id)
         {
-            Db.Set<TEntity>().Remove(entity);
+
+            var entity = getById(id);
+            var property = typeof(TEntity).GetProperty("isDeleted");
+            if (property != null && property.PropertyType == typeof(bool?))
+            {
+                property.SetValue(entity, true);
+                Db.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+
+            }
+
         }
 
         public List<TEntity> getAll()
@@ -34,9 +43,11 @@ namespace Warehouse_Management_System.Repository
             
         }
 
-        public void Update(TEntity entity)
+        public void Update(TEntity entity,int id)
         {
             Db.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
         }
+
+        
     }
 }
