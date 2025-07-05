@@ -142,7 +142,7 @@ namespace Warehouse_Management_System.Repository
                 ProductID = productmoveVM.ProductId,
                 Quantity = productmoveVM.Quantity,
                 TimeStamp = DateTime.Now,
-                TransactionType = moveType, // ✅ validated and uppercased
+                TransactionType = moveType, 
                 FromLocationID = record.LocationId
             };
 
