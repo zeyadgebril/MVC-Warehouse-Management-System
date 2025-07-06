@@ -1,11 +1,12 @@
 ﻿@model List<WarehouseNameLocationProductsListVM>
 @{
     ViewData["Title"] = "Index";
+    Layout = "_LayoutDashboard";
 }
 <body class="bg-black"></body>
 
 
-<div class="container-fluid p-4 text-white">
+@* <div class="container-fluid p-4 text-white">
     <h2 class="mb-4">Warehouse Dashboard</h2>
     <div class="row row-cols-1 row-cols-md-5 g-3 mb-4">
         <div class="col">
@@ -25,21 +26,23 @@
             </div>
         </div>
         <div class="col">
-            <div class="card text-white text-center border border-primary h-100" style="background-color:#0d6efd;">
-                <div class="card-body">
-                    <h6 class="fw-semibold"><i class="bi bi-people-fill"></i> Total Suppliers</h6>
-                    <h4 class="fw-bold">3</h4>
-                </div>
-            </div>
+    <div class="card text-white text-center border border-primary h-100" style="background-color:#0d6efd;">
+        <div class="card-body">
+            <h6 class="fw-semibold"><i class="bi bi-people-fill"></i> Total Suppliers</h6>
+            <h4 class="fw-bold">@Model.Sum(w => w.TotalSuppliers)</h4>
         </div>
-        <div class="col">
-            <div class="card text-white text-center border border-primary h-100" style="background-color:#0d6efd;">
-                <div class="card-body">
-                    <h6 class="fw-semibold"><i class="bi bi-currency-dollar"></i> Total Revenue</h6>
-                    <h4 class="fw-bold">$15,000</h4>
-                </div>
-            </div>
+    </div>
+</div> *@
+@* <div class="col">
+    <div class="card text-white text-center border border-primary h-100" style="background-color:#0d6efd;">
+        <div class="card-body">
+            <h6 class="fw-semibold"><i class="bi bi-currency-dollar"></i> Total Revenue</h6>
+                    <h4 class="fw-bold">@Model.Sum(w => w.TotalRevenue).ToString("C")</h4>
+
         </div>
+    </div>
+</div>
+
         <div class="col">
             <div class="card text-white text-center border border-danger h-100" style="background-color:#dc3545;">
                 <div class="card-body">
@@ -49,53 +52,71 @@
             </div>
         </div>
     </div>
+ *@
 
-
-    <div class="card rounded-4 p-4" style="background-color:#3f474f; border: 2px solid #0d6efd;">
-        <div class="card-header d-flex justify-content-between align-items-center">
-            <h5 class="text-white"><i class="bi bi-list-ul"></i> Warehouse List</h5>
-            <div class="col-md-2 text-end">
-                <a asp-action="Create" asp-controller="Warehouse" class="btn text-light w-100" style="background-color:#0d6efd">
+<div class="card rounded-4 p-4" style="background-color:#3f474f; border: 2px solid #0d6efd;">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="text-white"><i class="bi bi-list-ul"></i> Warehouse List</h5>
+        <div class="d-flex gap-3 align-items-center flex-grow-1 ms-3">
+            <div class="input-group flex-grow-1">
+                <span class="input-group-text bg-light text-dark"><i class="bi bi-search"></i></span>
+                <input id="liveSearch" type="text" class="form-control bg-light text-dark" style="outline: none; box-shadow: none;" placeholder="Search warehouses..." />
+            </div>
+            <div class="flex-shrink-0">
+                <a asp-action="Create" asp-controller="Warehouse" class="btn text-light" style="background-color:#0d6efd">
                     <i class="bi bi-plus-circle"></i> Add Warehouse
                 </a>
             </div>
         </div>
-        <div class="card-body">
-            <table class="table table-dark text-center table-striped table-hover mb-0">
-                <thead class="thead-light" style="border-bottom: 2px solid #0d6efd;">
-                    <tr>
-                        <th>Name</th>
-                        <th>Location</th>
-                        <th>Phone</th>
-                        <th>Products</th>
-                        <th>Low Stock</th>
-                        <th>Last Updated</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var warehouse in Model)
-                    {
-                        <tr style="border-top: 1px solid #0d6efd;">
-                            <td>@warehouse.Name</td>
-                            <td>@warehouse.Location</td>
-                            <td> @warehouse.Phone</td>
-                            <td>@warehouse.ProductCount</td>
-                            <td style ="color:@(warehouse.LowStockCount > 0 ? "red" : "green")"> 
-                                @warehouse.LowStockCount
-                             </td>
-                            <td>@(warehouse.LastUpdate?.ToString("yyyy-MM-dd") ?? "No activity")</td>
-                            <td>
-                                <a asp-action="WarehouseDetails" asp-controller="Warehouse" asp-route-id="@warehouse.ID" class="btn btn-sm text-light" style="background-color:#0d6efd">
-                                    <i class="bi bi-eye"></i> View
-                                </a>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-
-            
-        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-dark text-center table-striped table-hover mb-0">
+            <thead class="thead-light" style="border-bottom: 2px solid #0d6efd;">
+                <tr>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Phone</th>
+                    <th>Products</th>
+                    <th>Low Stock</th>
+                    <th>Last Updated</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            @foreach (var warehouse in Model)
+            {
+                <tr style="border-top: 1px solid #0d6efd;">
+                    <td>@warehouse.Name</td>
+                    <td>@warehouse.Location</td>
+                    <td>@warehouse.Phone</td>
+                    <td>@warehouse.ProductCount</td>
+                    <td style="color:@(warehouse.LowStockCount > 0 ? "red" : "green")">
+                        @warehouse.LowStockCount
+                    </td>
+                    <td>@(warehouse.LastUpdate?.ToString("yyyy-MM-dd") ?? "No activity")</td>
+                    <td>
+                        <a asp-action="WarehouseDetails" asp-controller="Warehouse" asp-route-id="@warehouse.ID" class="btn btn-sm text-light" style="background-color:#0d6efd">
+                            <i class="bi bi-eye"></i> View
+                        </a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
     </div>
 </div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#liveSearch').on('keyup', function () {
+                var value = $(this).val().toLowerCase();
+                $('table tbody tr').filter(function () {
+                    $(this).toggle($(this).find('td:first').text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+    </script>
+}
+}

@@ -6,6 +6,7 @@ namespace Warehouse_Management_System.Repository
     {
         public MvcDbContextContext Db { get; }
         WarehouseRepository warehouseRepository;
+        DashboardRepository dashboardRepository;
         public UnitOfWork(MvcDbContextContext db)
         {
             Db = db;
@@ -20,6 +21,17 @@ namespace Warehouse_Management_System.Repository
                 return warehouseRepository;
             }
         
+        }
+        public DashboardRepository DashboardRepository
+        {
+
+            get
+            {
+                if (dashboardRepository == null)
+                    dashboardRepository = new DashboardRepository(Db);
+                return dashboardRepository;
+            }
+
         }
         public void Save()
         {

@@ -17,6 +17,8 @@ namespace Warehouse_Management_System.ViewModel.Mohamed_H
         [Phone(ErrorMessage = "Invalid phone number")]
         public string Phone { get; set; }
         [ValidateNever]
+        public Product Product{ get; set; }
+        [ValidateNever]
         public List<ProductDetailsVM> Productsdetails { get; set; }
         [ValidateNever]
         public int ProductStock { get; set; }
@@ -28,6 +30,11 @@ namespace Warehouse_Management_System.ViewModel.Mohamed_H
         public DateTime? LastUpdate { get; set; }
         [ValidateNever]
         public bool IsDeleted { get; set; }
+        [ValidateNever]
+        public int TotalSuppliers { get; set; }
+        [ValidateNever]
+        public decimal TotalRevenue { get; set; }
+
 
     }
 }

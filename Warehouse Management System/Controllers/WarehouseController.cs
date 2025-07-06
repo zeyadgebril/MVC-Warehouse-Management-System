@@ -139,7 +139,25 @@ namespace Warehouse_Management_System.Controllers
 
             return RedirectToAction("Index");
         }
+        //[HttpPost]
+        //public IActionResult EditProduct(ProductDetailsVM model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        Unit.WarehouseRepository.EditProduct(model);
+        //        Unit.Save();
+        //        return RedirectToAction("WarehouseDetails", new { id = model.ProductId });
+        //    }
+        //    return RedirectToAction("Index");
+        //}
 
+        //[HttpPost]
+        //public IActionResult DeleteProduct(int productId, int warehouseId)
+        //{
+        //    Unit.WarehouseRepository.DeleteProduct(productId);
+        //    Unit.Save();
+        //    return RedirectToAction("WarehouseDetails", new { id = warehouseId });
+        //}
 
     }
 }
