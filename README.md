@@ -230,6 +230,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Developer**: Zeyad Gebril
 - GitHub: [@zeyadgebril](https://github.com/zeyadgebril)
+- GitHub: [@IbrahimAdel10](https://github.com/IbrahimAdel10)
+- GitHub: [@AhmedOsama779](https://github.com/AhmedOsama779)
+- GitHub: [@Mohamed-H-dev](https://github.com/Mohamed-H-dev)
+- GitHub: [@omargallo](https://github.com/omargallo)
 
 ---
 
