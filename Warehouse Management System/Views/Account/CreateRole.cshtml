@@ -1,0 +1,18 @@
+﻿@model RoleDataVM
+@{
+    ViewData["Title"] = "CreateRole";
+    Layout = "_DashboardLayout";
+
+}
+@section CSS{
+        .Lable{
+            color:#fff;
+        }
+}
+
+<form method="post" asp-action="CreateRole" asp-controller="Account">
+    <label asp-for="@Model.RoleName" class="Lable"></label>
+    <input asp-for="@Model.RoleName" class="form form-control my-3 w-25">
+    <button type="submit" class="btn btn-secondary"> Add</button>
+</form>
+

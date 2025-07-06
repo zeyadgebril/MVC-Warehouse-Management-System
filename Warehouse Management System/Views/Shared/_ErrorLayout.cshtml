@@ -1,0 +1,423 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]x</title>
+    <link rel="icon" href="/icon.ico" />
+    <link rel="stylesheet" href="~/css/ErrorPage.css" asp-append-version="true" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
+</head>
+<body>
+    <div class="grid-background"></div>
+    <div class="scan-lines">
+        <div class="scan-line"></div>
+    </div>
+    <div class="floating-particles" id="particles"></div>
+
+    <div class="status-panel">
+        <div class="status-row">
+            <div class="status-dot critical"></div>
+            <span style="color:white">System Offline</span>
+        </div>
+        <div class="status-row">
+            <div class="status-dot warning"></div>
+            <span style ="color:white">Maintenance Mode</span>
+        </div>
+        <div class="status-row">
+            <div class="status-dot info"></div>
+            <span style="color:white">Monitoring Active</span>
+        </div>
+    </div>
+
+    <div class="container-fluid error-container">
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-10 col-12">
+                <div class="error-content hologram">
+                    <!-- Enhanced Warehouse SVG -->
+                    <svg class="warehouse-svg"
+                         width="400"
+                         height="250"
+                         viewBox="0 0 400 250"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background Glow -->
+                        <defs>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                            <linearGradient id="buildingGrad"
+                                            x1="0%"
+                                            y1="0%"
+                                            x2="100%"
+                                            y2="100%">
+                                <stop offset="0%"
+                                      style="stop-color: #007bff; stop-opacity: 0.3" />
+                                <stop offset="100%"
+                                      style="stop-color: #4dabf7; stop-opacity: 0.8" />
+                            </linearGradient>
+                        </defs>
+
+                        <!-- Warehouse Building -->
+                        <rect x="60"
+                              y="100"
+                              width="280"
+                              height="120"
+                              fill="url(#buildingGrad)"
+                              stroke="#007bff"
+                              stroke-width="2"
+                              filter="url(#glow)">
+                            <animate attributeName="stroke-opacity"
+                                     values="0.5;1;0.5"
+                                     dur="2s"
+                                     repeatCount="indefinite" />
+                        </rect>
+
+                        <!-- Warehouse Roof -->
+                        <polygon points="40,100 200,40 360,100"
+                                 fill="none"
+                                 stroke="#00d4ff"
+                                 stroke-width="3"
+                                 filter="url(#glow)">
+                            <animate attributeName="stroke-opacity"
+                                     values="0.3;1;0.3"
+                                     dur="1.8s"
+                                     repeatCount="indefinite" />
+                        </polygon>
+
+                        <!-- Loading Bays -->
+                        <rect x="80"
+                              y="150"
+                              width="50"
+                              height="70"
+                              fill="none"
+                              stroke="#007bff"
+                              stroke-width="2">
+                            <animate attributeName="fill-opacity"
+                                     values="0;0.2;0"
+                                     dur="3s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="150"
+                              y="150"
+                              width="50"
+                              height="70"
+                              fill="none"
+                              stroke="#007bff"
+                              stroke-width="2">
+                            <animate attributeName="fill-opacity"
+                                     values="0;0.2;0"
+                                     dur="3s"
+                                     begin="1s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="220"
+                              y="150"
+                              width="50"
+                              height="70"
+                              fill="none"
+                              stroke="#007bff"
+                              stroke-width="2">
+                            <animate attributeName="fill-opacity"
+                                     values="0;0.2;0"
+                                     dur="3s"
+                                     begin="2s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="290"
+                              y="150"
+                              width="50"
+                              height="70"
+                              fill="none"
+                              stroke="#007bff"
+                              stroke-width="2">
+                            <animate attributeName="fill-opacity"
+                                     values="0;0.2;0"
+                                     dur="3s"
+                                     begin="1.5s"
+                                     repeatCount="indefinite" />
+                        </rect>
+
+                        <!-- Windows with Glowing Effect -->
+                        <rect x="90"
+                              y="110"
+                              width="25"
+                              height="20"
+                              fill="#00d4ff"
+                              stroke="#4dabf7"
+                              stroke-width="1"
+                              opacity="0.3">
+                            <animate attributeName="opacity"
+                                     values="0.1;0.8;0.1"
+                                     dur="4s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="160"
+                              y="110"
+                              width="25"
+                              height="20"
+                              fill="#00d4ff"
+                              stroke="#4dabf7"
+                              stroke-width="1"
+                              opacity="0.3">
+                            <animate attributeName="opacity"
+                                     values="0.1;0.8;0.1"
+                                     dur="4s"
+                                     begin="1s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="230"
+                              y="110"
+                              width="25"
+                              height="20"
+                              fill="#00d4ff"
+                              stroke="#4dabf7"
+                              stroke-width="1"
+                              opacity="0.3">
+                            <animate attributeName="opacity"
+                                     values="0.1;0.8;0.1"
+                                     dur="4s"
+                                     begin="2s"
+                                     repeatCount="indefinite" />
+                        </rect>
+                        <rect x="300"
+                              y="110"
+                              width="25"
+                              height="20"
+                              fill="#00d4ff"
+                              stroke="#4dabf7"
+                              stroke-width="1"
+                              opacity="0.3">
+                            <animate attributeName="opacity"
+                                     values="0.1;0.8;0.1"
+                                     dur="4s"
+                                     begin="3s"
+                                     repeatCount="indefinite" />
+                        </rect>
+
+                        <!-- Animated Forklift -->
+                        <g>
+                            <animateTransform attributeName="transform"
+                                              type="translate"
+                                              values="400,190; 20,190; 400,190"
+                                              dur="12s"
+                                              repeatCount="indefinite" />
+                            <rect x="0"
+                                  y="0"
+                                  width="35"
+                                  height="20"
+                                  fill="none"
+                                  stroke="#00d4ff"
+                                  stroke-width="2"
+                                  filter="url(#glow)" />
+                            <circle cx="8"
+                                    cy="25"
+                                    r="4"
+                                    fill="none"
+                                    stroke="#4dabf7"
+                                    stroke-width="2" />
+                            <circle cx="27"
+                                    cy="25"
+                                    r="4"
+                                    fill="none"
+                                    stroke="#4dabf7"
+                                    stroke-width="2" />
+                            <rect x="35"
+                                  y="-15"
+                                  width="4"
+                                  height="25"
+                                  fill="none"
+                                  stroke="#00d4ff"
+                                  stroke-width="2" />
+                            <rect x="35"
+                                  y="-15"
+                                  width="15"
+                                  height="8"
+                                  fill="none"
+                                  stroke="#007bff"
+                                  stroke-width="1" />
+                        </g>
+
+                        <!-- Stacked Boxes -->
+                        <g>
+                            <rect x="20"
+                                  y="200"
+                                  width="20"
+                                  height="20"
+                                  fill="none"
+                                  stroke="#007bff"
+                                  stroke-width="1.5">
+                                <animate attributeName="stroke-opacity"
+                                         values="0.3;1;0.3"
+                                         dur="2.5s"
+                                         repeatCount="indefinite" />
+                            </rect>
+                            <rect x="20"
+                                  y="180"
+                                  width="20"
+                                  height="20"
+                                  fill="none"
+                                  stroke="#007bff"
+                                  stroke-width="1.5">
+                                <animate attributeName="stroke-opacity"
+                                         values="0.3;1;0.3"
+                                         dur="2.5s"
+                                         begin="0.5s"
+                                         repeatCount="indefinite" />
+                            </rect>
+                            <rect x="20"
+                                  y="160"
+                                  width="20"
+                                  height="20"
+                                  fill="none"
+                                  stroke="#007bff"
+                                  stroke-width="1.5">
+                                <animate attributeName="stroke-opacity"
+                                         values="0.3;1;0.3"
+                                         dur="2.5s"
+                                         begin="1s"
+                                         repeatCount="indefinite" />
+                            </rect>
+                        </g>
+
+                        <!-- Conveyor Belt -->
+                        <rect x="60"
+                              y="230"
+                              width="280"
+                              height="8"
+                              fill="none"
+                              stroke="#4dabf7"
+                              stroke-width="1" />
+                        <g stroke="#007bff" stroke-width="1">
+                            <line x1="70" y1="234" x2="80" y2="234">
+                                <animate attributeName="x1"
+                                         values="70;330"
+                                         dur="3s"
+                                         repeatCount="indefinite" />
+                                <animate attributeName="x2"
+                                         values="80;340"
+                                         dur="3s"
+                                         repeatCount="indefinite" />
+                            </line>
+                            <line x1="90" y1="234" x2="100" y2="234">
+                                <animate attributeName="x1"
+                                         values="90;350"
+                                         dur="3s"
+                                         begin="0.5s"
+                                         repeatCount="indefinite" />
+                                <animate attributeName="x2"
+                                         values="100;360"
+                                         dur="3s"
+                                         begin="0.5s"
+                                         repeatCount="indefinite" />
+                            </line>
+                        </g>
+
+                        <!-- Radar Dish -->
+                        <circle cx="200"
+                                cy="60"
+                                r="15"
+                                fill="none"
+                                stroke="#00d4ff"
+                                stroke-width="2"
+                                filter="url(#glow)">
+                            <animate attributeName="r"
+                                     values="15;18;15"
+                                     dur="2s"
+                                     repeatCount="indefinite" />
+                        </circle>
+                        <line x1="200"
+                              y1="60"
+                              x2="210"
+                              y2="50"
+                              stroke="#00d4ff"
+                              stroke-width="2">
+                            <animateTransform attributeName="transform"
+                                              type="rotate"
+                                              values="0 200 60;360 200 60"
+                                              dur="4s"
+                                              repeatCount="indefinite" />
+                        </line>
+                    </svg>
+
+                    <div class="error-code">503</div>
+                    <h1 class="error-title">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Warehouse System Issue
+                    </h1>
+                    <p class="error-message">
+                        Our advanced inventory management system is currently undergoing
+                        critical maintenance.<br />
+                        All warehouse operations are temporarily suspended while we
+                        upgrade our infrastructure.
+                    </p>
+
+                    <div class="loading-container">
+                        <div class="loading-bar">
+                            <div class="loading-progress"></div>
+                        </div>
+                        <div class="loading-text">
+                            <i class="fas fa-cog fa-spin me-1"></i>
+                            System restoration in progress...
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <a href="//"
+                           class="btn-return"
+                           onclick="window.history.back(); return false;">
+                            <i class="fas fa-arrow-left me-2"></i>
+                            Return to Home
+                        </a>
+                    </div>
+
+                    <div class="system-info">
+                        <div class="info-row">
+                            <span class="info-label">
+                                <i class="fas fa-server me-1"></i>
+                                System Status:
+                            </span>
+                            <span class="info-value">Maintenance Mode</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">
+                                <i class="fas fa-clock me-1"></i>
+                                Est. Completion:
+                            </span>
+                            <span class="info-value">12 minutes</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">
+                                <i class="fas fa-shield-alt me-1"></i>
+                                Data Security:
+                            </span>
+                            <span class="info-value">Protected</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">
+                                <i class="fas fa-phone me-1"></i>
+                                Support:
+                            </span>
+                            <span class="info-value">24/7 Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/ErrorPage.js"></script>
+</body>
+</html>

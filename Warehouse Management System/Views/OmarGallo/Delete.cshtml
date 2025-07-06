@@ -1,0 +1,250 @@
+﻿@model Warehouse_Management_System.ViewModels.ProductViewModel
+
+@{
+    ViewData["Title"] = "Delete Product";
+    Layout = "_DashboardLayout";
+
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card card-dark border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0 text-white">
+                        <i class="fas fa-exclamation-triangle"></i> Delete Product
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-warning-dark">
+                        <i class="fas fa-warning"></i>
+                        <strong>Warning!</strong> Are you sure you want to delete this product? This action cannot be undone.
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h5 class="text-white">Product Details:</h5>
+                            <dl class="row">
+                                <dt class="col-sm-4 text-white"><label asp-for="Name"></label>:</dt>
+                                <dd class="col-sm-8 text-light-muted"><span asp-for="Name">@Model.Name</span></dd>
+
+                                @if (!string.IsNullOrEmpty(Model.Description))
+                                {
+                                    <dt class="col-sm-4 text-white"><label asp-for="Description"></label>:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="Description">@Model.Description</span></dd>
+                                }
+
+                                @if (!string.IsNullOrEmpty(Model.CategoryName))
+                                {
+                                    <dt class="col-sm-4 text-white"><label asp-for="CategoryName"></label>:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="CategoryName">@Model.CategoryName</span></dd>
+                                }
+
+                                <dt class="col-sm-4 text-white"><label asp-for="AvailableStock"></label>:</dt>
+                                <dd class="col-sm-8">
+                                    <span class="badge @(Model.AvailableStock <= Model.MinAvailableStock ? "bg-danger" : "bg-success")">
+                                        <span asp-for="AvailableStock">@Model.AvailableStock</span>
+                                    </span>
+                                </dd>
+
+                                <dt class="col-sm-4 text-white"><label asp-for="CurrentQuantity"></label>:</dt>
+                                <dd class="col-sm-8 text-light-muted"><span asp-for="CurrentQuantity">@Model.CurrentQuantity</span></dd>
+
+                                <dt class="col-sm-4 text-white"><label asp-for="MinAvailableStock"></label>:</dt>
+                                <dd class="col-sm-8 text-light-muted"><span asp-for="MinAvailableStock">@Model.MinAvailableStock</span></dd>
+
+                                <dt class="col-sm-4 text-white"><label asp-for="UnitPrice"></label>:</dt>
+                                <dd class="col-sm-8 text-light-muted"><span asp-for="UnitPrice">@Model.UnitPrice?.ToString("C")</span></dd>
+
+                                @if (Model.CostPrice.HasValue)
+                                {
+                                    <dt class="col-sm-4 text-white"><label asp-for="CostPrice"></label>:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="CostPrice">@Model.CostPrice?.ToString("C")</span></dd>
+                                }
+
+                                @if (Model.Weight.HasValue)
+                                {
+                                    <dt class="col-sm-4 text-white"><label asp-for="Weight"></label>:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="Weight">@Model.Weight</span> kg</dd>
+                                }
+
+                                <dt class="col-sm-4 text-white"><label asp-for="IsActive"></label>:</dt>
+                                <dd class="col-sm-8">
+                                    @if (Model.IsActive == true)
+                                    {
+                                        <span class="badge bg-success">Active</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">Inactive</span>
+                                    }
+                                </dd>
+
+                                @if (Model.CreatedDate.HasValue)
+                                {
+                                    <dt class="col-sm-4 text-white"><label asp-for="CreatedDate"></label>:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="CreatedDate">@Model.CreatedDate?.ToString("MMM dd, yyyy")</span></dd>
+                                }
+
+                                @if (Model.LastUpdated.HasValue)
+                                {
+                                    <dt class="col-sm-4 text-white"><label asp-for="LastUpdated"></label>:</dt>
+                                    <dd class="col-sm-8 text-light-muted"><span asp-for="LastUpdated">@Model.LastUpdated?.ToString("MMM dd, yyyy")</span></dd>
+                                }
+                            </dl>
+                        </div>
+                        <div class="col-md-4">
+                            @if (!string.IsNullOrEmpty(Model.ImageURL))
+                            {
+                                <div class="text-center">
+                                    <label class="form-label text-white">Product Image:</label>
+                                    <img src="@Model.ImageURL" alt="@Model.Name" class="img-fluid rounded border"
+                                         style="max-height: 200px; border-color: #404040 !important;"
+                                         onerror="this.src='https://via.placeholder.com/200x200?text=No+Image';" />
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <hr style="border-color: #404040;">
+
+                    <form asp-action="Delete" method="post" class="d-inline">
+                        <input asp-for="ProductId" type="hidden" />
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Back to List
+                            </a>
+                            <div>
+                                <a asp-action="Details" asp-route-id="@Model.ProductId" class="btn btn-info me-2">
+                                    <i class="fas fa-eye"></i> View Details
+                                </a>
+                                <a asp-action="Edit" asp-route-id="@Model.ProductId" class="btn btn-warning me-2">
+                                    <i class="fas fa-edit"></i> Edit Instead
+                                </a>
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you absolutely sure you want to delete this product?');">
+                                    <i class="fas fa-trash"></i> Delete Product
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        .bg-dark-custom {
+            background-color: #2d2d2d !important;
+        }
+
+        .card-dark {
+            background-color: #2d2d2d;
+            border: 1px solid #404040;
+        }
+
+        .table-dark-custom {
+            background-color: #000000;
+            color: #B1DDF1;
+        }
+
+            .table-dark-custom th {
+                background-color: #000000;
+                border-color: #B1DDF1;
+                color: #B1DDF1;
+            }
+
+            .table-dark-custom td {
+                border-color: #B1DDF1;
+                background-color: #000000;
+                color: #B1DDF1;
+            }
+
+        .text-light-muted {
+            color: #B1DDF1 !important;
+        }
+
+        .alert-success-dark {
+            background-color: #1e4d3e;
+            border-color: #2d7a5f;
+            color: #a3d9c4;
+        }
+
+        .alert-warning-dark {
+            background-color: #4d3e1e;
+            border-color: #7a5f2d;
+            color: #d9c4a3;
+            border-radius: 8px;
+        }
+
+        .card-body {
+            color: #B1DDF1;
+        }
+
+        .card-header {
+            border-bottom: 1px solid #404040;
+        }
+
+        .border-danger {
+            border-color: #dc3545 !important;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            color: #ffffff !important;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5c636a;
+                border-color: #565e64;
+                color: #ffffff !important;
+            }
+
+        .btn-info {
+            background-color: #0dcaf0;
+            border-color: #0dcaf0;
+            color: #000000 !important;
+        }
+
+            .btn-info:hover {
+                background-color: #0bb5d1;
+                border-color: #0aa2c0;
+                color: #000000 !important;
+            }
+
+        .btn-warning {
+            background-color: #ffc107;
+            border-color: #ffc107;
+            color: #000000 !important;
+        }
+
+            .btn-warning:hover {
+                background-color: #e0a800;
+                border-color: #d39e00;
+                color: #000000 !important;
+            }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+            color: #ffffff !important;
+        }
+
+            .btn-danger:hover {
+                background-color: #c82333;
+                border-color: #bd2130;
+                color: #ffffff !important;
+            }
+    </style>
+
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+}
+

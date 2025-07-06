@@ -1,0 +1,896 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\wwwroot\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\wwwroot\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\shared\\_watingforadminapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\shared\\_watingforadminapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\adminrepositoryfile\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\adminrepositoryfile\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\adminrepositoryfile\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\adminrepositoryfile\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\shared\\partialview\\_dashboardsidebarpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\shared\\partialview\\_dashboardsidebarpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\bysupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\bysupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\userrepositoryfile\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\userrepositoryfile\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\userrepositoryfile\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\userrepositoryfile\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\supplierrepositoryfile\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\supplierrepositoryfile\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\supplierrepositoryfile\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\supplierrepositoryfile\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\mapperconfig\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\mapperconfig\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\omargallo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\omargallo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\productrepositoryfile\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\productrepositoryfile\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\productrepositoryfile\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\productrepositoryfile\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\viewmodel\\mohamed-h\\productmovevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\viewmodel\\mohamed-h\\productmovevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\viewmodel\\mohamed-h\\productdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\viewmodel\\mohamed-h\\productdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\warehouse\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\warehouse\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\warehouse\\warehousedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\warehouse\\warehousedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\warehouse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\warehouse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\home\\suspendedandadminapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\home\\suspendedandadminapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\repository\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\shared\\partialview\\_navmobilepartiialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\shared\\partialview\\_navmobilepartiialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\shared\\partialview\\_navlaptoppartiialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\shared\\partialview\\_navlaptoppartiialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\cart\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\cart\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|c:\\users\\zeyad\\onedrive\\desktop\\mvc-warehouse-management-system\\warehouse management system\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "icon.ico - Icon [16x16, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\icon.ico",
+              "RelativeDocumentMoniker": "Warehouse Management System\\wwwroot\\icon.ico",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\wwwroot\\icon.ico - Icon [16x16, 32 bit, BMP]",
+              "RelativeToolTip": "Warehouse Management System\\wwwroot\\icon.ico - Icon [16x16, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-07-06T14:25:38.682Z",
+              "EditorCaption": " - Icon [16x16, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_WatingForAdminApproval.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\_WatingForAdminApproval.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Shared\\_WatingForAdminApproval.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\_WatingForAdminApproval.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Shared\\_WatingForAdminApproval.cshtml",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAowHMBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T14:12:10.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAwwNIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:56:21.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T05:59:46.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T12:57:45.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_DashboardLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T13:48:16.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:12:17.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\AdminRepositoryFile\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\AdminRepositoryFile\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\AdminRepositoryFile\\AdminRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\AdminRepositoryFile\\AdminRepository.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAswAoBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:01:26.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\AdminRepositoryFile\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\AdminRepositoryFile\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\AdminRepositoryFile\\IAdminRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\AdminRepositoryFile\\IAdminRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:01:28.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\libman.json",
+              "RelativeDocumentMoniker": "Warehouse Management System\\libman.json",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\libman.json",
+              "RelativeToolTip": "Warehouse Management System\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-06T14:07:58.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Program.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Program.cs",
+              "RelativeToolTip": "Warehouse Management System\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T05:57:30.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WarehouseController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\WarehouseController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\WarehouseController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\WarehouseController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\WarehouseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:12:20.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\SupplierController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:08:27.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T11:52:43.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T06:13:29.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:58:36.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UserRepositoryFile\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\UserRepositoryFile\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UserRepositoryFile\\UserRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\UserRepositoryFile\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:17:25.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ISupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\SupplierRepositoryFile\\ISupplierRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\SupplierRepositoryFile\\ISupplierRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\SupplierRepositoryFile\\ISupplierRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\SupplierRepositoryFile\\ISupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:18:30.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Delete.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T13:27:07.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "new.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\new.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\new.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\new.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\new.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T13:35:01.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Details.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Details.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T13:27:17.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Index.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Index.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\Index.cshtml",
+              "ViewState": "AgIAACcBAAAAAAAAAAAAACwBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T13:27:25.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_DashboardSidebarPartialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\PartialView\\_DashboardSidebarPartialView.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Shared\\PartialView\\_DashboardSidebarPartialView.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\PartialView\\_DashboardSidebarPartialView.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Shared\\PartialView\\_DashboardSidebarPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T06:07:31.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Edit.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T13:27:20.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\SupplierRepositoryFile\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\SupplierRepositoryFile\\SupplierRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\SupplierRepositoryFile\\SupplierRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\SupplierRepositoryFile\\SupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:16:55.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BySupplier.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\BySupplier.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\BySupplier.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\BySupplier.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\BySupplier.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T11:55:07.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UserRepositoryFile\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\UserRepositoryFile\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UserRepositoryFile\\IUserRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\UserRepositoryFile\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:18:39.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAA2wHoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:13:41.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Index.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Index.cshtml",
+              "ViewState": "AgIAAE0CAAAAAAAAAAASwFMCAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T12:23:17.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Edit.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T12:23:14.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\ProductRepositoryFile\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\ProductRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\ProductRepositoryFile\\ProductRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvy8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T12:00:20.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "mapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\MapperConfig\\mapperConfig.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\MapperConfig\\mapperConfig.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\MapperConfig\\mapperConfig.cs",
+              "RelativeToolTip": "Warehouse Management System\\MapperConfig\\mapperConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T06:02:09.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\ProductRepositoryFile\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T12:17:03.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T12:23:02.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T12:23:05.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Details.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\OmarGallo\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\OmarGallo\\Details.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\OmarGallo\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T12:23:10.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\Repository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\Repository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:16:31.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T09:22:11.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Warehouse\\Index.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Warehouse\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Warehouse\\Index.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Warehouse\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T09:24:21.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Warehouse\\Create.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Warehouse\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Warehouse\\Create.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Warehouse\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T09:24:33.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProductDetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\ViewModel\\Mohamed-H\\ProductDetailsVM.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\ViewModel\\Mohamed-H\\ProductDetailsVM.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\ViewModel\\Mohamed-H\\ProductDetailsVM.cs",
+              "RelativeToolTip": "Warehouse Management System\\ViewModel\\Mohamed-H\\ProductDetailsVM.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:48:01.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductMoveVM.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\ViewModel\\Mohamed-H\\ProductMoveVM.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\ViewModel\\Mohamed-H\\ProductMoveVM.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\ViewModel\\Mohamed-H\\ProductMoveVM.cs",
+              "RelativeToolTip": "Warehouse Management System\\ViewModel\\Mohamed-H\\ProductMoveVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:47:52.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SuspendedAndAdminApproval.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Home\\SuspendedAndAdminApproval.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Home\\SuspendedAndAdminApproval.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Home\\SuspendedAndAdminApproval.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Home\\SuspendedAndAdminApproval.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T09:24:12.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "WarehouseDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Warehouse\\WarehouseDetails.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Warehouse\\WarehouseDetails.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Warehouse\\WarehouseDetails.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Warehouse\\WarehouseDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T09:18:29.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T09:22:14.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "WarehouseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\WarehouseRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\WarehouseRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\WarehouseRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\WarehouseRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:12:56.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T09:18:46.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DashboardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\DashboardRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\DashboardRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\DashboardRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\DashboardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:13:45.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:13:39.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_NavMobilePartiialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\PartialView\\_NavMobilePartiialView.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Shared\\PartialView\\_NavMobilePartiialView.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\PartialView\\_NavMobilePartiialView.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Shared\\PartialView\\_NavMobilePartiialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T06:07:29.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_NavLaptopPartiialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\PartialView\\_NavLaptopPartiialView.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Shared\\PartialView\\_NavLaptopPartiialView.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Shared\\PartialView\\_NavLaptopPartiialView.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Shared\\PartialView\\_NavLaptopPartiialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T06:07:04.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Invoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Cart\\Invoice.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Cart\\Invoice.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Cart\\Invoice.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Cart\\Invoice.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAuwHcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T06:01:25.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Category\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAAKkBAAAAAAAAAAAAALABAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T06:03:06.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Cart\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Cart\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T05:59:56.227Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

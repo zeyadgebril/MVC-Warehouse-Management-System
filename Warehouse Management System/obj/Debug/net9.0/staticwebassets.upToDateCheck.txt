@@ -1,0 +1,1384 @@
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\177.d0d35403.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\CartesianScaleOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\90.96ebfa9b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\regular.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\BasicPlatform.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartConfiguration.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\219.21c5e01f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\164.7f8d8643.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\svg-with-js.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\47.79aa575e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\README.md
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scale-options\ticks.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\72.dc778e17.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\GridLineOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\51.e0968711.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\9.63ebb16b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\69.bdeb7b9b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PluginChartOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\118.7752bc89.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\Animator.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\line\styling.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\InteractionItem.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartArea.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BubbleControllerDatasetOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\174.05398ca3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\24.af200d5b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\34.360a9ea9.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\animations.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\v4-font-face.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\Scale.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcElement.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\28.72dee0f1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\title\alignment.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\DateAdapter.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\198.2ae0961a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\favicon.ico
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\235.71a7be7d.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\CommonElementOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scales\linear-min-max-suggested.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LineControllerDatasetOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\244.ad729cf8.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\radial\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\regular.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PointOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\legend\position.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\CoreInteractionOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\36.f2765bae.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\127.3b8478f3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\developers\plugins.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\v5-font-face.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\FontSpec.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\Image\ed91e4e9-793b-4844-adf1-28c8e5cc7e73_icon.ico
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\solid.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scriptable\polar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\253.61c7c505.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TitleOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\194.49c9a3c0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\conflict-detection.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\237.d518e28b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\10.edbecfa9.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\multi-series-pie.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcHoverOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\package.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\243.a355eaa8.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\4.ee88d25a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\doughnut.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\mixed.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\fontawesome.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\auto\auto.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartTypeRegistry.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\general\colors.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\27.2d5c4a6b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\258.792f66d1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\area\line-boundaries.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BarElement.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BubbleDataPoint.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\general\data-structures.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\77.0725268e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\v5-font-face.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutControllerChartOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\brands.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\17.8dfcb176.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\116.6b780970.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\204.50d5cf2e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\66.379a6b45.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\bubble.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\developers\api.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\js\DashboardLayout.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\information.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\chart.esm.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\animations\progressive-line.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\svg-with-js.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\legend\title.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\221.5c17138c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\tooltip\position.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\121.cc3d56f2.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\enums\UpdateModeEnum.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\183.22b2258c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scale-options\center.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\fontawesome.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScaleTypeRegistry.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TickOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\220.3ba160e4.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutController.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\94.2af5650c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\DomPlatform.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\102.33b746ea.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\brands.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\BasePlatform.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scriptable\bar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\35.205d7fac.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\responsive.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\170.b9db8312.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ParsingOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\helpers.mjs
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\cartesian\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\brands.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TimeScale.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ExtendedPlugin.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\stacked-bar-line.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\all.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableCartesianScaleContext.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\61.ea4fad75.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\app.7e0dc8c8.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\logo.svg
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableContext.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LineHoverOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\172.81c5206a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\76.21f5a94e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\FillerControllerDatasetOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LegendOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\cartesian\_common_ticks.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\decimation.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\sprites\brands.svg
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\75.15562a81.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\area\radar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\43.097368d1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\54.fcfed2c5.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\33.6b642a06.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\combo-bar-line.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\92.dc3f06d2.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\img\search.83621669.svg
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\108.a30da8c9.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\advanced\linear-gradient.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\Plugin.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\250.09ef38e2.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\125.a9572036.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\25.4f97f63f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\plugins\doughnut-empty-state.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\developers\updates.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\223.cbb7b883.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\227.b3d60339.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scriptable\pie.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\68.ffdefd7d.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\advanced\radial-gradient.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\38.a778a6a2.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipItem.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\50.14bd3ba2.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\plugins\quadrants.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\91.cdde4d3f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\getting-started\v3-migration.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\242.6d423d39.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scale-options\grid.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\v4-shims.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\elements.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\locale.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PointPrefixedHoverOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\DatasetControllerChartComponent.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\167.3c3f2ff1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\126.879447b3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\all.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\chart.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scale-options\titles.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ElementOptionsByType.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\129.f6241700.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\122.c8651871.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\developers\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\110.c44e533c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\208.296ee160.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\general\padding.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\159.4cebd9d3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\types\tests\autogen.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BarOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\advanced\programmatic-events.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\subtitle.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\111.ccb9a835.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\legend\events.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\189.18e63b11.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\205.e56e820b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\138.03ec5265.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\58.b0f8ad0c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ActiveDataPoint.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scales\time-max-span.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\labelling.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartDatasetProperties.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\polar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\40.bd778eac.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcBorderRadius.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartData.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\RadialScaleTypeRegistry.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\162.9f2f870f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\213.81d2e607.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\197.adca6c8c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\cartesian\logarithmic.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\chart.mjs
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\VisualElement.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\41.b79220f6.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\39.7dda160f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\Point.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\animations\loop.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\44.2515f16e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\207.8aa83d91.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\256.8d709dae.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\53.faa1ff3f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\185.894ea40b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\helpers.esm.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\45.d5b4b7c3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\233.b4f254c0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\180.5c15d5d4.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\Registry.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\168.8d2e8e83.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\29.8820be26.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LegendElement.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\184.15b21065.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\legend\point-style.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutMetaExtensions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\236.05d87a5e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\165.fe2baa69.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\bar\floating.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\all.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartDatasetPropertiesCustomTypesPerDataset.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\CartesianScaleTypeRegistry.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\231.b83d12f1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\cartesian\linear.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\252.2ff0def4.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BarControllerChartOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scales\linear-step-size.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\201.6dba10c3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\224.b130b37f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\104.8b4f368b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\158.1f82587f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\css\site.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\147.fcadaef3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\173.477dcbae.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\57.9de2d983.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\LICENSE.md
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\56.8b0e82b7.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\100.f7a12d8b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\115.12a72d27.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\175.84ab69d0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PluginOptionsByType.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\65.4c1b089e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\136.f813e062.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\js\WatingForAdminApproval.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PointHoverOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipPositionerMap.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\bar\vertical.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\18.c331029e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\advanced\derived-axis-type.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\101.15c56dbb.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\67.15703e17.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\v4-shims.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\120.ed76595e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LineOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\55.7db1d28a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\16.0414f390.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\113.5ac0921f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ControllerDatasetOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\solid.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PointElement.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\tooltip\content.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\Segment.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\103.850a4486.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\chunks\helpers.segment.mjs
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\157.09caef4e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\tooltip.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\sprites\regular.svg
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\Tick.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\all.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\tooltip\html.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\251.0cb90e8a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\v4-font-face.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\general\accessibility.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\area\line-drawtime.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\186.f6394459.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\developers\publishing.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\82.69f363a6.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\v4-shims.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\20.5d11c294.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\Image\14f1814c-ea78-4944-ab99-53bb14d5dd68_icon.ico
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\210.63e30420.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\239.81fecfed.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipLabelStyle.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\234.d975df48.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\142.c5bfcdd4.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\line\interpolation.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\257.b3ebdce7.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\19.13bdd658.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\InteractionOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\DatasetController.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\149.6509ed9f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\RadarControllerDatasetOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\254.20137eeb.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\general\performance.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\215.2efcec5f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\135.8c7630ad.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\192.1bf9bd61.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\228.72f0ad18.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\87.6a88d571.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\124.88ce07a4.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\fontawesome.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scriptable\radar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PointPrefixedOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutAnimationOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\241.59dc896f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LayoutItem.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\canvas-background.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\206.6ce5c41e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\179.9442c138.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\plugins\chart-area-border.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LineElement.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\pie.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\74.bba2165e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\line\stepped.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\icon.ico
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\260.54ff10d2.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\105.1a3d6c41.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\scatter.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ActiveElement.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ComplexFillTarget.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\99.6251650a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\InteractionModeMap.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\js\ErrorPage.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\css\0.styles.7d07a4d1.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\32.56d8546e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\21.7b54d7d8.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\auto\package.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\191.13061aba.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\216.e01d3100.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\6.2bc86161.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableChartContext.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\helpers\helpers.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scales\stacked.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\218.94e33827.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\14.422fec10.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\151.67ecd4a3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\regular.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\polar-area.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\getting-started\installation.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartDataCustomTypesPerDataset.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\advanced\data-decimation.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\42.c3157beb.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\89.e67ddb59.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\178.55d433fd.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\249.2d7a9bf1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\bar\horizontal.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\404.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\bar\border-radius.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\229.3daa3b7e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\conflict-detection.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\11.b98e8151.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\166.c82b3c76.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\developers\charts.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\93.aaa04d52.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\64.c6838e95.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PolarAreaControllerDatasetOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\tooltip\point-style.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipCallbacks.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\css\solid.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\96.9545127d.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TypedRegistry.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\15.09a69fc3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\subtitle\basic.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\248.1d222543.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\general\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\109.6d56b7d1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\Animations.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\layout.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LegendItem.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LineProps.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\176.f48183c3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\117.79604442.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\CoreChartOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\128.87d67ad7.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\8.8928eb8b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\getting-started\index.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\helpers\package.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\187.7bd9b3fe.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\217.906c8d54.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\css\ErrorPage.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\238.eb60e397.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\134.4bfa3b5a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scriptable\bubble.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\23.2c668e20.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\182.72f663e8.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\155.e3367ebc.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\line\point-styling.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\radar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\Element.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\212.be671e2e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableScalePointLabelContext.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\259.98c809e9.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\95.1d44ec16.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\utils.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\139.924812c0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\3.947b8d98.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\98.cb259cd0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableLineSegmentContext.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\230.7e5a85b1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\area\line-stacked.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\240.c0869bc2.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\getting-started\integration.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\doughnut.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\bubble.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\209.13279349.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\193.8fa44455.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\radial\linear.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\Defaults.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\156.a5bb942d.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\137.6cab2863.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\css\WatingForAdminApproval.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\title.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcProps.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\CoreScaleOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\188.3baa9bcd.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipPosition.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\chunks\helpers.segment.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\bar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\general\options.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\131.45e904c9.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\RadialLinearScale.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\v4-shims.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\245.c3cd6bbe.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\area\line-datasets.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\regular.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\85.efc4bd54.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\_common_ticks.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\81.f1500469.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\153.dbf3f3aa.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\114.90ef8814.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\12.433f0c7e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\232.e902f42d.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\Image\a4c9caf6-39b0-4c45-ab63-b5efef8d11b5_icon.ico
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\163.4f1604f9.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\cartesian\_common.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\13.b6743084.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\css\LandingPage.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\106.d8f8b4c1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\developers\contributing.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\22.c2daedd0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\37.6c33435e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\brands.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BarProps.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\cartesian\category.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\152.481a7bd4.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableScaleContext.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\bar\stacked.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\interactions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\types\tests\tsconfig.json
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BarControllerDatasetOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipModel.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\48.45785af9.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\line\segments.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\line.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\Tooltip.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\26.d1bb645c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\scatter-multi-axis.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScatterDataPoint.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\line\multi-axis.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PointProps.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scales\time-line.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\88.0f45cfe0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\bar\stacked-groups.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\46.bbab8d6e.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\123.f7d5f223.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\107.38cf9b4f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\getting-started\usage.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\FillerOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\developers\axes.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\144.a98bdbcc.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scales\time-combo.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\general\fonts.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\62.5c85853b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\78.d6f610d1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\200.2eb9437f.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\190.b7ffb54a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\63.5ac99656.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\79.60d67faa.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BorderRadius.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\Chart.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\141.34a018bb.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\advanced\progress-bar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\195.eb1e8802.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\animations\delay.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\196.9b925823.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\enums\DecimationAlgorithm.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\211.0b325f23.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\226.8c102c21.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\169.b10c84bd.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\246.d0708528.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\130.a9cb856a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\auto\auto.mjs
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\112.2d2a2890.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scales\log.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\legend\html.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\polar-area-center-labels.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scriptable\line.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\radar.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\119.d8e76ef0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\charts\area.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\styling.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\133.d5aa1db6.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\143.05e388ba.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutControllerDatasetOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\5.00f814ac.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\70.3dadb5ed.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\LineControllerChartOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\animations\drop.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartComponent.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\73.d88fcb57.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\cartesian\time.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\161.fac79692.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\classes\Animation.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\BarHoverOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\84.b76e3156.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\advanced\derived-chart-type.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\199.cd9dca80.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\scatter.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\2.3e2307f3.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PolarAreaController.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\helpers\helpers.mjs
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\150.fd8575ca.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartEvent.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\140.a7967a5d.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\49.0569a6eb.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\181.911f367b.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\71.2c97fe38.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\203.98a3c2b8.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\222.aea004ce.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\145.826b73e0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\255.49c937e9.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\cartesian\timeseries.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\148.604863a4.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\97.8b18f487.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\214.ba403b5c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartConfigurationCustomTypesPerDataset.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\device-pixel-ratio.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\30.343676b8.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\146.001afadf.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\AnimationEvent.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\solid.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\PolarAreaControllerChartOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\52.fe65ddf8.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\225.32f90319.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\tooltip\interactions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\axes\_common.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\7.74f2ce90.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\80.99d71ee0.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\configuration\legend.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\js\fontawesome.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\59.f1ff4935.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\171.2480fc36.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\132.abd9e4c2.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\other-charts\radar-skip-points.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\CommonHoverOptions.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\261.928afea4.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\202.9c5057c6.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\chart.min.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\154.2aa9c67d.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\animations\progressive-line-easing.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\css\DashboardLayout.css
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\font-awesome\sprites\solid.svg
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\31.cff089f1.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\js\site.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableTooltipContext.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\83.f1fbcb2c.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\60.ac08de9a.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\js\LandingPage.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\scales\linear-min-max.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\160.47df8215.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\samples\line\line.html
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\86.85011b24.js
+C:\Users\Zeyad\OneDrive\Desktop\MVC-Warehouse-Management-System\Warehouse Management System\wwwroot\lib\chart.js\dist\docs\assets\js\247.13d65d78.js
+wwwroot\css\DashboardLayout.css
+wwwroot\css\ErrorPage.css
+wwwroot\css\LandingPage.css
+wwwroot\css\site.css
+wwwroot\css\WatingForAdminApproval.css
+wwwroot\icon.ico
+wwwroot\Image\14f1814c-ea78-4944-ab99-53bb14d5dd68_icon.ico
+wwwroot\Image\4901709b-5c90-48f5-bb56-a63cb7cc63ff_wallpaper.jpg
+wwwroot\Image\9ab3ae06-3638-436e-bacf-aedda82f887c_wallpaper.jpg
+wwwroot\Image\a4c9caf6-39b0-4c45-ab63-b5efef8d11b5_icon.ico
+wwwroot\Image\ed91e4e9-793b-4844-adf1-28c8e5cc7e73_icon.ico
+wwwroot\js\DashboardLayout.js
+wwwroot\js\ErrorPage.js
+wwwroot\js\LandingPage.js
+wwwroot\js\site.js
+wwwroot\js\WatingForAdminApproval.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\chart.js\auto\auto.js
+wwwroot\lib\chart.js\auto\auto.mjs
+wwwroot\lib\chart.js\auto\auto.mts
+wwwroot\lib\chart.js\auto\package.json
+wwwroot\lib\chart.js\dist\chart.esm.js
+wwwroot\lib\chart.js\dist\chart.js
+wwwroot\lib\chart.js\dist\chart.min.js
+wwwroot\lib\chart.js\dist\chart.mjs
+wwwroot\lib\chart.js\dist\chunks\helpers.segment.js
+wwwroot\lib\chart.js\dist\chunks\helpers.segment.mjs
+wwwroot\lib\chart.js\dist\docs\404.html
+wwwroot\lib\chart.js\dist\docs\api\classes\Animation.html
+wwwroot\lib\chart.js\dist\docs\api\classes\Animations.html
+wwwroot\lib\chart.js\dist\docs\api\classes\Animator.html
+wwwroot\lib\chart.js\dist\docs\api\classes\BasePlatform.html
+wwwroot\lib\chart.js\dist\docs\api\classes\BasicPlatform.html
+wwwroot\lib\chart.js\dist\docs\api\classes\Chart.html
+wwwroot\lib\chart.js\dist\docs\api\classes\DatasetController.html
+wwwroot\lib\chart.js\dist\docs\api\classes\DomPlatform.html
+wwwroot\lib\chart.js\dist\docs\api\classes\Scale.html
+wwwroot\lib\chart.js\dist\docs\api\enums\DecimationAlgorithm.html
+wwwroot\lib\chart.js\dist\docs\api\enums\UpdateModeEnum.html
+wwwroot\lib\chart.js\dist\docs\api\index.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ActiveDataPoint.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ActiveElement.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\AnimationEvent.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcBorderRadius.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcElement.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcHoverOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ArcProps.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BarControllerChartOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BarControllerDatasetOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BarElement.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BarHoverOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BarOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BarProps.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BorderRadius.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BubbleControllerDatasetOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\BubbleDataPoint.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\CartesianScaleOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\CartesianScaleTypeRegistry.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartArea.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartComponent.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartConfiguration.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartConfigurationCustomTypesPerDataset.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartData.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartDataCustomTypesPerDataset.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartDatasetProperties.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartDatasetPropertiesCustomTypesPerDataset.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartEvent.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ChartTypeRegistry.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\CommonElementOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\CommonHoverOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ComplexFillTarget.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ControllerDatasetOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\CoreChartOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\CoreInteractionOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\CoreScaleOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\DatasetControllerChartComponent.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\DateAdapter.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\Defaults.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutAnimationOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutController.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutControllerChartOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutControllerDatasetOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\DoughnutMetaExtensions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\Element.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ElementOptionsByType.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ExtendedPlugin.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\FillerControllerDatasetOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\FillerOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\FontSpec.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\GridLineOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\InteractionItem.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\InteractionModeMap.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\InteractionOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LayoutItem.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LegendElement.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LegendItem.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LegendOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LineControllerChartOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LineControllerDatasetOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LineElement.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LineHoverOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LineOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\LineProps.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ParsingOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\Plugin.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PluginChartOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PluginOptionsByType.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\Point.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PointElement.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PointHoverOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PointOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PointPrefixedHoverOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PointPrefixedOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PointProps.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PolarAreaController.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PolarAreaControllerChartOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\PolarAreaControllerDatasetOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\RadarControllerDatasetOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\RadialLinearScale.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\RadialScaleTypeRegistry.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\Registry.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScaleTypeRegistry.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScatterDataPoint.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableCartesianScaleContext.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableChartContext.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableContext.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableLineSegmentContext.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableScaleContext.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableScalePointLabelContext.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\ScriptableTooltipContext.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\Segment.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\Tick.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TickOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TimeScale.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TitleOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\Tooltip.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipCallbacks.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipItem.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipLabelStyle.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipModel.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipOptions.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipPosition.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TooltipPositionerMap.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\TypedRegistry.html
+wwwroot\lib\chart.js\dist\docs\api\interfaces\VisualElement.html
+wwwroot\lib\chart.js\dist\docs\assets\css\0.styles.7d07a4d1.css
+wwwroot\lib\chart.js\dist\docs\assets\img\destroy_flowchart.10814816.png
+wwwroot\lib\chart.js\dist\docs\assets\img\event_flowchart.83015c7a.png
+wwwroot\lib\chart.js\dist\docs\assets\img\init_flowchart.ee5be600.png
+wwwroot\lib\chart.js\dist\docs\assets\img\render_flowchart.41a98316.png
+wwwroot\lib\chart.js\dist\docs\assets\img\scale_flowchart.fa1ab63e.png
+wwwroot\lib\chart.js\dist\docs\assets\img\search.83621669.svg
+wwwroot\lib\chart.js\dist\docs\assets\img\update_flowchart.0556691d.png
+wwwroot\lib\chart.js\dist\docs\assets\js\10.edbecfa9.js
+wwwroot\lib\chart.js\dist\docs\assets\js\100.f7a12d8b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\101.15c56dbb.js
+wwwroot\lib\chart.js\dist\docs\assets\js\102.33b746ea.js
+wwwroot\lib\chart.js\dist\docs\assets\js\103.850a4486.js
+wwwroot\lib\chart.js\dist\docs\assets\js\104.8b4f368b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\105.1a3d6c41.js
+wwwroot\lib\chart.js\dist\docs\assets\js\106.d8f8b4c1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\107.38cf9b4f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\108.a30da8c9.js
+wwwroot\lib\chart.js\dist\docs\assets\js\109.6d56b7d1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\11.b98e8151.js
+wwwroot\lib\chart.js\dist\docs\assets\js\110.c44e533c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\111.ccb9a835.js
+wwwroot\lib\chart.js\dist\docs\assets\js\112.2d2a2890.js
+wwwroot\lib\chart.js\dist\docs\assets\js\113.5ac0921f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\114.90ef8814.js
+wwwroot\lib\chart.js\dist\docs\assets\js\115.12a72d27.js
+wwwroot\lib\chart.js\dist\docs\assets\js\116.6b780970.js
+wwwroot\lib\chart.js\dist\docs\assets\js\117.79604442.js
+wwwroot\lib\chart.js\dist\docs\assets\js\118.7752bc89.js
+wwwroot\lib\chart.js\dist\docs\assets\js\119.d8e76ef0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\12.433f0c7e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\120.ed76595e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\121.cc3d56f2.js
+wwwroot\lib\chart.js\dist\docs\assets\js\122.c8651871.js
+wwwroot\lib\chart.js\dist\docs\assets\js\123.f7d5f223.js
+wwwroot\lib\chart.js\dist\docs\assets\js\124.88ce07a4.js
+wwwroot\lib\chart.js\dist\docs\assets\js\125.a9572036.js
+wwwroot\lib\chart.js\dist\docs\assets\js\126.879447b3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\127.3b8478f3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\128.87d67ad7.js
+wwwroot\lib\chart.js\dist\docs\assets\js\129.f6241700.js
+wwwroot\lib\chart.js\dist\docs\assets\js\13.b6743084.js
+wwwroot\lib\chart.js\dist\docs\assets\js\130.a9cb856a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\131.45e904c9.js
+wwwroot\lib\chart.js\dist\docs\assets\js\132.abd9e4c2.js
+wwwroot\lib\chart.js\dist\docs\assets\js\133.d5aa1db6.js
+wwwroot\lib\chart.js\dist\docs\assets\js\134.4bfa3b5a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\135.8c7630ad.js
+wwwroot\lib\chart.js\dist\docs\assets\js\136.f813e062.js
+wwwroot\lib\chart.js\dist\docs\assets\js\137.6cab2863.js
+wwwroot\lib\chart.js\dist\docs\assets\js\138.03ec5265.js
+wwwroot\lib\chart.js\dist\docs\assets\js\139.924812c0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\14.422fec10.js
+wwwroot\lib\chart.js\dist\docs\assets\js\140.a7967a5d.js
+wwwroot\lib\chart.js\dist\docs\assets\js\141.34a018bb.js
+wwwroot\lib\chart.js\dist\docs\assets\js\142.c5bfcdd4.js
+wwwroot\lib\chart.js\dist\docs\assets\js\143.05e388ba.js
+wwwroot\lib\chart.js\dist\docs\assets\js\144.a98bdbcc.js
+wwwroot\lib\chart.js\dist\docs\assets\js\145.826b73e0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\146.001afadf.js
+wwwroot\lib\chart.js\dist\docs\assets\js\147.fcadaef3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\148.604863a4.js
+wwwroot\lib\chart.js\dist\docs\assets\js\149.6509ed9f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\15.09a69fc3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\150.fd8575ca.js
+wwwroot\lib\chart.js\dist\docs\assets\js\151.67ecd4a3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\152.481a7bd4.js
+wwwroot\lib\chart.js\dist\docs\assets\js\153.dbf3f3aa.js
+wwwroot\lib\chart.js\dist\docs\assets\js\154.2aa9c67d.js
+wwwroot\lib\chart.js\dist\docs\assets\js\155.e3367ebc.js
+wwwroot\lib\chart.js\dist\docs\assets\js\156.a5bb942d.js
+wwwroot\lib\chart.js\dist\docs\assets\js\157.09caef4e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\158.1f82587f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\159.4cebd9d3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\16.0414f390.js
+wwwroot\lib\chart.js\dist\docs\assets\js\160.47df8215.js
+wwwroot\lib\chart.js\dist\docs\assets\js\161.fac79692.js
+wwwroot\lib\chart.js\dist\docs\assets\js\162.9f2f870f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\163.4f1604f9.js
+wwwroot\lib\chart.js\dist\docs\assets\js\164.7f8d8643.js
+wwwroot\lib\chart.js\dist\docs\assets\js\165.fe2baa69.js
+wwwroot\lib\chart.js\dist\docs\assets\js\166.c82b3c76.js
+wwwroot\lib\chart.js\dist\docs\assets\js\167.3c3f2ff1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\168.8d2e8e83.js
+wwwroot\lib\chart.js\dist\docs\assets\js\169.b10c84bd.js
+wwwroot\lib\chart.js\dist\docs\assets\js\17.8dfcb176.js
+wwwroot\lib\chart.js\dist\docs\assets\js\170.b9db8312.js
+wwwroot\lib\chart.js\dist\docs\assets\js\171.2480fc36.js
+wwwroot\lib\chart.js\dist\docs\assets\js\172.81c5206a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\173.477dcbae.js
+wwwroot\lib\chart.js\dist\docs\assets\js\174.05398ca3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\175.84ab69d0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\176.f48183c3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\177.d0d35403.js
+wwwroot\lib\chart.js\dist\docs\assets\js\178.55d433fd.js
+wwwroot\lib\chart.js\dist\docs\assets\js\179.9442c138.js
+wwwroot\lib\chart.js\dist\docs\assets\js\18.c331029e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\180.5c15d5d4.js
+wwwroot\lib\chart.js\dist\docs\assets\js\181.911f367b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\182.72f663e8.js
+wwwroot\lib\chart.js\dist\docs\assets\js\183.22b2258c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\184.15b21065.js
+wwwroot\lib\chart.js\dist\docs\assets\js\185.894ea40b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\186.f6394459.js
+wwwroot\lib\chart.js\dist\docs\assets\js\187.7bd9b3fe.js
+wwwroot\lib\chart.js\dist\docs\assets\js\188.3baa9bcd.js
+wwwroot\lib\chart.js\dist\docs\assets\js\189.18e63b11.js
+wwwroot\lib\chart.js\dist\docs\assets\js\19.13bdd658.js
+wwwroot\lib\chart.js\dist\docs\assets\js\190.b7ffb54a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\191.13061aba.js
+wwwroot\lib\chart.js\dist\docs\assets\js\192.1bf9bd61.js
+wwwroot\lib\chart.js\dist\docs\assets\js\193.8fa44455.js
+wwwroot\lib\chart.js\dist\docs\assets\js\194.49c9a3c0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\195.eb1e8802.js
+wwwroot\lib\chart.js\dist\docs\assets\js\196.9b925823.js
+wwwroot\lib\chart.js\dist\docs\assets\js\197.adca6c8c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\198.2ae0961a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\199.cd9dca80.js
+wwwroot\lib\chart.js\dist\docs\assets\js\2.3e2307f3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\20.5d11c294.js
+wwwroot\lib\chart.js\dist\docs\assets\js\200.2eb9437f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\201.6dba10c3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\202.9c5057c6.js
+wwwroot\lib\chart.js\dist\docs\assets\js\203.98a3c2b8.js
+wwwroot\lib\chart.js\dist\docs\assets\js\204.50d5cf2e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\205.e56e820b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\206.6ce5c41e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\207.8aa83d91.js
+wwwroot\lib\chart.js\dist\docs\assets\js\208.296ee160.js
+wwwroot\lib\chart.js\dist\docs\assets\js\209.13279349.js
+wwwroot\lib\chart.js\dist\docs\assets\js\21.7b54d7d8.js
+wwwroot\lib\chart.js\dist\docs\assets\js\210.63e30420.js
+wwwroot\lib\chart.js\dist\docs\assets\js\211.0b325f23.js
+wwwroot\lib\chart.js\dist\docs\assets\js\212.be671e2e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\213.81d2e607.js
+wwwroot\lib\chart.js\dist\docs\assets\js\214.ba403b5c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\215.2efcec5f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\216.e01d3100.js
+wwwroot\lib\chart.js\dist\docs\assets\js\217.906c8d54.js
+wwwroot\lib\chart.js\dist\docs\assets\js\218.94e33827.js
+wwwroot\lib\chart.js\dist\docs\assets\js\219.21c5e01f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\22.c2daedd0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\220.3ba160e4.js
+wwwroot\lib\chart.js\dist\docs\assets\js\221.5c17138c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\222.aea004ce.js
+wwwroot\lib\chart.js\dist\docs\assets\js\223.cbb7b883.js
+wwwroot\lib\chart.js\dist\docs\assets\js\224.b130b37f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\225.32f90319.js
+wwwroot\lib\chart.js\dist\docs\assets\js\226.8c102c21.js
+wwwroot\lib\chart.js\dist\docs\assets\js\227.b3d60339.js
+wwwroot\lib\chart.js\dist\docs\assets\js\228.72f0ad18.js
+wwwroot\lib\chart.js\dist\docs\assets\js\229.3daa3b7e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\23.2c668e20.js
+wwwroot\lib\chart.js\dist\docs\assets\js\230.7e5a85b1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\231.b83d12f1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\232.e902f42d.js
+wwwroot\lib\chart.js\dist\docs\assets\js\233.b4f254c0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\234.d975df48.js
+wwwroot\lib\chart.js\dist\docs\assets\js\235.71a7be7d.js
+wwwroot\lib\chart.js\dist\docs\assets\js\236.05d87a5e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\237.d518e28b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\238.eb60e397.js
+wwwroot\lib\chart.js\dist\docs\assets\js\239.81fecfed.js
+wwwroot\lib\chart.js\dist\docs\assets\js\24.af200d5b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\240.c0869bc2.js
+wwwroot\lib\chart.js\dist\docs\assets\js\241.59dc896f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\242.6d423d39.js
+wwwroot\lib\chart.js\dist\docs\assets\js\243.a355eaa8.js
+wwwroot\lib\chart.js\dist\docs\assets\js\244.ad729cf8.js
+wwwroot\lib\chart.js\dist\docs\assets\js\245.c3cd6bbe.js
+wwwroot\lib\chart.js\dist\docs\assets\js\246.d0708528.js
+wwwroot\lib\chart.js\dist\docs\assets\js\247.13d65d78.js
+wwwroot\lib\chart.js\dist\docs\assets\js\248.1d222543.js
+wwwroot\lib\chart.js\dist\docs\assets\js\249.2d7a9bf1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\25.4f97f63f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\250.09ef38e2.js
+wwwroot\lib\chart.js\dist\docs\assets\js\251.0cb90e8a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\252.2ff0def4.js
+wwwroot\lib\chart.js\dist\docs\assets\js\253.61c7c505.js
+wwwroot\lib\chart.js\dist\docs\assets\js\254.20137eeb.js
+wwwroot\lib\chart.js\dist\docs\assets\js\255.49c937e9.js
+wwwroot\lib\chart.js\dist\docs\assets\js\256.8d709dae.js
+wwwroot\lib\chart.js\dist\docs\assets\js\257.b3ebdce7.js
+wwwroot\lib\chart.js\dist\docs\assets\js\258.792f66d1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\259.98c809e9.js
+wwwroot\lib\chart.js\dist\docs\assets\js\26.d1bb645c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\260.54ff10d2.js
+wwwroot\lib\chart.js\dist\docs\assets\js\261.928afea4.js
+wwwroot\lib\chart.js\dist\docs\assets\js\27.2d5c4a6b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\28.72dee0f1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\29.8820be26.js
+wwwroot\lib\chart.js\dist\docs\assets\js\3.947b8d98.js
+wwwroot\lib\chart.js\dist\docs\assets\js\30.343676b8.js
+wwwroot\lib\chart.js\dist\docs\assets\js\31.cff089f1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\32.56d8546e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\33.6b642a06.js
+wwwroot\lib\chart.js\dist\docs\assets\js\34.360a9ea9.js
+wwwroot\lib\chart.js\dist\docs\assets\js\35.205d7fac.js
+wwwroot\lib\chart.js\dist\docs\assets\js\36.f2765bae.js
+wwwroot\lib\chart.js\dist\docs\assets\js\37.6c33435e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\38.a778a6a2.js
+wwwroot\lib\chart.js\dist\docs\assets\js\39.7dda160f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\4.ee88d25a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\40.bd778eac.js
+wwwroot\lib\chart.js\dist\docs\assets\js\41.b79220f6.js
+wwwroot\lib\chart.js\dist\docs\assets\js\42.c3157beb.js
+wwwroot\lib\chart.js\dist\docs\assets\js\43.097368d1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\44.2515f16e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\45.d5b4b7c3.js
+wwwroot\lib\chart.js\dist\docs\assets\js\46.bbab8d6e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\47.79aa575e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\48.45785af9.js
+wwwroot\lib\chart.js\dist\docs\assets\js\49.0569a6eb.js
+wwwroot\lib\chart.js\dist\docs\assets\js\5.00f814ac.js
+wwwroot\lib\chart.js\dist\docs\assets\js\50.14bd3ba2.js
+wwwroot\lib\chart.js\dist\docs\assets\js\51.e0968711.js
+wwwroot\lib\chart.js\dist\docs\assets\js\52.fe65ddf8.js
+wwwroot\lib\chart.js\dist\docs\assets\js\53.faa1ff3f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\54.fcfed2c5.js
+wwwroot\lib\chart.js\dist\docs\assets\js\55.7db1d28a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\56.8b0e82b7.js
+wwwroot\lib\chart.js\dist\docs\assets\js\57.9de2d983.js
+wwwroot\lib\chart.js\dist\docs\assets\js\58.b0f8ad0c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\59.f1ff4935.js
+wwwroot\lib\chart.js\dist\docs\assets\js\6.2bc86161.js
+wwwroot\lib\chart.js\dist\docs\assets\js\60.ac08de9a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\61.ea4fad75.js
+wwwroot\lib\chart.js\dist\docs\assets\js\62.5c85853b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\63.5ac99656.js
+wwwroot\lib\chart.js\dist\docs\assets\js\64.c6838e95.js
+wwwroot\lib\chart.js\dist\docs\assets\js\65.4c1b089e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\66.379a6b45.js
+wwwroot\lib\chart.js\dist\docs\assets\js\67.15703e17.js
+wwwroot\lib\chart.js\dist\docs\assets\js\68.ffdefd7d.js
+wwwroot\lib\chart.js\dist\docs\assets\js\69.bdeb7b9b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\7.74f2ce90.js
+wwwroot\lib\chart.js\dist\docs\assets\js\70.3dadb5ed.js
+wwwroot\lib\chart.js\dist\docs\assets\js\71.2c97fe38.js
+wwwroot\lib\chart.js\dist\docs\assets\js\72.dc778e17.js
+wwwroot\lib\chart.js\dist\docs\assets\js\73.d88fcb57.js
+wwwroot\lib\chart.js\dist\docs\assets\js\74.bba2165e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\75.15562a81.js
+wwwroot\lib\chart.js\dist\docs\assets\js\76.21f5a94e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\77.0725268e.js
+wwwroot\lib\chart.js\dist\docs\assets\js\78.d6f610d1.js
+wwwroot\lib\chart.js\dist\docs\assets\js\79.60d67faa.js
+wwwroot\lib\chart.js\dist\docs\assets\js\8.8928eb8b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\80.99d71ee0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\81.f1500469.js
+wwwroot\lib\chart.js\dist\docs\assets\js\82.69f363a6.js
+wwwroot\lib\chart.js\dist\docs\assets\js\83.f1fbcb2c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\84.b76e3156.js
+wwwroot\lib\chart.js\dist\docs\assets\js\85.efc4bd54.js
+wwwroot\lib\chart.js\dist\docs\assets\js\86.85011b24.js
+wwwroot\lib\chart.js\dist\docs\assets\js\87.6a88d571.js
+wwwroot\lib\chart.js\dist\docs\assets\js\88.0f45cfe0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\89.e67ddb59.js
+wwwroot\lib\chart.js\dist\docs\assets\js\9.63ebb16b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\90.96ebfa9b.js
+wwwroot\lib\chart.js\dist\docs\assets\js\91.cdde4d3f.js
+wwwroot\lib\chart.js\dist\docs\assets\js\92.dc3f06d2.js
+wwwroot\lib\chart.js\dist\docs\assets\js\93.aaa04d52.js
+wwwroot\lib\chart.js\dist\docs\assets\js\94.2af5650c.js
+wwwroot\lib\chart.js\dist\docs\assets\js\95.1d44ec16.js
+wwwroot\lib\chart.js\dist\docs\assets\js\96.9545127d.js
+wwwroot\lib\chart.js\dist\docs\assets\js\97.8b18f487.js
+wwwroot\lib\chart.js\dist\docs\assets\js\98.cb259cd0.js
+wwwroot\lib\chart.js\dist\docs\assets\js\99.6251650a.js
+wwwroot\lib\chart.js\dist\docs\assets\js\app.7e0dc8c8.js
+wwwroot\lib\chart.js\dist\docs\axes\_common.html
+wwwroot\lib\chart.js\dist\docs\axes\_common_ticks.html
+wwwroot\lib\chart.js\dist\docs\axes\cartesian\_common.html
+wwwroot\lib\chart.js\dist\docs\axes\cartesian\_common_ticks.html
+wwwroot\lib\chart.js\dist\docs\axes\cartesian\category.html
+wwwroot\lib\chart.js\dist\docs\axes\cartesian\index.html
+wwwroot\lib\chart.js\dist\docs\axes\cartesian\linear.html
+wwwroot\lib\chart.js\dist\docs\axes\cartesian\logarithmic.html
+wwwroot\lib\chart.js\dist\docs\axes\cartesian\time.html
+wwwroot\lib\chart.js\dist\docs\axes\cartesian\timeseries.html
+wwwroot\lib\chart.js\dist\docs\axes\index.html
+wwwroot\lib\chart.js\dist\docs\axes\labelling.html
+wwwroot\lib\chart.js\dist\docs\axes\radial\index.html
+wwwroot\lib\chart.js\dist\docs\axes\radial\linear.html
+wwwroot\lib\chart.js\dist\docs\axes\styling.html
+wwwroot\lib\chart.js\dist\docs\charts\area.html
+wwwroot\lib\chart.js\dist\docs\charts\bar.html
+wwwroot\lib\chart.js\dist\docs\charts\bubble.html
+wwwroot\lib\chart.js\dist\docs\charts\doughnut.html
+wwwroot\lib\chart.js\dist\docs\charts\index.html
+wwwroot\lib\chart.js\dist\docs\charts\line.html
+wwwroot\lib\chart.js\dist\docs\charts\mixed.html
+wwwroot\lib\chart.js\dist\docs\charts\polar.html
+wwwroot\lib\chart.js\dist\docs\charts\radar.html
+wwwroot\lib\chart.js\dist\docs\charts\scatter.html
+wwwroot\lib\chart.js\dist\docs\configuration\animations.html
+wwwroot\lib\chart.js\dist\docs\configuration\canvas-background.html
+wwwroot\lib\chart.js\dist\docs\configuration\decimation.html
+wwwroot\lib\chart.js\dist\docs\configuration\device-pixel-ratio.html
+wwwroot\lib\chart.js\dist\docs\configuration\elements.html
+wwwroot\lib\chart.js\dist\docs\configuration\index.html
+wwwroot\lib\chart.js\dist\docs\configuration\interactions.html
+wwwroot\lib\chart.js\dist\docs\configuration\layout.html
+wwwroot\lib\chart.js\dist\docs\configuration\legend.html
+wwwroot\lib\chart.js\dist\docs\configuration\locale.html
+wwwroot\lib\chart.js\dist\docs\configuration\responsive.html
+wwwroot\lib\chart.js\dist\docs\configuration\subtitle.html
+wwwroot\lib\chart.js\dist\docs\configuration\title.html
+wwwroot\lib\chart.js\dist\docs\configuration\tooltip.html
+wwwroot\lib\chart.js\dist\docs\developers\api.html
+wwwroot\lib\chart.js\dist\docs\developers\axes.html
+wwwroot\lib\chart.js\dist\docs\developers\charts.html
+wwwroot\lib\chart.js\dist\docs\developers\contributing.html
+wwwroot\lib\chart.js\dist\docs\developers\index.html
+wwwroot\lib\chart.js\dist\docs\developers\plugins.html
+wwwroot\lib\chart.js\dist\docs\developers\publishing.html
+wwwroot\lib\chart.js\dist\docs\developers\updates.html
+wwwroot\lib\chart.js\dist\docs\favicon.ico
+wwwroot\lib\chart.js\dist\docs\general\accessibility.html
+wwwroot\lib\chart.js\dist\docs\general\colors.html
+wwwroot\lib\chart.js\dist\docs\general\data-structures.html
+wwwroot\lib\chart.js\dist\docs\general\fonts.html
+wwwroot\lib\chart.js\dist\docs\general\index.html
+wwwroot\lib\chart.js\dist\docs\general\options.html
+wwwroot\lib\chart.js\dist\docs\general\padding.html
+wwwroot\lib\chart.js\dist\docs\general\performance.html
+wwwroot\lib\chart.js\dist\docs\getting-started\index.html
+wwwroot\lib\chart.js\dist\docs\getting-started\installation.html
+wwwroot\lib\chart.js\dist\docs\getting-started\integration.html
+wwwroot\lib\chart.js\dist\docs\getting-started\usage.html
+wwwroot\lib\chart.js\dist\docs\getting-started\v3-migration.html
+wwwroot\lib\chart.js\dist\docs\index.html
+wwwroot\lib\chart.js\dist\docs\logo.png
+wwwroot\lib\chart.js\dist\docs\logo.svg
+wwwroot\lib\chart.js\dist\docs\samples\advanced\data-decimation.html
+wwwroot\lib\chart.js\dist\docs\samples\advanced\derived-axis-type.html
+wwwroot\lib\chart.js\dist\docs\samples\advanced\derived-chart-type.html
+wwwroot\lib\chart.js\dist\docs\samples\advanced\linear-gradient.html
+wwwroot\lib\chart.js\dist\docs\samples\advanced\programmatic-events.html
+wwwroot\lib\chart.js\dist\docs\samples\advanced\progress-bar.html
+wwwroot\lib\chart.js\dist\docs\samples\advanced\radial-gradient.html
+wwwroot\lib\chart.js\dist\docs\samples\animations\delay.html
+wwwroot\lib\chart.js\dist\docs\samples\animations\drop.html
+wwwroot\lib\chart.js\dist\docs\samples\animations\loop.html
+wwwroot\lib\chart.js\dist\docs\samples\animations\progressive-line.html
+wwwroot\lib\chart.js\dist\docs\samples\animations\progressive-line-easing.html
+wwwroot\lib\chart.js\dist\docs\samples\area\line-boundaries.html
+wwwroot\lib\chart.js\dist\docs\samples\area\line-datasets.html
+wwwroot\lib\chart.js\dist\docs\samples\area\line-drawtime.html
+wwwroot\lib\chart.js\dist\docs\samples\area\line-stacked.html
+wwwroot\lib\chart.js\dist\docs\samples\area\radar.html
+wwwroot\lib\chart.js\dist\docs\samples\bar\border-radius.html
+wwwroot\lib\chart.js\dist\docs\samples\bar\floating.html
+wwwroot\lib\chart.js\dist\docs\samples\bar\horizontal.html
+wwwroot\lib\chart.js\dist\docs\samples\bar\stacked.html
+wwwroot\lib\chart.js\dist\docs\samples\bar\stacked-groups.html
+wwwroot\lib\chart.js\dist\docs\samples\bar\vertical.html
+wwwroot\lib\chart.js\dist\docs\samples\index.html
+wwwroot\lib\chart.js\dist\docs\samples\information.html
+wwwroot\lib\chart.js\dist\docs\samples\legend\events.html
+wwwroot\lib\chart.js\dist\docs\samples\legend\html.html
+wwwroot\lib\chart.js\dist\docs\samples\legend\point-style.html
+wwwroot\lib\chart.js\dist\docs\samples\legend\position.html
+wwwroot\lib\chart.js\dist\docs\samples\legend\title.html
+wwwroot\lib\chart.js\dist\docs\samples\line\interpolation.html
+wwwroot\lib\chart.js\dist\docs\samples\line\line.html
+wwwroot\lib\chart.js\dist\docs\samples\line\multi-axis.html
+wwwroot\lib\chart.js\dist\docs\samples\line\point-styling.html
+wwwroot\lib\chart.js\dist\docs\samples\line\segments.html
+wwwroot\lib\chart.js\dist\docs\samples\line\stepped.html
+wwwroot\lib\chart.js\dist\docs\samples\line\styling.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\bubble.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\combo-bar-line.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\doughnut.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\multi-series-pie.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\pie.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\polar-area.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\polar-area-center-labels.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\radar.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\radar-skip-points.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\scatter.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\scatter-multi-axis.html
+wwwroot\lib\chart.js\dist\docs\samples\other-charts\stacked-bar-line.html
+wwwroot\lib\chart.js\dist\docs\samples\plugins\chart-area-border.html
+wwwroot\lib\chart.js\dist\docs\samples\plugins\doughnut-empty-state.html
+wwwroot\lib\chart.js\dist\docs\samples\plugins\quadrants.html
+wwwroot\lib\chart.js\dist\docs\samples\scale-options\center.html
+wwwroot\lib\chart.js\dist\docs\samples\scale-options\grid.html
+wwwroot\lib\chart.js\dist\docs\samples\scale-options\ticks.html
+wwwroot\lib\chart.js\dist\docs\samples\scale-options\titles.html
+wwwroot\lib\chart.js\dist\docs\samples\scales\linear-min-max.html
+wwwroot\lib\chart.js\dist\docs\samples\scales\linear-min-max-suggested.html
+wwwroot\lib\chart.js\dist\docs\samples\scales\linear-step-size.html
+wwwroot\lib\chart.js\dist\docs\samples\scales\log.html
+wwwroot\lib\chart.js\dist\docs\samples\scales\stacked.html
+wwwroot\lib\chart.js\dist\docs\samples\scales\time-combo.html
+wwwroot\lib\chart.js\dist\docs\samples\scales\time-line.html
+wwwroot\lib\chart.js\dist\docs\samples\scales\time-max-span.html
+wwwroot\lib\chart.js\dist\docs\samples\scriptable\bar.html
+wwwroot\lib\chart.js\dist\docs\samples\scriptable\bubble.html
+wwwroot\lib\chart.js\dist\docs\samples\scriptable\line.html
+wwwroot\lib\chart.js\dist\docs\samples\scriptable\pie.html
+wwwroot\lib\chart.js\dist\docs\samples\scriptable\polar.html
+wwwroot\lib\chart.js\dist\docs\samples\scriptable\radar.html
+wwwroot\lib\chart.js\dist\docs\samples\subtitle\basic.html
+wwwroot\lib\chart.js\dist\docs\samples\title\alignment.html
+wwwroot\lib\chart.js\dist\docs\samples\tooltip\content.html
+wwwroot\lib\chart.js\dist\docs\samples\tooltip\html.html
+wwwroot\lib\chart.js\dist\docs\samples\tooltip\interactions.html
+wwwroot\lib\chart.js\dist\docs\samples\tooltip\point-style.html
+wwwroot\lib\chart.js\dist\docs\samples\tooltip\position.html
+wwwroot\lib\chart.js\dist\docs\samples\utils.html
+wwwroot\lib\chart.js\dist\helpers.esm.js
+wwwroot\lib\chart.js\dist\helpers.mjs
+wwwroot\lib\chart.js\helpers\helpers.js
+wwwroot\lib\chart.js\helpers\helpers.mjs
+wwwroot\lib\chart.js\helpers\helpers.mts
+wwwroot\lib\chart.js\helpers\package.json
+wwwroot\lib\chart.js\LICENSE.md
+wwwroot\lib\chart.js\package.json
+wwwroot\lib\chart.js\README.md
+wwwroot\lib\chart.js\types\.eslintrc.yml
+wwwroot\lib\chart.js\types\adapters.d.ts
+wwwroot\lib\chart.js\types\animation.d.ts
+wwwroot\lib\chart.js\types\basic.d.ts
+wwwroot\lib\chart.js\types\color.d.ts
+wwwroot\lib\chart.js\types\element.d.ts
+wwwroot\lib\chart.js\types\geometric.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.canvas.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.collection.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.color.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.core.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.curve.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.dom.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.easing.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.extras.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.interpolation.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.intl.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.math.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.options.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.rtl.d.ts
+wwwroot\lib\chart.js\types\helpers\helpers.segment.d.ts
+wwwroot\lib\chart.js\types\helpers\index.d.ts
+wwwroot\lib\chart.js\types\index.esm.d.ts
+wwwroot\lib\chart.js\types\layout.d.ts
+wwwroot\lib\chart.js\types\tests\.eslintrc.yml
+wwwroot\lib\chart.js\types\tests\animation.ts
+wwwroot\lib\chart.js\types\tests\autogen.js
+wwwroot\lib\chart.js\types\tests\chart_types.ts
+wwwroot\lib\chart.js\types\tests\controllers\bubble_chart_options.ts
+wwwroot\lib\chart.js\types\tests\controllers\doughnut_meta_total.ts
+wwwroot\lib\chart.js\types\tests\controllers\doughnut_offset.ts
+wwwroot\lib\chart.js\types\tests\controllers\doughnut_outer_radius.ts
+wwwroot\lib\chart.js\types\tests\controllers\line_scriptable_parsed_data.ts
+wwwroot\lib\chart.js\types\tests\controllers\line_segments.ts
+wwwroot\lib\chart.js\types\tests\controllers\line_span_gaps.ts
+wwwroot\lib\chart.js\types\tests\controllers\line_styling_array.ts
+wwwroot\lib\chart.js\types\tests\controllers\radar_dataset_indexable_options.ts
+wwwroot\lib\chart.js\types\tests\data_types.ts
+wwwroot\lib\chart.js\types\tests\dataset_null_data.ts
+wwwroot\lib\chart.js\types\tests\defaults.ts
+wwwroot\lib\chart.js\types\tests\elements\scriptable_element_options.ts
+wwwroot\lib\chart.js\types\tests\extensions\plugin.ts
+wwwroot\lib\chart.js\types\tests\extensions\scale.ts
+wwwroot\lib\chart.js\types\tests\helpers\options.ts
+wwwroot\lib\chart.js\types\tests\interaction.ts
+wwwroot\lib\chart.js\types\tests\layout\position.ts
+wwwroot\lib\chart.js\types\tests\options.ts
+wwwroot\lib\chart.js\types\tests\overrides.ts
+wwwroot\lib\chart.js\types\tests\parsed.data.type.ts
+wwwroot\lib\chart.js\types\tests\plugins\defaults.ts
+wwwroot\lib\chart.js\types\tests\plugins\plugin.decimation\decimation_algorithm.ts
+wwwroot\lib\chart.js\types\tests\plugins\plugin.filler\fill_target_true.ts
+wwwroot\lib\chart.js\types\tests\plugins\plugin.tooltip\chart.tooltip.ts
+wwwroot\lib\chart.js\types\tests\plugins\plugin.tooltip\tooltip_dataset_type.ts
+wwwroot\lib\chart.js\types\tests\plugins\plugin.tooltip\tooltip_parsed_data.ts
+wwwroot\lib\chart.js\types\tests\plugins\plugin.tooltip\tooltip_parsed_data_chart_defaults.ts
+wwwroot\lib\chart.js\types\tests\plugins\plugin.tooltip\tooltip_scriptable_background_color.ts
+wwwroot\lib\chart.js\types\tests\register.ts
+wwwroot\lib\chart.js\types\tests\scales\chart_options.ts
+wwwroot\lib\chart.js\types\tests\scales\options.ts
+wwwroot\lib\chart.js\types\tests\scales\time_string_max.ts
+wwwroot\lib\chart.js\types\tests\scriptable.ts
+wwwroot\lib\chart.js\types\tests\scriptable_core_chart_options.ts
+wwwroot\lib\chart.js\types\tests\test_instance_assignment.ts
+wwwroot\lib\chart.js\types\tests\tsconfig.json
+wwwroot\lib\chart.js\types\utils.d.ts
+wwwroot\lib\font-awesome\css\all.css
+wwwroot\lib\font-awesome\css\all.min.css
+wwwroot\lib\font-awesome\css\brands.css
+wwwroot\lib\font-awesome\css\brands.min.css
+wwwroot\lib\font-awesome\css\fontawesome.css
+wwwroot\lib\font-awesome\css\fontawesome.min.css
+wwwroot\lib\font-awesome\css\regular.css
+wwwroot\lib\font-awesome\css\regular.min.css
+wwwroot\lib\font-awesome\css\solid.css
+wwwroot\lib\font-awesome\css\solid.min.css
+wwwroot\lib\font-awesome\css\svg-with-js.css
+wwwroot\lib\font-awesome\css\svg-with-js.min.css
+wwwroot\lib\font-awesome\css\v4-font-face.css
+wwwroot\lib\font-awesome\css\v4-font-face.min.css
+wwwroot\lib\font-awesome\css\v4-shims.css
+wwwroot\lib\font-awesome\css\v4-shims.min.css
+wwwroot\lib\font-awesome\css\v5-font-face.css
+wwwroot\lib\font-awesome\css\v5-font-face.min.css
+wwwroot\lib\font-awesome\js\all.js
+wwwroot\lib\font-awesome\js\all.min.js
+wwwroot\lib\font-awesome\js\brands.js
+wwwroot\lib\font-awesome\js\brands.min.js
+wwwroot\lib\font-awesome\js\conflict-detection.js
+wwwroot\lib\font-awesome\js\conflict-detection.min.js
+wwwroot\lib\font-awesome\js\fontawesome.js
+wwwroot\lib\font-awesome\js\fontawesome.min.js
+wwwroot\lib\font-awesome\js\regular.js
+wwwroot\lib\font-awesome\js\regular.min.js
+wwwroot\lib\font-awesome\js\solid.js
+wwwroot\lib\font-awesome\js\solid.min.js
+wwwroot\lib\font-awesome\js\v4-shims.js
+wwwroot\lib\font-awesome\js\v4-shims.min.js
+wwwroot\lib\font-awesome\sprites\brands.svg
+wwwroot\lib\font-awesome\sprites\regular.svg
+wwwroot\lib\font-awesome\sprites\solid.svg
+wwwroot\lib\font-awesome\webfonts\fa-brands-400.ttf
+wwwroot\lib\font-awesome\webfonts\fa-brands-400.woff2
+wwwroot\lib\font-awesome\webfonts\fa-regular-400.ttf
+wwwroot\lib\font-awesome\webfonts\fa-regular-400.woff2
+wwwroot\lib\font-awesome\webfonts\fa-solid-900.ttf
+wwwroot\lib\font-awesome\webfonts\fa-solid-900.woff2
+wwwroot\lib\font-awesome\webfonts\fa-v4compatibility.ttf
+wwwroot\lib\font-awesome\webfonts\fa-v4compatibility.woff2
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

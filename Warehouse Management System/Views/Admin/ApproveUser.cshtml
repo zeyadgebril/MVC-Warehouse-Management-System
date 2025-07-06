@@ -1,0 +1,228 @@
+﻿@model RequestUserDataVM
+@{
+    ViewData["Title"] = "ApproveUser";
+    Layout = "_DashboardLayout";
+
+}
+@section CSS{
+      .navbar {
+                background-color: var(--bg-secondary) !important;
+                border-bottom: 2px solid var(--accent-blue);
+                padding: 1rem 0;
+            }
+
+            .navbar-brand {
+                color: var(--text-primary) !important;
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            .main-content {
+                padding: 2rem 0;
+            }
+
+            .page-title {
+                color: var(--text-primary);
+                margin-bottom: 2rem;
+                text-align: center;
+                font-weight: 300;
+            }
+
+            .user-card {
+                background: linear-gradient(145deg, var(--bg-secondary), #202020);
+                border: 1px solid var(--accent-blue);
+                border-radius: 12px;
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+                box-shadow: 0 4px 15px rgba(0, 123, 255, 0.1);
+            }
+
+            .user-card:hover {
+                border-color: var(--accent-blue-hover);
+                box-shadow: 0 6px 20px rgba(0, 123, 255, 0.15);
+            }
+
+            .user-avatar {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background: linear-gradient(45deg, var(--accent-blue), #0056b3);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 1rem;
+            }
+
+            .user-info h5 {
+                color: var(--text-primary);
+                margin-bottom: 0.5rem;
+                font-weight: 600;
+            }
+
+            .user-info p {
+                color: var(--text-secondary);
+                margin-bottom: 0.25rem;
+                font-size: 0.9rem;
+            }
+
+            .status-badge {
+                display: inline-block;
+                padding: 0.25rem 0.75rem;
+                border-radius: 20px;
+                font-size: 0.8rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+            }
+
+            .status-pending {
+                background-color: rgba(255, 193, 7, 0.2);
+                color: #ffc107;
+                border: 1px solid #ffc107;
+            }
+
+            .btn-approve {
+                background-color: var(--success);
+                border: none;
+                color: white;
+                padding: 0.5rem 1rem;
+                border-radius: 8px;
+                margin-right: 0.5rem;
+                font-size: 0.9rem;
+            }
+
+            .btn-approve:hover {
+                background-color: #218838;
+                color: white;
+            }
+
+            .btn-decline {
+                background-color: var(--danger);
+                border: none;
+                color: white;
+                padding: 0.5rem 1rem;
+                border-radius: 8px;
+                font-size: 0.9rem;
+            }
+
+            .btn-decline:hover {
+                background-color: #c82333;
+                color: white;
+            }
+
+            .stats-container {
+                background-color: var(--bg-secondary);
+                border: 1px solid var(--accent-blue);
+                border-radius: 12px;
+                padding: 1.5rem;
+                margin-bottom: 2rem;
+            }
+
+            .stat-item {
+                text-align: center;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+                font-weight: bold;
+                color: var(--accent-blue);
+            }
+
+            .stat-label {
+                color: var(--text-secondary);
+                font-size: 0.9rem;
+            }
+
+            .warehouse-icon {
+                width: 40px;
+                height: 40px;
+                fill: var(--accent-blue);
+            }
+
+            .user-icon {
+                width: 30px;
+                height: 30px;
+                fill: white;
+            }
+
+    @@media (max-width: 768px) {
+                .main-content {
+                    padding: 1rem 0;
+                }
+
+                .user-card {
+                    padding: 1rem;
+                }
+
+                .stats-container {
+                    margin-bottom: 1rem;
+                }
+            }
+}
+
+<!-- Main Content -->
+<div class="container main-content">
+    <h1 class="page-title">User Access Requests</h1>
+
+    <!-- Statistics -->
+    <div class="stats-container">
+        <div class="row">
+            <div class="col-md-4 stat-item">
+                <div class="stat-number">@Model.PindingRequests</div>
+                <div class="stat-label">Pending Requests</div>
+            </div>
+            <div class="col-md-4 stat-item">
+                <div class="stat-number">@Model.ApprovedUser</div>
+                <div class="stat-label">Approved Users</div>
+            </div>
+            <div class="col-md-4 stat-item">
+                <div class="stat-number">@Model.DeclineUser</div>
+                <div class="stat-label">Declined </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Cards -->
+    <div class="row">
+        @foreach(var item in Model.Users)
+        {
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="user-card">
+                    <div class="user-avatar">
+                        <svg class="user-icon" viewBox="0 0 24 24">
+                            <path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+                        </svg>
+                    </div>
+                    <div class="user-info">
+                        <h5>@item.UserName</h5>
+                        <p><strong>Email:</strong> @item.Email</p>
+                        <p><strong>Requested:</strong> @item.RequestedDate.ToString("g")</p>
+                        <p>
+                            <strong>Last Login:</strong> @(item.LastLog?.ToString("g") ?? "none")
+                        </p>
+                    </div>
+                    <div class="status-badge status-pending">
+                        <svg style="width: 16px; height: 16px; fill: currentColor; margin-right: 4px;" viewBox="0 0 24 24">
+                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,6A1,1 0 0,1 13,7V13A1,1 0 0,1 12,14A1,1 0 0,1 11,13V7A1,1 0 0,1 12,6M12,17A1,1 0 0,1 13,18A1,1 0 0,1 12,19A1,1 0 0,1 11,18A1,1 0 0,1 12,17Z" />
+                        </svg>
+                        Pending Review
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="ApproveUserVirify" asp-controller="Admin" asp-route-id="@item.UserId" asp-route-request="Approve" class="btn btn-approve">
+                            <svg style="width: 16px; height: 16px; fill: currentColor; margin-right: 4px;" viewBox="0 0 24 24">
+                                <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
+                            </svg>
+                            Approve
+                        </a>
+                        <a asp-action="ApproveUserVirify" asp-controller="Admin" asp-route-id="@item.UserId" asp-route-request="Decline" class="btn btn-decline">
+                            <svg style="width: 16px; height: 16px; fill: currentColor; margin-right: 4px;" viewBox="0 0 24 24">
+                                <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                            </svg>
+                            Decline
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

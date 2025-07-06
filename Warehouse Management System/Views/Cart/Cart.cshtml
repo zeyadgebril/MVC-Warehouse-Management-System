@@ -1,0 +1,339 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+@model List<Warehouse_Management_System.CheckOutViewModels.CartItem>
+@{
+    ViewData["Title"] = "Your Report";
+    Layout = "_DashboardLayout";
+
+}
+
+@section CSS{
+
+
+        .cart-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #202534;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            border: 1px solid #2a3042;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .cart-title {
+            color: #42a5f5;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-size: 28px;
+            text-shadow: 0 2px 4px rgba(66, 165, 245, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .empty-cart {
+            background-color: #252b3a;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #FFC107;
+            animation: pulse 2s infinite;
+        }
+
+            .empty-cart i {
+                font-size: 24px;
+                margin-bottom: 10px;
+                color: #FFC107;
+            }
+
+        .table {
+            width: 100%;
+            margin-bottom: 1rem;
+            color: #f0f0f0;
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .table-dark {
+            background-color: #252b3a;
+        }
+
+            .table-dark thead th {
+                background-color: #2a3042;
+                border-bottom: 2px solid #393e52;
+                padding: 15px;
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+            }
+
+            .table-dark tbody tr:hover {
+                background-color: #2a3042;
+                transform: translateX(5px);
+            }
+
+            .table-dark td {
+                padding: 15px;
+                border-top: 1px solid #393e52;
+                vertical-align: middle;
+            }
+
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            justify-content: flex-end;
+        }
+
+        .btn {
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            min-width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #F44336 0%, #D32F2F 100%);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #757575 0%, #424242 100%);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .total-row {
+            font-weight: bold;
+            background-color: #2a3042 !important;
+        }
+
+            .total-row td {
+                border-top: 2px solid #42a5f5;
+                font-size: 18px;
+            }
+
+        .floating-icon {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .quantity-control {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .quantity-btn {
+            background-color: #393e52;
+            border: none;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+            .quantity-btn:hover {
+                background-color: #42a5f5;
+                transform: scale(1.1);
+            }
+
+        @@keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @@keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255,193,7,0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(255,193,7,0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(255,193,7,0);
+            }
+        }
+
+        @@keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+}
+
+<div class="cart-container">
+    <h2 class="cart-title">
+        <i class="fas fa-shopping-cart floating-icon"></i> Your Report 
+    </h2>
+
+    @if (!Model.Any())
+    {
+        <div class="empty-cart">
+            <i class="fas fa-shopping-basket"></i>
+            <h4 style="color:white">Your cart is empty</h4>
+            <p style="color:white">Start Selecting to add items to your Report</p>
+
+            <div class="btn-group mt-4">
+                @{
+                    var returnUrl = Context.Session.GetString("ReturnUrl") ?? Url.Action("Index", "Category");
+                }
+                <a href="@returnUrl" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Continue Selecting 
+                </a>
+
+
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="d-flex justify-content-end mb-3">
+            <a asp-action="Invoice" class="btn btn-info">
+                <i class="fas fa-file-invoice"></i> View Report
+            </a>
+        </div>
+
+        <table class="table table-dark mt-4">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.UnitPrice.ToString("C")</td>
+                        <td>
+                            <div class="quantity-control">
+                                <button class="quantity-btn" onclick="updateQuantity(@item.ProductId, -1)">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <span>@item.Quantity</span>
+                                <button class="quantity-btn" onclick="updateQuantity(@item.ProductId, 1)">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </td>
+                        <td>@((item.UnitPrice * item.Quantity).ToString("C"))</td>
+                    </tr>
+                }
+                <tr class="total-row">
+                    <td colspan="3" class="text-end"><strong>Grand Total:</strong></td>
+                    <td><strong>@Model.Sum(item => item.UnitPrice * item.Quantity).ToString("C")</strong></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="btn-group">
+            @{
+                var returnUrl = Context.Session.GetString("ReturnUrl") ?? Url.Action("Index", "Category");
+            }
+            <a href="@returnUrl" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Continue Selecting 
+            </a>
+
+
+            <a asp-action="Clear" class="btn btn-danger">
+                <i class="fas fa-trash"></i> Clear Report
+            </a>
+        </div>
+    }
+</div>
+<!-- Modal -->
+<div class="modal fade" id="stockModal" tabindex="-1" aria-labelledby="stockModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white border-0">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="stockModalLabel">Stock Warning</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="stockModalBody">
+                <!-- Message will be inserted dynamically -->
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Okay</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+                function updateQuantity(productId, change) {
+            fetch('/Cart/UpdateQuantity', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ productId: productId, change: change })
+            })
+            .then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    return response.text().then(text => {
+                        showStockModal(text); 
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function showStockModal(message) {
+            const modalBody = document.getElementById('stockModalBody');
+            modalBody.textContent = message;
+            const modal = new bootstrap.Modal(document.getElementById('stockModal'));
+            modal.show();
+        }
+
+    </script>
+}

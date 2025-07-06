@@ -1,0 +1,304 @@
+﻿@model WarehouseNameLocationProductsListVM
+@{
+    ViewData["Title"] = "WarehouseDetails";
+    Layout = "_DashboardLayout";
+
+}
+
+<body class="bg-black">
+</body>
+<div class="container-fluid p-4 text-white bg-black">
+    <!-- Header Section -->
+    <div class="card rounded-4 shadow-sm border-0 mb-4 text-white" style="background-color:#2c3e50;">
+        <div class="card-body">
+            <div class="d-flex gap-4 align-items-center mb-2">
+                <h3 class="fw-bold mb-0"><i class="bi bi-archive"></i> @Model.Name</h3>
+                <small class="text-light"><i class="bi bi-clock-history"></i> Last Updated: @(Model.LastUpdate?.ToString("yyyy-MM-dd") ?? "No activity")</small>
+            </div>
+            <div class="d-flex gap-4 mb-2">
+                <p class="mb-0"><i class="bi bi-geo-alt"></i> <strong>Location:</strong> @Model.Location</p>
+                <p class="mb-0"><i class="bi bi-telephone"></i> <strong>Phone:</strong> @Model.Phone</p>
+            </div>
+            <div class="d-flex gap-2">
+                <button type="button" class="btn fw-medium mt-2 btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#editWarehouseModal" style="outline: none; box-shadow: none;">
+                    <i class="bi bi-pencil"></i> Edit
+                </button>
+                <button type="button" class="btn fw-medium mt-2 btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" style="outline: none; box-shadow: none;">
+                    <i class="bi bi-trash"></i> Delete
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Table Section -->
+    <div class="card rounded-4 shadow-sm p-4" style="background-color:#3f474f; border: 2px solid #0d6efd;">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <h5 class="text-white mb-0"><i class="bi bi-box-seam"></i> Products in @Model.Name</h5>
+        </div>
+
+        @* Stats *@
+        @{
+            var totalProducts = Model.Productsdetails?.Count ?? 0;
+            var lowStockCount = (Model.Productsdetails as List<ProductDetailsVM>)?.Count(p => p.Quantity < p.MinAvailableStock) ?? 0;
+        }
+        <div class="d-flex justify-content-start gap-4 mb-3">
+            <p class="mb-0 p-2 fs-6 badge rounded-pill text-white" style="background-color:#0d6efd"><span class="fs-6">Total Products:</span> @totalProducts</p>
+            <p class="mb-0 p-2 fs-6 text-white badge rounded-pill bg-warning"><span class="fa-6 text-dark">Low Stock:</span> <span class="fs-6 text-danger">@lowStockCount</span></p>
+        </div>
+
+        @* Search Bar *@
+        <div class="w-100 mb-4">
+            <div class="input-group w-100">
+                <span class="input-group-text bg-light text-dark"><i class="bi bi-search"></i></span>
+                <input id="liveSearch" type="text" class="form-control rounded-end bg-light text-dark" style="outline: none; box-shadow: none;" placeholder="Search products..." />
+            </div>
+        </div>
+
+        @* Table *@
+        <div class="table-responsive">
+            <table class="table table-dark table-striped table-hover text-center mb-0">
+                <thead style="border-bottom: 2px solid #0d6efd;">
+                    <tr>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Supplier</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Last Update</th>
+                        <th>Move</th>
+                       @*  <th>Action</th> *@
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Productsdetails != null && Model.Productsdetails.Count > 0)
+                    {
+                        foreach (var product in Model.Productsdetails)
+                        {
+                            <tr style="border-top: 1px solid #0d6efd;">
+                                <td>@product.Name</td>
+                                <td>@product.Category</td>
+                                <td>@product.Supplier</td>
+                                <td>@product.Quantity</td>
+                                <td>@($"{product.Price:C}")</td>
+                                <td>@(product.LastUpdate?.ToString("yyyy-MM-dd") ?? "No activity")</td>
+                                <td>
+                                    <button style="outline: none; box-shadow: none"  class="btn btn-sm btn-success me-1 move-btn"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#moveModal"
+                                            data-product-id="@product.ProductId"
+                                            data-product-name="@product.Name"
+                                            data-move-type="IN">
+                                        <i class="bi bi-box-arrow-in-down"></i> IN
+                                    </button>
+                                    <button style="outline: none; box-shadow: none" class="btn btn-sm btn-warning move-btn"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#moveModal"
+                                            data-product-id="@product.ProductId"
+                                            data-product-name="@product.Name"
+                                            data-move-type="OUT">
+                                        <i class="bi bi-box-arrow-up"></i> OUT
+                                    </button>
+                                </td>
+                               @*  <td>
+                                    <button class="btn btn-sm btn-warning me-1" data-bs-toggle="modal" data-bs-target="#editProductModal-@product.ProductId">
+                                        <i class="bi bi-pencil-square"></i> Edit
+                                    </button>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteProductModal-@product.ProductId">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </td> *@
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7">No products found in this warehouse.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @* 🔙 Back Button *@
+        <div class="mt-4 text-end">
+            <a asp-action="Index" asp-controller="Warehouse" class="btn btn-outline-light" style="outline: none; box-shadow: none;">
+                <i class="bi bi-arrow-left"></i> Back to Warehouses
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Modal For Warehouse -->
+<div class="modal fade" id="editWarehouseModal" tabindex="-1" aria-labelledby="editWarehouseModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content  text-white border-light" style="background-color:#2c3e50">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editWarehouseModalLabel"><i class="bi bi-pencil-square"></i> Edit Warehouse</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="EditWarhouse" asp-controller="Warehouse" method="post">
+                <input type="hidden" name="ID" value="@Model.ID" />
+                <div class="modal-body">
+                    <input type="hidden" name="ID" value="@Model.ID" />
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input name="Name" class="form-control" value="@Model.Name" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Location</label>
+                        <input name="Location" class="form-control" value="@Model.Location" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Phone</label>
+                        <input name="Phone" class="form-control" value="@Model.Phone" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-warning" style="outline: none; box-shadow: none"><i class="bi bi-check2"></i> Save Changes</button>
+                    <button type="button" class="btn btn-secondary" style="outline: none; box-shadow: none" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i> Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Confirmation Modal For Warehouse -->
+<div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-labelledby="deleteConfirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white border-danger">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteConfirmModalLabel"><i class="bi bi-exclamation-triangle-fill text-warning"></i> Confirm Delete</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="DeleteWarehouse" asp-controller="Warehouse" method="post">
+                <div class="modal-body">
+                    <input type="hidden" name="id" value="@Model.ID" />
+                    <p>Are you sure you want to delete the warehouse <strong>@Model.Name</strong>?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger" style="outline: none; box-shadow: none"><i class="bi bi-trash"></i> Yes, Delete</button>
+                    <button type="button" class="btn btn-secondary" style="outline: none; box-shadow: none" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i> Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Move Quantity Modal -->
+<div class="modal fade" id="moveModal" tabindex="-1" aria-labelledby="moveModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white border-primary">
+            <form method="post" asp-action="MoveQuantity" asp-controller="Warehouse">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="moveModalLabel">
+                        <i class="bi bi-arrows-move"></i> Move Product Quantity
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" name="ProductId" id="moveProductId" />
+                    <input type="hidden" name="MoveType" id="moveType" />
+                    <input type="hidden" name="WarehouseId" id="moveWarehouseId" value="@Model.ID" />
+
+                    <p>Enter quantity to <strong id="moveTypeLabel"></strong> for <strong id="moveProductName"></strong>:</p>
+
+                    <div class="mb-3">
+                        <input type="number" name="Quantity" class="form-control bg-dark text-white border-primary" required min="1" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-check-circle"></i> Confirm
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg"></i> Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Product Modal -->
+@* <div class="modal fade" id="editProductModal-@Model.Product.ProductId" tabindex="-1" aria-labelledby="editProductModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white border-warning">
+            <form method="post" asp-action="EditProduct" asp-controller="Warehouse">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="bi bi-pencil-square"></i> Edit Product</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" name="ProductId" value="@Model.Product.ProductId" />
+                    <input type="hidden" name="WarehouseId" value="@Model.ID" />
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input class="form-control bg-dark text-white" name="Name" value="@Model.Product.Name" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Price</label>
+                        <input class="form-control bg-dark text-white" name="Price" type="number" step="0.01" value="@Model.Product.UnitPrice" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-warning"><i class="bi bi-check2-circle"></i> Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-x"></i> Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> *@
+@* <!-- Delete Product Modal -->
+<div class="modal fade" id="deleteProductModal-@Model.Product.ProductId" tabindex="-1" aria-labelledby="deleteProductModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white border-danger">
+            <form method="post" asp-action="DeleteProduct" asp-controller="Warehouse">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="bi bi-trash"></i> Confirm Delete</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" name="ProductId" value="@Model.Product.ProductId" />
+                    <input type="hidden" name="WarehouseId" value="@Model.ID" />
+                    <p>Are you sure you want to delete <strong>@Model.Product.Name</strong>?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i> Delete</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-x"></i> Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+ *@
+ @section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#liveSearch').on('keyup', function () {
+                var value = $(this).val().toLowerCase();
+                $('table tbody tr').filter(function () {
+                    $(this).toggle($(this).find('td:first').text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+    </script>
+    <script>
+        const moveModal = document.getElementById('moveModal');
+        moveModal.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+            const productId = button.getAttribute('data-product-id');
+            const productName = button.getAttribute('data-product-name');
+            const moveType = button.getAttribute('data-move-type');
+            const warehouseId = '@Model.ID'; // Razor injected
+
+            document.getElementById('moveProductId').value = productId;
+            document.getElementById('moveType').value = moveType;
+            document.getElementById('moveWarehouseId').value = warehouseId;
+
+            document.getElementById('moveProductName').textContent = productName;
+            document.getElementById('moveTypeLabel').textContent = moveType;
+        });
+    </script>
+
+}

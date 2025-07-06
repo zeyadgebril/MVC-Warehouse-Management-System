@@ -1,0 +1,294 @@
+﻿@model List<UsersManegmentVM> 
+
+
+
+@if (Model == null || !Model.Any())
+{
+    <tr><td colspan="6" class="text-center">No users match your search.</td></tr>
+}
+else
+{
+    
+@foreach (var item in Model)
+{
+
+
+    <tr>
+        <td>
+            <div class="d-flex align-items-center">
+                <div class="user-avatar-small">
+                    <svg class="user-icon-small" viewBox="0 0 24 24">
+                        <path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+                    </svg>
+                </div>
+                <div>
+                    <div>@@<strong>@item.UserName</strong></div>
+                </div>
+            </div>
+        </td>
+        <td class="text-center">
+            @if (item.AppApproval)
+            {
+                    <span class="status-badge status-active"><strong>Active</strong></span>
+            }
+            else
+            {
+                    <span class="status-badge status-inactive"><strong> Suspended </strong> </span>
+            }
+        </td>
+        <td>@item.LastLog</td>
+        <td>
+            @if (item.Activitistatus)
+            {
+                <span class="activity-indicator activity-high Online"></span>
+                <p> online</p>
+            }
+            else
+            {
+                <span class="activity-indicator activity-low"></span>
+                <p>offline</p>
+            }
+        </td>
+        <td>
+            <div class="action-buttons">
+                    <button value="@item.userId" onclick="test('@item.userId', 'View')" class="btn btn-action btn-view">View</button>
+                    <button value="@item.userId" onclick="test('@item.userId', 'Approve')" class="btn btn-action btn-edit">Approve</button>
+                    <button value="@item.userId" onclick="test('@item.userId', 'Suspend')" class="btn btn-action btn-suspend">Suspend</button>
+
+            </div>
+        </td>
+    </tr>
+}
+}
+
+
+
+
+<div class="modal-bot-Warehouse-overlay" id="modalOverlay" onclick="closeModal()">
+    <div class="modal-bot-Warehouse-modal" onclick="event.stopPropagation()">
+        <div class="modal-bot-Warehouse-header">
+            <h2 class="modal-bot-Warehouse-title">User Profile</h2>
+            <button class="modal-bot-Warehouse-close-btn" onclick="closeModal()">&times;</button>
+        </div>
+
+        <div class="modal-bot-Warehouse-user-data">
+            <div class="modal-bot-Warehouse-data-section">
+                <h3 class="modal-bot-Warehouse-section-title">User Information</h3>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">Full Name:</span>
+                    <span class="modal-bot-Warehouse-data-value" id="userName">John Alexander Smith</span>
+                </div>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">Email:</span>
+                    <span class="modal-bot-Warehouse-data-value" id="userEmail">john.smith@example.com</span>
+                </div>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">Location:</span>
+                    <span class="modal-bot-Warehouse-data-value" id="userLocation">New York, USA</span>
+                </div>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">Phone:</span>
+                    <span class="modal-bot-Warehouse-data-value" id="userPhone">+1 (555) 123-4567</span>
+                </div>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">Member Since:</span>
+                    <span class="modal-bot-Warehouse-data-value" id="memberSince">January 15, 2022</span>
+                </div>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">User ID:</span>
+                    <span class="modal-bot-Warehouse-data-value" id="userId">#USR-2024-7891</span>
+                </div>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">Status:</span>
+                    <span class="modal-bot-Warehouse-data-value">
+                        <span class="" id="accountStatus">Active</span>
+                    </span>
+                </div>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">Last Login:</span>
+                    <span class="modal-bot-Warehouse-data-value" id="lastLogin">Today, 2:34 PM</span>
+                </div>
+                <div class="modal-bot-Warehouse-data-row">
+                    <span class="modal-bot-Warehouse-data-label">Total Logins:</span>
+                    <span class="modal-bot-Warehouse-data-value" id="totalLogins">1,247</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+     function test(userId, actionType) {
+        console.log("Clicked:", userId, actionType);
+
+        $.ajax({
+            url: "/Admin/SuupendOrApprove",
+            type: "POST",
+            data: {
+                UserId: userId,
+                UserAction: actionType
+            },
+            success: function (result) {
+                if (actionType == 'View') {
+                   showModal(result)
+                } else {
+                    const row = $(`button[value='${userId}']`).closest("tr");
+                    const statusCell = row.find("td").eq(1);
+                    statusCell.empty();
+                    if (actionType === "Approve") {
+                        statusCell.append('<span class="status-badge status-active"><strong>Active</strong></span>');
+                        showSuccessToast();
+                    } else if (actionType === "Suspend") {
+                        statusCell.append('<span class="status-badge status-inactive"><strong>Suspended</strong></span>');
+                        showErrorToast();
+                    }
+                }
+            },
+            error: function () {
+                 alert("You’ve been disconnected. Please sign in again to continue.");
+            }
+        });
+    }
+
+
+            class SimpleToast {
+            constructor() {
+                this.container = document.getElementById('toastContainer');
+                this.toastCount = 0;
+            }
+
+            show(title, message, type = 'info', duration = 5000) {
+                const toast = document.createElement('div');
+                toast.className = `toast ${type}`;
+                toast.id = `toast-${++this.toastCount}`;
+
+                const icons = {
+                    success: '✓',
+                    error: '✕',
+                    warning: '⚠',
+                    info: 'i'
+                };
+
+                toast.innerHTML = `
+                    <div class="toast-header">
+                        <div class="toast-title">
+                            <div class="toast-icon">${icons[type]}</div>
+                            ${title}
+                        </div>
+                        <button class="toast-close" onclick="hideToast('${toast.id}')">&times;</button>
+                    </div>
+                    <div class="toast-body">${message}</div>
+                    <div class="toast-progress" style="width: 100%;"></div>`
+                ;
+
+                this.container.appendChild(toast);
+
+                setTimeout(() => {
+                    toast.classList.add('show');
+                }, 100);
+
+                const progressBar = toast.querySelector('.toast-progress');
+                progressBar.style.transitionDuration = duration + 'ms';
+                setTimeout(() => {
+                    progressBar.style.width = '0%';
+                }, 200);
+
+                const hideTimeout = setTimeout(() => {
+                    this.hide(toast.id);
+                }, duration);
+
+                toast.hideTimeout = hideTimeout;
+
+                return toast.id;
+            }
+
+            hide(toastId) {
+                const toast = document.getElementById(toastId);
+                if (!toast) return;
+
+                if (toast.hideTimeout) {
+                    clearTimeout(toast.hideTimeout);
+                }
+
+                toast.classList.remove('show');
+                toast.classList.add('hide');
+
+                setTimeout(() => {
+                    if (toast.parentNode) {
+                        toast.parentNode.removeChild(toast);
+                    }
+                }, 400);
+            }
+        }
+
+        const toast = new SimpleToast();
+
+        function showToast(title, message, type = 'info', duration = 5000) {
+            return toast.show(title, message, type, duration);
+        }
+
+        function hideToast(toastId) {
+            toast.hide(toastId);
+        }
+
+        function showSuccessToast() {
+            showToast('Approve!', 'User has been Approved successfully.', 'success');
+        }
+
+                function showErrorToast() {
+            showToast('Suspend!', 'User has been Suspended.', 'error');
+        }
+
+        ///////////////////////////////////////////////////////
+        
+
+
+        function showModal(Data) {
+            // Update modal with current data
+            updateModalData(Data);
+
+            // Show modal with animation
+            const overlay = document.getElementById('modalOverlay');
+            overlay.style.display = 'block';
+            setTimeout(() => {
+                overlay.style.opacity = '1';
+            }, 10);
+        }
+
+        function closeModal() {
+            const overlay = document.getElementById('modalOverlay');
+            overlay.style.opacity = '0';
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 300);
+        }
+
+    function updateModalData(data) {
+        document.getElementById('userName').textContent = data.fullname;
+        document.getElementById('userEmail').textContent = data.email;
+        document.getElementById('userLocation').textContent = data.location?data.location:"Not Found";
+        document.getElementById('userPhone').textContent = data.phone?data.phone:"Not Found";
+    document.getElementById('memberSince').textContent = new Date(data.memberSince).toLocaleString();
+        document.getElementById('userId').textContent = data.userId;
+           const accountStatusContainer = document.getElementById('accountStatus');
+    accountStatusContainer.innerHTML = data.accountStatus
+        ? '<span class="status-badge status-active"><strong>Active</strong></span>'
+        : '<span class="status-badge status-inactive"><strong> Supppnded </strong></span>';
+
+    document.getElementById('lastLogin').textContent = new Date(data.lastLogin).toLocaleString();
+        document.getElementById('totalLogins').textContent = data.totalLogins.toLocaleString();
+    }
+
+        // Close modal when pressing Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+</script>
+
+
+
+
