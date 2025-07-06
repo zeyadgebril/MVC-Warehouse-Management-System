@@ -1,0 +1,648 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_DashboardLayout";
+
+}
+@if(User.IsInRole("admin")){
+    @section CSS {
+                        :root {
+                        --primary-blue: #007bff;
+                        --dark-bg: #1a1a1a;
+                        --card-bg: #2a2a2a;
+                        --text-white: #ffffff;
+                        --border-blue: #007bff;
+                    }
+
+                 .card {
+                        background-color: var(--card-bg);
+                        border: 2px solid var(--border-blue);
+                        border-radius: 15px;
+                        transition: all 0.3s ease;
+                        animation: slideInUp 0.6s ease-out;
+                    }
+
+                    .card:hover {
+                        transform: translateY(-5px);
+                        box-shadow: 0 15px 35px rgba(0, 123, 255, 0.3);
+                    }
+
+                    .card-header {
+                        background: linear-gradient(135deg, var(--primary-blue), #0056b3);
+                        border-bottom: none;
+                        border-radius: 13px 13px 0 0 !important;
+                    }
+
+                    .table-dark {
+                        background-color: var(--card-bg);
+                        border-color: var(--border-blue);
+                    }
+
+                    .table-dark th, .table-dark td {
+                        border-color: rgba(0, 123, 255, 0.3);
+                    }
+
+                    .user-avatar {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: linear-gradient(135deg, var(--primary-blue), #28a745);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        font-weight: bold;
+                        animation: pulse 2s infinite;
+                    }
+
+                    .status-badge {
+                        animation: glow 2s ease-in-out infinite alternate;
+                    }
+
+                    .chart-container {
+                        position: relative;
+                        height: 400px;
+                        animation: fadeIn 1s ease-in;
+                    }
+
+                    .stats-card {
+                        background: linear-gradient(135deg, var(--card-bg), #3a3a3a);
+                        border: 2px solid var(--border-blue);
+                        border-radius: 15px;
+                        padding: 20px;
+                        text-align: center;
+                        transition: all 0.3s ease;
+                        animation: slideInDown 0.8s ease-out;
+                    }
+
+                    .stats-card:hover {
+                        transform: scale(1.05);
+                        border-color: #28a745;
+                    }
+
+                    .stats-number {
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        color: var(--primary-blue);
+                        text-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+                    }
+
+                    .animated-icon {
+                        animation: rotate 3s linear infinite;
+                    }
+
+                    .pulse-icon {
+                        animation: pulse 1.5s ease-in-out infinite;
+                    }
+
+                    .header-title {
+                        background: linear-gradient(135deg, var(--primary-blue), #28a745);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                        font-weight: bold;
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                    }
+
+                    /* SVG Animations */
+                    .svg-icon {
+                        fill: var(--primary-blue);
+                        animation: float 3s ease-in-out infinite;
+                    }
+
+                    .progress-ring {
+                        transform: rotate(-90deg);
+                    }
+
+                    .progress-ring-circle {
+                        stroke: var(--primary-blue);
+                        stroke-linecap: round;
+                        animation: progress 2s ease-in-out;
+                    }
+
+                    /* Keyframe Animations */
+                @@keyframes slideInUp {
+                        from {
+                            opacity: 0;
+                            transform: translateY(30px);
+                        }
+                        to {
+                            opacity: 1;
+                            transform: translateY(0);
+                        }
+                    }
+
+                @@keyframes slideInDown {
+                        from {
+                            opacity: 0;
+                            transform: translateY(-30px);
+                        }
+                        to {
+                            opacity: 1;
+                            transform: translateY(0);
+                        }
+                    }
+
+                @@keyframes fadeIn {
+                        from { opacity: 0; }
+                        to { opacity: 1; }
+                    }
+
+                @@keyframes pulse {
+                        0%, 100% { transform: scale(1); }
+                        50% { transform: scale(1.05); }
+                    }
+
+                @@keyframes glow {
+                        from { box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); }
+                        to { box-shadow: 0 0 20px rgba(0, 123, 255, 0.8); }
+                    }
+
+             @@keyframes rotate {
+                        from { transform: rotate(0deg); }
+                        to { transform: rotate(360deg); }
+                    }
+
+                @@keyframes float {
+                        0%, 100% { transform: translateY(0px); }
+                        50% { transform: translateY(-10px); }
+                    }
+
+                    /* Enhanced Responsive Design */
+           @@media (max-width: 768px) {
+                        .header-title {
+                            font-size: 1.5rem;
+                        }
+
+                        .stats-number {
+                            font-size: 2rem;
+                        }
+
+                        .card-header h5 {
+                            font-size: 1rem;
+                        }
+
+                        .table-responsive {
+                            font-size: 0.875rem;
+                        }
+
+                        .user-avatar {
+                            width: 40px;
+                            height: 40px;
+                            font-size: 0.875rem;
+                        }
+
+                        .chart-container {
+                            height: 300px;
+                        }
+                    }
+
+                @@media (max-width: 576px) {
+                        .stats-card {
+                            padding: 15px;
+                        }
+
+                        .stats-number {
+                            font-size: 1.75rem;
+                        }
+
+                        .container-fluid {
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+
+                        .table th, .table td {
+                            padding: 0.5rem;
+                            font-size: 0.8rem;
+                        }
+
+                        .user-avatar {
+                            width: 35px;
+                            height: 35px;
+                            font-size: 0.75rem;
+                        }
+
+                        .chart-container {
+                            height: 250px;
+                        }
+
+                        .card-body {
+                            padding: 1rem;
+                        }
+                    }
+
+                @@media (max-width: 400px) {
+                        .stats-number {
+                            font-size: 1.5rem;
+                        }
+
+                        .header-title {
+                            font-size: 1.25rem;
+                        }
+
+                        .svg-icon {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+
+                    .activity-indicator {
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        margin-right: 8px;
+                    }
+
+
+                    .Online { background-color: #29903b; animation: blink 1s infinite; }
+                        .offline { background-color: #dc3545; }
+
+                    @@keyframes blink {
+                                0%, 50% { opacity: 1; }
+                                51%, 100% { opacity: 0.3; }
+                            }
+
+}
+
+    <div class="container-fluid py-4">
+
+        <!-- Stats Cards Row -->
+        <div class="row mb-4">
+            <div class="col-md-3 mb-3">
+                <div class="stats-card">
+                    <div class=" mb-2">
+                        <i class="fas fa-users fa-2x text-primary"></i>
+                    </div>
+                    <div class="stats-number" id="totalUsers">2,847</div>
+                    <div class="text-muted" style="color:white !important">Total Users</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="stats-card">
+                    <div class="pulse-icon mb-2">
+                        <i class="fas fa-user-check fa-2x text-success"></i>
+                    </div>
+                    <div class="stats-number" id="thisMonth">456</div>
+                    <div class="text-muted" style="color:white !important">This Month</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="stats-card">
+                    <div class="animated-icon mb-2">
+                        <i class="fas fa-clock fa-2x text-warning"></i>
+                    </div>
+                    <div class="stats-number" id="onlineNow">23</div>
+                    <div class="text-muted" style="color:white !important">Online Now</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="stats-card">
+                    <div class="pulse-icon mb-2">
+                        <i class="fas fa-chart-line fa-2x text-info"></i>
+                    </div>
+                    <div class="stats-number" id="activeRate">84%</div>
+                    <div class="text-muted" style="color:white !important">Active Rate</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Recent 5 Users Logged In -->
+            <div class="col-xl-6 col-lg-12 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-history me-2"></i>
+                            Recent User Logins
+                        </h5>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-dark table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>User</th>
+                                        <th class="d-none d-md-table-cell">Login Time</th>
+                                        <th>Status</th>
+                                        <th class="d-none d-lg-table-cell">Location</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="user-avatar me-3">JD</div>
+                                                <div>
+                                                    <div class="fw-bold">John Doe</div>
+                                                    <small class="text-muted d-block d-md-none">2 min ago</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <div class="my-2">Jul 01, 2025 14:23</div>
+                                        </td>
+                                        <td>
+                                            <span class="activity-indicator Online"></span>
+                                            <span class="badge bg-success status-badge">Online</span>
+                                        </td>
+                                        <td class="d-none d-lg-table-cell">
+                                            <i class="fas fa-map-marker-alt me-1"></i>
+                                            New York, USA
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monthly Login Comparison Chart -->
+            <div class="col-xl-6 col-lg-12 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-chart-line me-2"></i>
+                            Monthly Login Comparison
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="monthlyChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Charts Row -->
+        <div class="row">
+            <!-- User Growth Trend -->
+            <div class="col-lg-8 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-chart-area me-2"></i>
+                            User Growth Trend (Last 12 Months)
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="growthChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Login Times Distribution -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-chart-pie me-2"></i>
+                            Login Distribution
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="distributionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    @section Scripts {
+        <script src="~/lib/chart.js/dist/chart.min.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                // Chart.js default colors for dark theme
+                Chart.defaults.color = '#ffffff';
+                Chart.defaults.borderColor = 'rgba(0, 123, 255, 0.3)';
+
+                // 1️⃣ Load static Monthly Login Comparison chart ONCE (you said don't update it)
+                initMonthlyComparisonChart();
+
+                // 2️⃣ On load: fetch all dashboard data (except monthly comparison stays static)
+                fetch('/Admin/GetDashboardData')
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log('Dashboard data received:', data);
+
+                        // Stats cards
+                        if (data.totalUsers !== undefined) {
+                            document.getElementById('totalUsers').textContent = data.totalUsers.toLocaleString();
+                        }
+                        if (data.thisMonth !== undefined) {
+                            document.getElementById('thisMonth').textContent = data.thisMonth.toLocaleString();
+                        }
+                        if (data.onlineNow !== undefined) {
+                            document.getElementById('onlineNow').textContent = data.onlineNow.toLocaleString();
+                        }
+                        if (data.activeRate !== undefined) {
+                            document.getElementById('activeRate').textContent = data.activeRate + '%';
+                        }
+
+                        // User Growth Trend Chart
+                        if (data.userGrowth) {
+                            updateUserGrowthChart(data.userGrowth.labels, data.userGrowth.data);
+                        }
+
+                        // Login Distribution Chart
+                        if (data.loginDistribution) {
+                            updateLoginDistributionChart(data.loginDistribution.labels, data.loginDistribution.data);
+                        }
+
+                        // Recent User Logins table
+                        if (data.recentLogins && Array.isArray(data.recentLogins)) {
+                            updateRecentLoginsTable(data.recentLogins);
+                        }
+                    })
+                    .catch(error => console.error('Error loading dashboard data:', error));
+            });
+
+
+            // Function for static Monthly Login Comparison Chart (never updated via AJAX)
+            function initMonthlyComparisonChart() {
+                const monthlyCtx = document.getElementById('monthlyChart').getContext('2d');
+                new Chart(monthlyCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                        datasets: [
+                            {
+                                label: 'Current Year',
+                                data: [320, 285, 410, 456, 380, 425, 456],
+                                backgroundColor: 'rgba(0, 123, 255, 0.8)',
+                                borderColor: '#007bff',
+                                borderWidth: 2,
+                                borderRadius: 8
+                            },
+                            {
+                                label: 'Previous Year',
+                                data: [280, 310, 350, 390, 340, 380, 420],
+                                backgroundColor: 'rgba(40, 167, 69, 0.8)',
+                                borderColor: '#28a745',
+                                borderWidth: 2,
+                                borderRadius: 8
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                                labels: { color: '#ffffff' }
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                grid: { color: 'rgba(0, 123, 255, 0.2)' },
+                                ticks: { color: '#ffffff' }
+                            },
+                            x: {
+                                grid: { color: 'rgba(0, 123, 255, 0.2)' },
+                                ticks: { color: '#ffffff' }
+                            }
+                        },
+                        animation: {
+                            duration: 2000,
+                            easing: 'easeInOutBounce'
+                        }
+                    }
+                });
+            }
+
+
+            // 3️⃣ Dynamic: Update User Growth Trend Chart
+            let growthChart;
+            function updateUserGrowthChart(labels, data) {
+                const ctx = document.getElementById('growthChart').getContext('2d');
+                if (growthChart) growthChart.destroy();
+                growthChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Total Users',
+                            data: data,
+                            borderColor: '#007bff',
+                            backgroundColor: 'rgba(0, 123, 255, 0.1)',
+                            borderWidth: 3,
+                            fill: true,
+                            tension: 0.4,
+                            pointBackgroundColor: '#007bff',
+                            pointBorderColor: '#ffffff',
+                            pointBorderWidth: 2,
+                            pointRadius: 6
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { labels: { color: '#ffffff' } }
+                        },
+                        scales: {
+                            y: {
+                                grid: { color: 'rgba(0, 123, 255, 0.2)' },
+                                ticks: { color: '#ffffff' }
+                            },
+                            x: {
+                                grid: { color: 'rgba(0, 123, 255, 0.2)' },
+                                ticks: { color: '#ffffff' }
+                            }
+                        },
+                        animation: {
+                            duration: 2500,
+                            easing: 'easeInOutQuart'
+                        }
+                    }
+                });
+            }
+
+
+            // 4️⃣ Dynamic: Update Login Distribution Chart
+            let distributionChart;
+            function updateLoginDistributionChart(labels, data) {
+                const ctx = document.getElementById('distributionChart').getContext('2d');
+                if (distributionChart) distributionChart.destroy();
+                distributionChart = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: data,
+                            backgroundColor: [
+                                'rgba(0, 123, 255, 0.8)',
+                                'rgba(40, 167, 69, 0.8)',
+                                'rgba(255, 193, 7, 0.8)'
+                            ],
+                            borderColor: ['#007bff', '#28a745', '#ffc107'],
+                            borderWidth: 5
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: { color: '#ffffff', padding: 20 }
+                            }
+                        },
+                        animation: {
+                            animateRotate: true,
+                            duration: 2000
+                        }
+                    }
+                });
+            }
+
+
+            // 5️⃣ Dynamic: Update Recent User Logins Table
+            function updateRecentLoginsTable(logins) {
+                const tbody = document.querySelector('.table-responsive table tbody');
+                tbody.innerHTML = ''; // Clear existing rows
+
+                logins.forEach(user => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="user-avatar me-3">${user.initials}</div>
+                                <div>
+                                    <div class="fw-bold">${user.fullName}</div>
+                                    <small class="text-muted d-block d-md-none">${user.loginTime}</small>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="d-none d-md-table-cell">
+                            <div class="my-2">${user.loginTime}</div>
+                        </td>
+                        <td>
+                            <span class="activity-indicator ${user.status.toLowerCase() === 'online' ? 'Online' : 'offline'}"></span>
+                            <span class="badge bg-${user.status.toLowerCase() === 'online' ? 'success' : 'danger'} status-badge">${user.status}</span>
+                        </td>
+                        <td class="d-none d-lg-table-cell">
+                            <i class="fas fa-map-marker-alt me-1"></i>
+                            ${user.location}
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            }
+        </script>
+}
+
+
+
+}

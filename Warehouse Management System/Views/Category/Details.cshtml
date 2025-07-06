@@ -1,0 +1,553 @@
+﻿@model Warehouse_Management_System.Models.Category
+
+@{
+    ViewData["Title"] = "Category Details";
+    Layout = "_DashboardLayout";
+
+}
+
+@section CSS{
+
+
+        .details-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #202534;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            border: 1px solid #2a3042;
+            transition: all 0.4s ease;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+            .details-container:hover {
+                box-shadow: 0 12px 28px rgba(33, 150, 243, 0.2);
+                transform: translateY(-3px);
+            }
+
+        .details-title {
+            color: #42a5f5;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-size: 28px;
+            text-shadow: 0 2px 4px rgba(66, 165, 245, 0.3);
+        }
+
+        .details-list dt {
+            color: #b0b0b0;
+            font-weight: 500;
+            padding: 12px 15px;
+            width: 200px;
+        }
+
+        .details-list dd {
+            color: #ffffff;
+            padding: 12px 15px;
+            background-color: #252b3a;
+            border-radius: 6px;
+            margin-left: 0;
+            margin-bottom: 15px;
+            border-left: 3px solid #2196f3;
+            transition: all 0.3s ease;
+        }
+
+            .details-list dd:hover {
+                background-color: #2a3042;
+                transform: translateX(5px);
+            }
+
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            min-width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .btn::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 5px;
+                height: 5px;
+                background: rgba(255, 255, 255, 0.5);
+                opacity: 0;
+                border-radius: 100%;
+                transform: scale(1, 1) translate(-50%);
+                transform-origin: 50% 50%;
+            }
+
+            .btn:focus:not(:active)::after {
+                animation: ripple 0.6s ease-out;
+            }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #F44336 0%, #D32F2F 100%);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #757575 0%, #424242 100%);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #42A5F5 0%, #1E88E5 100%);
+        }
+
+        .btn-danger:hover {
+            background: linear-gradient(135deg, #EF5350 0%, #E53935 100%);
+        }
+
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, #9E9E9E 0%, #616161 100%);
+        }
+
+        /* Modal Styles */
+        .modal-content {
+            background-color: #202534;
+            color: #f0f0f0;
+            border: 1px solid #2a3042;
+            border-radius: 12px;
+            animation: modalFadeIn 0.3s ease-out;
+        }
+
+        .modal-header {
+            border-bottom: 1px solid #2a3042;
+            padding: 20px;
+        }
+
+        .modal-title {
+            color: #42a5f5;
+            font-weight: 600;
+        }
+
+        .modal-body {
+            padding: 20px;
+        }
+
+        .modal-footer {
+            border-top: 1px solid #2a3042;
+            padding: 15px 20px;
+        }
+
+        .btn-close {
+            filter: invert(1);
+        }
+
+        .form-control {
+            background-color: #252b3a;
+            border: 1px solid #393e52;
+            color: #ffffff;
+            border-radius: 8px;
+            padding: 12px 15px;
+            transition: all 0.3s;
+        }
+
+            .form-control:focus {
+                background-color: #2a3042;
+                border-color: #2196f3;
+                box-shadow: 0 0 0 0.25rem rgba(33, 150, 243, 0.25);
+                color: #ffffff;
+            }
+
+        textarea.form-control {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .text-danger {
+            color: #f44336 !important;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* Product Cards */
+        .products-header {
+            color: #42a5f5;
+            margin: 40px 0 20px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 24px;
+            position: relative;
+        }
+
+            .products-header::after {
+                content: '';
+                display: block;
+                width: 100px;
+                height: 3px;
+                background: linear-gradient(90deg, #2196F3, transparent);
+                margin: 10px auto 0;
+                border-radius: 3px;
+            }
+
+        .no-products {
+            text-align: center;
+            color: #b0b0b0;
+            font-style: italic;
+            margin: 30px 0;
+        }
+
+        .product-card {
+            background-color: #2a2f40;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 25px;
+            height: 100%;
+        }
+
+            .product-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(135deg, rgba(33, 150, 243, 0.1) 0%, transparent 100%);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            .product-card:hover {
+                transform: translateY(-10px) scale(1.02);
+                box-shadow: 0 12px 24px rgba(33, 150, 243, 0.3);
+            }
+
+                .product-card:hover::before {
+                    opacity: 1;
+                }
+
+            .product-card .card-body {
+                padding: 20px;
+                position: relative;
+                z-index: 1;
+            }
+
+            .product-card .card-title {
+                color: #42a5f5;
+                font-weight: 600;
+                margin-bottom: 15px;
+                position: relative;
+                padding-bottom: 10px;
+            }
+
+                .product-card .card-title::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 50px;
+                    height: 2px;
+                    background: #2196F3;
+                }
+
+            .product-card .card-text {
+                color: #e0e0e0;
+                margin-bottom: 15px;
+            }
+
+            .product-card .price {
+                font-weight: bold;
+                color: #4caf50;
+                font-size: 18px;
+            }
+
+        /* Animations */
+        @@keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @@keyframes modalFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px) scale(0.95);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @@keyframes ripple {
+            0% {
+                transform: scale(0, 0);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(40, 40);
+                opacity: 0;
+            }
+        }
+
+        @@keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(66, 165, 245, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(66, 165, 245, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(66, 165, 245, 0);
+            }
+        }
+
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+
+        /* Floating animation for category container */
+        @@keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+
+
+
+
+        .btn-cart {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            color: #fff;
+            font-weight: 600;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            transition: 0.3s ease;
+            box-shadow: 0 6px 12px rgba(67, 233, 123, 0.3);
+        }
+
+            .btn-cart:hover {
+                background: linear-gradient(135deg, #32c670 0%, #28dbc3 100%);
+                transform: translateY(-2px);
+                box-shadow: 0 10px 18px rgba(67, 233, 123, 0.4);
+            }
+
+            .btn-cart i {
+                font-size: 16px;
+            }
+
+
+}
+<div class="details-container floating">
+    <h2 class="details-title pulse-animation">
+        <i class="fas fa-info-circle"></i> Category Details
+    </h2>
+
+    <dl class="details-list">
+        <dt>Name</dt>
+        <dd>@Model.Name</dd>
+
+        <dt>Description</dt>
+        <dd>@(string.IsNullOrEmpty(Model.Description) ? "No description provided" : Model.Description)</dd>
+    </dl>
+
+    <div class="btn-group">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editModal">
+            <i class="fas fa-edit"></i> Edit
+        </button>
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">
+            <i class="fas fa-trash-alt"></i> Delete
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Back
+        </a>
+    </div>
+</div>
+
+<h4 class="products-header">
+    <i class="fas fa-boxes"></i> Related Products
+</h4>
+
+@if (ViewBag.Products != null && ViewBag.Products.Count > 0)
+{ 
+    <div class="row">
+        @foreach (var product in ViewBag.Products)
+        {
+            <div class="col-md-4 col-lg-3">
+                <div class="product-card d-flex flex-column justify-content-between h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text"><strong>Description:</strong> @(string.IsNullOrEmpty(product.Description) ? "No description" : product.Description)</p>
+                        <p class="card-text price"><strong>Price:</strong> $@product.UnitPrice.ToString("0.00")</p>
+                    </div>
+
+                    <div class="text-center p-3">
+                        <a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.ProductId"
+                           class="btn btn-cart shadow-sm">
+                            <i class="fas fa-cart-plus me-2"></i> Add to Report
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+}
+else
+{
+    <p class="no-products">No products found for this category.</p>
+}
+
+<!-- Edit Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form asp-action="Edit" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">
+                        <i class="fas fa-edit me-2"></i>Edit Category
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" asp-for="CategoryID" />
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Enter category name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label"></label>
+                        <textarea asp-for="Description" class="form-control" placeholder="Enter category description"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">
+                        <i class="fas fa-check me-1"></i> Save Changes
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fas fa-times me-1"></i> Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form asp-action="Delete" method="post">
+                <div class="modal-header bg-danger">
+                    <h5 class="modal-title" id="deleteModalLabel">
+                        <i class="fas fa-exclamation-triangle me-2"></i>Confirm Delete
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to permanently delete this category?</p>
+                    <div class="alert alert-danger">
+                        <strong>@Model.Name</strong> will be deleted and this action cannot be undone.
+                    </div>
+                    <input type="hidden" name="id" value="@Model.CategoryID" />
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger">
+                        <i class="fas fa-trash-alt me-1"></i> Delete
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fas fa-times me-1"></i> Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Add hover effect to product cards
+        document.querySelectorAll('.product-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+                this.style.boxShadow = '0 12px 24px rgba(33, 150, 243, 0.3)';
+            });
+
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = '';
+                this.style.boxShadow = '';
+            });
+        });
+
+        // Add ripple effect to buttons
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                let x = e.clientX - e.target.getBoundingClientRect().left;
+                let y = e.clientY - e.target.getBoundingClientRect().top;
+
+                let ripple = document.createElement('span');
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                ripple.classList.add('ripple-effect');
+
+                this.appendChild(ripple);
+
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            });
+        });
+    </script>
+}

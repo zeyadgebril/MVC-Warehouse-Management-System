@@ -1,0 +1,800 @@
+﻿@model AllUsersManegmentsVM
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_DashboardLayout";
+}
+@section CSS {
+            .navbar {
+                background-color: var(--bg-secondary) !important;
+                border-bottom: 2px solid var(--accent-blue);
+                padding: 1rem 0;
+            }
+
+            .navbar-brand {
+                color: var(--text-primary) !important;
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            .main-content {
+                padding: 2rem 0;
+            }
+
+            .page-title {
+                color: var(--text-primary);
+                margin-bottom: 2rem;
+                text-align: center;
+                font-weight: 300;
+            }
+
+            .stats-container {
+                background-color: var(--bg-secondary);
+                border: 1px solid var(--accent-blue);
+                border-radius: 12px;
+                padding: 1.5rem;
+                margin-bottom: 2rem;
+            }
+
+            .stat-item {
+                text-align: center;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+                font-weight: bold;
+                color: var(--accent-blue);
+            }
+
+            .stat-label {
+                color: var(--text-secondary);
+                font-size: 0.9rem;
+            }
+
+            .filters-section {
+                background-color: var(--bg-secondary);
+                border: 1px solid var(--accent-blue);
+                border-radius: 12px;
+                padding: 1.5rem;
+                margin-bottom: 2rem;
+            }
+
+            .filter-input {
+                background-color: var(--bg-primary);
+                border: 1px solid var(--accent-blue);
+                color: var(--text-primary);
+                border-radius: 8px;
+                padding: 0.5rem 1rem;
+            }
+
+                .filter-input:focus {
+                    background-color: var(--bg-primary);
+                    border-color: var(--accent-blue-hover);
+                    color: var(--text-primary);
+                    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+                }
+
+            .filter-select {
+                background-color: var(--bg-primary);
+                border: 1px solid var(--accent-blue);
+                color: var(--text-primary);
+                border-radius: 8px;
+                padding: 0.5rem 1rem;
+            }
+
+            .users-table {
+                background-color: var(--bg-secondary);
+                border: 1px solid var(--accent-blue);
+                border-radius: 12px;
+                overflow: hidden;
+            }
+
+            .table {
+                color: var(--text-primary);
+                margin-bottom: 0;
+            }
+
+                .table thead th {
+                    background-color: var(--accent-blue);
+                    color: white;
+                    border: none;
+                    padding: 1rem;
+                    font-weight: 600;
+                }
+
+                .table tbody td {
+                    background-color: var(--bg-secondary);
+                    border-color: rgba(0, 123, 255, 0.2);
+                    padding: 1rem;
+                    vertical-align: middle;
+                }
+
+                .table tbody tr:hover {
+                    background-color: rgba(0, 123, 255, 0.1);
+                }
+
+            .user-avatar-small {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: linear-gradient(45deg, var(--accent-blue), #0056b3);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 0.75rem;
+            }
+
+            .user-icon-small {
+                width: 20px;
+                height: 20px;
+                fill: white;
+            }
+
+            .status-badge {
+                display: inline-block;
+                padding: 0.25rem 0.75rem;
+                border-radius: 20px;
+                font-size: 0.8rem;
+                font-weight: 600;
+            }
+
+            .status-active {
+                background-color: rgb(26, 26, 26);
+                color: var(--success);
+                border: 1px solid var(--success);
+            }
+
+            .status-inactive {
+                background-color: rgba(220, 53, 69, 0.2);
+                color: var(--danger);
+                border: 1px solid var(--danger);
+            }
+
+            .status-away {
+                background-color: rgba(255, 193, 7, 0.2);
+                color: var(--warning);
+                border: 1px solid var(--warning);
+            }
+
+            .product-count {
+                font-weight: bold;
+                color: var(--accent-blue);
+            }
+
+            .action-buttons {
+                display: flex;
+                gap: 0.5rem;
+            }
+
+            .btn-action {
+                padding: 0.25rem 0.5rem;
+                border-radius: 6px;
+                border: none;
+                font-size: 0.8rem;
+                cursor: pointer;
+            }
+
+            .btn-view {
+                background-color: var(--info);
+                color: white;
+            }
+
+                .btn-view:hover {
+                    background-color: #138496;
+                    color: white;
+                }
+
+            .btn-edit {
+                background-color: var(--success);
+                color: white;
+            }
+
+                .btn-edit:hover {
+                    background-color: darkgreen;
+                    color: white;
+                }
+
+            .btn-suspend {
+                background-color: var(--danger);
+                color: white;
+            }
+
+                .btn-suspend:hover {
+                    background-color: #c82333;
+                    color: white;
+                }
+
+            .warehouse-icon {
+                width: 40px;
+                height: 40px;
+                fill: var(--accent-blue);
+            }
+
+            .activity-indicator {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: 0.5rem;
+            }
+
+            .activity-high {
+                background-color: var(--success);
+            }
+
+            .activity-low {
+                background-color: var(--danger);
+            }
+
+            .activity-medium {
+                background-color: var(--warning);
+            }
+
+            .activity-low {
+                background-color: var(--danger);
+            }
+
+            .pagination {
+                margin-top: 20px;
+            }
+
+            .page-link {
+                color: var(--accent-blue);
+                background-color: var(--bg-secondary);
+                border: 1px solid var(--accent-blue);
+            }
+
+            .page-item.active .page-link {
+                background-color: var(--accent-blue);
+                border-color: var(--accent-blue);
+            }
+
+            .page-link:hover {
+                color: white;
+                background-color: var(--accent-blue-hover);
+                border-color: var(--accent-blue-hover);
+            }
+
+            @@media (max-width: 768px) {
+                .main-content {
+                    padding: 1rem 0;
+                }
+
+                .table-responsive {
+                    font-size: 0.8rem;
+                }
+
+                .action-buttons {
+                    flex-direction: column;
+                }
+            }
+
+            td {
+                color: #fff !important;
+            }
+
+            .text-muted {
+                color: #909090 !important;
+            }
+                    .Online { background-color: #29903b; animation: blink 1s infinite; }
+
+        @@keyframes blink {
+                    0%, 50% { opacity: 1; }
+                    51%, 100% { opacity: 0.3; }
+                }
+
+
+                    /* Toast Container */
+       .toast-container {
+           position: fixed;
+           top: 20px;
+           right: 20px;
+           z-index: 9999;
+           pointer-events: none;
+       }
+
+       /* Toast Base Styles */
+       .toast {
+           background: linear-gradient(135deg, #2c3e50, #34495e);
+           border: 1px solid #3498db;
+           border-radius: 12px;
+           padding: 16px 20px;
+           margin-bottom: 8px;
+           min-width: 300px;
+           max-width: 400px;
+           box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+           transform: translateX(450px);
+           opacity: 0;
+           transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+           pointer-events: auto;
+           position: relative;
+           overflow: hidden;
+           color: white;
+       }
+
+       /* Show Animation */
+       .toast.show {
+           transform: translateX(0);
+           opacity: 1;
+       }
+
+       /* Hide Animation */
+       .toast.hide {
+           transform: translateX(450px);
+           opacity: 0;
+       }
+
+       /* Toast Types */
+       .toast.success {
+           border-left: 4px solid #27ae60;
+           background: linear-gradient(135deg, #2c3e50, rgba(39, 174, 96, 0.2));
+       }
+
+       .toast.error {
+           border-left: 4px solid #e74c3c;
+           background: linear-gradient(135deg, #2c3e50, rgba(231, 76, 60, 0.2));
+       }
+
+       .toast.warning {
+           border-left: 4px solid #f39c12;
+           background: linear-gradient(135deg, #2c3e50, rgba(243, 156, 18, 0.2));
+       }
+
+       .toast.info {
+           border-left: 4px solid #3498db;
+           background: linear-gradient(135deg, #2c3e50, rgba(52, 152, 219, 0.2));
+       }
+
+       /* Toast Header */
+       .toast-header {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           margin-bottom: 8px;
+       }
+
+       .toast-title {
+           font-weight: bold;
+           font-size: 16px;
+           display: flex;
+           align-items: center;
+           gap: 8px;
+       }
+
+       .toast-icon {
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 12px;
+           font-weight: bold;
+           color: white;
+       }
+
+       .toast.success .toast-icon {
+           background-color: #27ae60;
+       }
+
+       .toast.error .toast-icon {
+           background-color: #e74c3c;
+       }
+
+       .toast.warning .toast-icon {
+           background-color: #f39c12;
+       }
+
+       .toast.info .toast-icon {
+           background-color: #3498db;
+       }
+
+       /* Close Button */
+       .toast-close {
+           background: none;
+           border: none;
+           color: #bdc3c7;
+           font-size: 20px;
+           cursor: pointer;
+           padding: 0;
+           width: 24px;
+           height: 24px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           border-radius: 50%;
+           transition: all 0.2s ease;
+       }
+
+       .toast-close:hover {
+           background-color: rgba(255, 255, 255, 0.1);
+           color: white;
+       }
+
+       /* Toast Body */
+       .toast-body {
+           color: #ecf0f1;
+           font-size: 14px;
+           line-height: 1.4;
+       }
+
+       /* Progress Bar */
+       .toast-progress {
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           height: 3px;
+           background-color: #3498db;
+           transition: width linear;
+           border-radius: 0 0 12px 12px;
+       }
+
+       .toast.success .toast-progress {
+           background-color: #27ae60;
+       }
+
+       .toast.error .toast-progress {
+           background-color: #e74c3c;
+       }
+
+       .toast.warning .toast-progress {
+           background-color: #f39c12;
+       }
+
+       .toast.info .toast-progress {
+           background-color: #3498db;
+       }
+
+         
+               .modal-bot-Warehouse-container {
+                text-align: center;
+                padding: 40px;
+            }
+
+            .modal-bot-Warehouse-show-btn {
+                background: linear-gradient(45deg, #0066ff, #0052cc);
+                color: white;
+                border: 2px solid #0066ff;
+                padding: 15px 30px;
+                font-size: 18px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                box-shadow: 0 4px 15px rgba(0, 102, 255, 0.3);
+            }
+
+            .modal-bot-Warehouse-show-btn:hover {
+                background: linear-gradient(45deg, #0052cc, #003d99);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 20px rgba(0, 102, 255, 0.4);
+            }
+
+            .modal-bot-Warehouse-overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.8);
+                backdrop-filter: blur(5px);
+                z-index: 1000;
+            }
+
+            .modal-bot-Warehouse-modal {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: #000000;
+                color: white;
+                border: 3px solid #0066ff;
+                border-radius: 15px;
+                padding: 30px;
+                min-width: 500px;
+                max-width: 80%;
+                max-height: 80%;
+                overflow-y: auto;
+                box-shadow: 0 10px 30px rgba(0, 102, 255, 0.5);
+                animation: modal-bot-Warehouse-slideIn 0.3s ease-out;
+            }
+
+    @@keyframes modal-bot-Warehouse-slideIn {
+                from {
+                    opacity: 0;
+                    transform: translate(-50%, -60%);
+                }
+                to {
+                    opacity: 1;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .modal-bot-Warehouse-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 25px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid #0066ff;
+            }
+
+            .modal-bot-Warehouse-title {
+                font-size: 24px;
+                font-weight: bold;
+                color: #0066ff;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            .modal-bot-Warehouse-close-btn {
+                background: transparent;
+                border: 2px solid #0066ff;
+                color: #0066ff;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: bold;
+                transition: all 0.3s ease;
+            }
+
+            .modal-bot-Warehouse-close-btn:hover {
+                background: #0066ff;
+                color: white;
+                transform: rotate(90deg);
+            }
+
+            .modal-bot-Warehouse-user-data {
+                display: grid;
+                gap: 20px;
+            }
+
+            .modal-bot-Warehouse-data-section {
+                background: rgba(0, 102, 255, 0.1);
+                border: 1px solid #0066ff;
+                border-radius: 10px;
+                padding: 20px;
+            }
+
+            .modal-bot-Warehouse-section-title {
+                color: #0066ff;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            .modal-bot-Warehouse-data-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 0;
+                border-bottom: 1px solid rgba(0, 102, 255, 0.3);
+            }
+
+            .modal-bot-Warehouse-data-row:last-child {
+                border-bottom: none;
+            }
+
+            .modal-bot-Warehouse-data-label {
+                font-weight: bold;
+                color: #cccccc;
+            }
+
+            .modal-bot-Warehouse-data-value {
+                color: white;
+                text-align: right;
+            }
+
+            .modal-bot-Warehouse-status-badge {
+                padding: 5px 15px;
+                border-radius: 20px;
+                font-size: 12px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .modal-bot-Warehouse-status-active {
+                background: rgba(0, 255, 0, 0.2);
+                border: 1px solid #00ff00;
+                color: #00ff00;
+            }
+
+            .modal-bot-Warehouse-status-premium {
+                background: rgba(255, 215, 0, 0.2);
+                border: 1px solid #ffd700;
+                color: #ffd700;
+            }
+
+            .modal-bot-Warehouse-progress-bar {
+                background: rgba(0, 102, 255, 0.2);
+                border-radius: 10px;
+                height: 20px;
+                overflow: hidden;
+                border: 1px solid #0066ff;
+            }
+
+            .modal-bot-Warehouse-progress-fill {
+                background: linear-gradient(90deg, #0066ff, #00aaff);
+                height: 100%;
+                border-radius: 8px;
+                transition: width 0.5s ease;
+            }
+
+    @@media (max-width: 600px) {
+                .modal-bot-Warehouse-modal {
+                    min-width: 90%;
+                    margin: 20px;
+                }
+
+                .modal-bot-Warehouse-data-row {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 5px;
+                }
+
+                .modal-bot-Warehouse-data-value {
+                    text-align: left;
+                }
+            }
+}
+
+<!-- Toast Container -->
+<div class="toast-container" id="toastContainer"></div>
+<!-- Main Content -->
+<div class="container main-content">
+    <h1 class="page-title">All Users Management</h1>
+
+    <!-- Statistics -->
+    <div class="stats-container">
+        <div class="row">
+            <div class="col-md-3 stat-item">
+                <div class="stat-number">@Model.TotalUsers</div>
+                <div class="stat-label">Total Users</div>
+            </div>
+            <div class="col-md-3 stat-item">
+                <div class="stat-number">@Model.ActiveUser</div>
+                <div class="stat-label">Online Users</div>
+            </div>
+            <div class="col-md-3 stat-item">
+                <div class="stat-number">@Model.InactiveUser</div>
+                <div class="stat-label">Offline Users</div>
+            </div>
+            <div class="col-md-3 stat-item">
+                <div class="stat-number">@Model.Suspended</div>
+                <div class="stat-label">Suspended</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters-section">
+        <div class="row justify-content-between">
+            <div class="col-md-5">
+                <label class="form-label" style="color:white">Search Users</label>
+                <input type="text"
+                       id="Search"
+                       class="form-control filter-input"
+                       oninput="getSearchResult()"
+                       placeholder="Username or email..." />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label" style="color:white">Status</label>
+                <select class="form-select filter-select" id="Selected" onchange="getSelectResult()">
+                    <option value="all" selected>All</option>
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Users Table -->
+    <div class="users-table">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Status</th>
+                        <th>Last Login</th>
+                        <th>Activity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @await Html.PartialAsync("_UserTableRows", Model.Users);
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <nav aria-label="Page navigation" class="mt-4">
+        <ul class="pagination justify-content-center mt-5">
+            @if (Model.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="userMangment" asp-controller="Admin" asp-route-page="@(Model.CurrentPage-1)">Previous</a>
+                </li>
+            }
+
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-action="userMangment" asp-controller="Admin" asp-route-page="@i">@i</a>
+                </li>
+            }
+
+            @if (Model.CurrentPage < Model.TotalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="userMangment" asp-controller="Admin" asp-route-page="@(Model.CurrentPage+1)">Next</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
+
+@section Scripts {
+    <script>
+        let searchTimer;
+        let selectTime;
+
+        function getSearchResult() {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => {
+                let searchValue = $("#Search").val().trim();
+
+                // Only search if 2+ characters or empty (to reset)
+                if(searchValue.length >= 2 || searchValue.length === 0) {
+                    showLoading();
+
+                    $.ajax({
+                        url: "@Url.Action("Search", "Admin")",
+                        type: "GET",
+                        data: { searchTerm: searchValue },
+                        success: function(result) {
+                            $("tbody").html(result);
+                        },
+                        error: function() {
+                            showError()
+                        }
+                    });
+                }
+            }, 300);
+        }
+        function getSelectResult(){
+
+            clearTimeout(selectTime);
+            selectTime = setTimeout(() => {
+                let selectedValue = $("#Selected").val().trim();
+
+               if (selectedValue && selectedValue.trim() !== "") {
+                    showLoading();
+
+                    $.ajax({
+                        url: "@Url.Action("SelectUser", "Admin")",
+                        type: "GET",
+                        data: { selectedValue: selectedValue },
+                        success: function(result) {
+                            $("tbody").html(result);
+                        },
+                        error: function() {
+                            showError()
+                        }
+                    });
+                }
+            }, 300);
+        }
+        function showLoading() {
+            $("tbody").html('<tr><td colspan="6" class="text-center">Loading...</td></tr>');
+        }
+        function showError() {
+            $("tbody").html('<tr><td colspan="6" class="text-center text-danger">Error loading results</td></tr>');
+        }
+    </script>
+}
