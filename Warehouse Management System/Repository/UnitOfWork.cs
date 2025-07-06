@@ -2,6 +2,7 @@
 using Warehouse_Management_System.Models;
 using Warehouse_Management_System.Repository.ProductRepositoryFile;
 using Warehouse_Management_System.Repository.SupplierRepositoryFile;
+using Warehouse_Management_System.Repository.UserRepositoryFile;
 
 namespace Warehouse_Management_System.Repository
 {
@@ -9,6 +10,7 @@ namespace Warehouse_Management_System.Repository
     {
         private readonly MvcDbContextContext context;
         private ISupplierRepository _suppliers;
+        private IUserRepository _users;
 
         public UnitOfWork(MvcDbContextContext context)
         {
@@ -24,8 +26,19 @@ namespace Warehouse_Management_System.Repository
                 return _suppliers;
             }
         }
+        public IUserRepository Users
+        {
+            get
+            {
+                if (_users == null)
+                    _users = new UserRepository(context);
+                return _users;
+            }
+        }
 
         public ISupplierRepository SupplierRepository => throw new NotImplementedException();
+
+        public IUserRepository UserRepository => throw new NotImplementedException();
 
         // Add other repositories as needed
         // public ICustomerRepository Customers => _customers ??= new CustomerRepository(context);

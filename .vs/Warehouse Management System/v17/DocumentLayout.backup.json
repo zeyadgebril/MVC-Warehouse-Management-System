@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\repository\\supplierrepositoryfile\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\supplierrepositoryfile\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\repository\\userrepositoryfile\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\userrepositoryfile\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\views\\supplier\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\supplier\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|e:\\iti projects\\e-commerce project\\mvc-warehouse-management-system\\warehouse management system\\repository\\userrepositoryfile\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C6A93-76E6-4FA4-B153-A84ADB0FD9D6}|Warehouse Management System\\Warehouse Management System.csproj|solutionrelative:warehouse management system\\repository\\userrepositoryfile\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\Delete.cshtml",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Delete.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T11:06:08.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Details.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\Details.cshtml",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Details.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\Details.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAAAEsBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T11:04:54.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\Edit.cshtml",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Edit.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\Edit.cshtml",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAAwCsBAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T10:50:26.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\User\\Edit.cshtml",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T13:51:00.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\SupplierController.cs",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\SupplierController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T13:41:55.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\SupplierRepositoryFile\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\SupplierRepositoryFile\\SupplierRepository.cs",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\SupplierRepositoryFile\\SupplierRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\SupplierRepositoryFile\\SupplierRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCQAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T12:58:34.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UserRepositoryFile\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\UserRepositoryFile\\UserRepository.cs",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UserRepositoryFile\\UserRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\UserRepositoryFile\\UserRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T12:55:00.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\New.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\New.cshtml",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\New.cshtml*",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\New.cshtml*",
+              "ViewState": "AgIAAB0CAAAAAAAAAAAiwCwCAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T11:14:54.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Index.cshtml",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Views\\Supplier\\Index.cshtml",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Views\\Supplier\\Index.cshtml",
+              "RelativeToolTip": "Warehouse Management System\\Views\\Supplier\\Index.cshtml",
+              "ViewState": "AgIAADQBAAAAAAAAAAAiwEMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T11:07:34.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UserRepositoryFile\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Repository\\UserRepositoryFile\\IUserRepository.cs",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Repository\\UserRepositoryFile\\IUserRepository.cs",
+              "RelativeToolTip": "Warehouse Management System\\Repository\\UserRepositoryFile\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T12:55:41.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Warehouse Management System\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\ITI projects\\E-commerce Project\\MVC-Warehouse-Management-System\\Warehouse Management System\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Warehouse Management System\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T12:53:47.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

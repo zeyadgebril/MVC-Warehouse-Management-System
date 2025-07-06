@@ -2,38 +2,352 @@
     ViewData["Title"] = "Details";
 }
 
-<body style="background-color: #1f2937; min-height: 100vh;">
+<style type="text/css">
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+        min-height: 100vh;
+        position: relative;
+        overflow-x: hidden;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        /* Animated background particles */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+            background-image: radial-gradient(2px 2px at 20% 30%, rgba(59, 130, 246, 0.3), transparent), radial-gradient(2px 2px at 40% 70%, rgba(59, 130, 246, 0.4), transparent), radial-gradient(1px 1px at 90% 40%, rgba(59, 130, 246, 0.3), transparent), radial-gradient(1px 1px at 50% 50%, rgba(59, 130, 246, 0.2), transparent), radial-gradient(2px 2px at 80% 10%, rgba(59, 130, 246, 0.4), transparent);
+            background-size: 200% 100%;
+            animation: twinkle 8s ease-in-out infinite alternate;
+        }
+
+    @@keyframes twinkle {
+        0% {
+            opacity: 0.3;
+            transform: scale(1);
+        }
+
+        50% {
+            opacity: 0.8;
+            transform: scale(1.1);
+        }
+
+        100% {
+            opacity: 0.3;
+            transform: scale(1);
+        }
+    }
+
+    .container {
+        position: relative;
+        z-index: 10;
+        padding: 3rem 1rem;
+    }
+
+    .card {
+        background: rgba(30, 41, 59, 0.8);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        border-radius: 1rem;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+        animation: slideInUp 0.8s ease-out;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+    @@keyframes shimmer {
+        0% {
+            left: -100%;
+        }
+
+        100% {
+            left: 100%;
+        }
+    }
+
+    @@keyframes slideInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .card-body {
+        padding: 2.5rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    h1 {
+        color: #e2e8f0;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        text-align: center;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        animation: fadeInDown 0.8s ease-out;
+    }
+
+    @@keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .table {
+        background: rgba(55, 65, 81, 0.6);
+        border-radius: 0.75rem;
+        overflow: hidden;
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        animation: fadeInLeft 0.8s ease-out;
+        animation-delay: 0.2s;
+        animation-fill-mode: both;
+    }
+
+    @@keyframes fadeInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .table tbody tr {
+        background: rgba(55, 65, 81, 0.4);
+        transition: all 0.3s ease;
+        border: none;
+    }
+
+        .table tbody tr:hover {
+            background: rgba(59, 130, 246, 0.1);
+            transform: translateX(5px);
+        }
+
+    .table th {
+        background: rgba(30, 41, 59, 0.8);
+        color: #e2e8f0;
+        font-weight: 600;
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        padding: 1rem;
+        font-size: 0.95rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .table td {
+        background: rgba(55, 65, 81, 0.4);
+        color: #f3f4f6;
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .d-flex {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+        animation: fadeInUp 0.8s ease-out;
+        animation-delay: 0.4s;
+        animation-fill-mode: both;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    @@keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+        font-size: 1rem;
+        position: relative;
+        overflow: hidden;
+        min-width: 120px;
+    }
+
+    .btn-primary {
+        background: linear-gradient(45deg, #3b82f6, #1d4ed8);
+        color: white;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+            background: linear-gradient(45deg, #1d4ed8, #1e40af);
+            color: white;
+            text-decoration: none;
+        }
+
+    .btn-warning {
+        background: linear-gradient(45deg, #f59e0b, #d97706);
+        color: white;
+        box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+    }
+
+        .btn-warning:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.4);
+            background: linear-gradient(45deg, #d97706, #b45309);
+            color: white;
+            text-decoration: none;
+        }
+
+    .btn-danger {
+        background: linear-gradient(45deg, #dc2626, #b91c1c);
+        color: white;
+        box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+    }
+
+        .btn-danger:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(220, 38, 38, 0.4);
+            background: linear-gradient(45deg, #b91c1c, #991b1b);
+            color: white;
+            text-decoration: none;
+        }
+
+    .btn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+        transition: left 0.5s;
+    }
+
+    .btn:hover::before {
+        left: 100%;
+    }
+
+    /* Responsive design */
+    @@media (max-width: 768px) {
+        .container {
+            padding: 2rem 1rem;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+        }
+
+        .d-flex {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .table th, .table td {
+            padding: 0.75rem;
+            font-size: 0.9rem;
+        }
+    }
+</style>
+
+<body>
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card border-0 shadow" style="background-color: #4b5563;">
+                <div class="card border-0 shadow">
                     <div class="card-body p-4">
                         <h1 class="text-center text-light mb-4">Supplier Details</h1>
-
-                        <table class="table table-dark table-hover mb-4" style="background-color: #4b5563; color: #f9fafb;">
-                            <tbody style="background-color: #4b5563;">
-                                <tr style="background-color: #4b5563;">
-                                    <th class="text-light py-3 px-4" style="border-color: #6b7280; background-color: #374151; width: 30%;">Id</th>
-                                    <td class="text-light py-3 px-4" style="border-color: #6b7280; background-color: #4b5563;">@Model.SupplierID</td>
+                        <table class="table table-dark table-hover mb-4">
+                            <tbody>
+                                <tr>
+                                    <th class="text-light py-3 px-4">Id</th>
+                                    <td class="text-light py-3 px-4">@Model.SupplierID</td>
                                 </tr>
-                                <tr style="background-color: #4b5563;">
-                                    <th class="text-light py-3 px-4" style="border-color: #6b7280; background-color: #374151; width: 30%;">Name</th>
-                                    <td class="text-light py-3 px-4" style="border-color: #6b7280; background-color: #4b5563;">@Model.Name</td>
+                                <tr>
+                                    <th class="text-light py-3 px-4">Name</th>
+                                    <td class="text-light py-3 px-4">@Model.Name</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-light py-3 px-4">Company</th>
+                                    <td class="text-light py-3 px-4">@Model.Company</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-light py-3 px-4">Address</th>
+                                    <td class="text-light py-3 px-4">@Model.Address</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-light py-3 px-4">Phone</th>
+                                    <td class="text-light py-3 px-4">@Model.Phone</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-light py-3 px-4">Email</th>
+                                    <td class="text-light py-3 px-4">@Model.Email</td>
                                 </tr>
                             </tbody>
                         </table>
-
                         <div class="d-flex gap-3 justify-content-center flex-wrap">
-                            <a class="btn btn-primary" href="/Supplier/Index"
-                               style="background-color: #3b82f6; border-color: #3b82f6; text-decoration: none;">
+                            <a class="btn btn-primary" href="/Supplier/Index">
                                 Back to List
                             </a>
-                            <a href="/Supplier/Edit/@Model.SupplierID" class="btn btn-warning"
-                               style="background-color: #f59e0b; border-color: #f59e0b; color: white; text-decoration: none;">
+                            <a href="/Supplier/Edit/@Model.SupplierID" class="btn btn-warning">
                                 Edit
                             </a>
-                            <a href="/Supplier/Delete/@Model.SupplierID" class="btn btn-danger"
-                               style="background-color: #dc2626; border-color: #dc2626; text-decoration: none;">
+                            <a href="/Supplier/Delete/@Model.SupplierID" class="btn btn-danger">
                                 Delete
                             </a>
                         </div>

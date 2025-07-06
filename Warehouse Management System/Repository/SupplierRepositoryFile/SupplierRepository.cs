@@ -46,6 +46,8 @@ namespace Warehouse_Management_System.Repository.SupplierRepositoryFile
             }
             supDB.Name=entity.Name;
             supDB.Address=entity.Address;
+            supDB.Company = entity.Company;
+
         }
 
         public List<Supplier> GetAll()

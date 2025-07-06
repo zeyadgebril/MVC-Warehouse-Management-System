@@ -1,43 +1,753 @@
-﻿@{
-    ViewData["Title"] = "New";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Supplier - Warehouse Management</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<body style="background-color: #1f2937; min-height: 100vh;">
-    <div class="container py-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card border-0 shadow" style="background-color: #4b5563;">
-                    <div class="card-body p-4">
-                        <h1 class="text-center text-light mb-4">Add Supplier</h1>
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            overflow-x: hidden;
+        }
 
-                        <form method="post" action="/Supplier/SaveNew">
-                            <div class="mb-3">
-                                <label class="form-label text-light">Name</label>
-                                <input type="text" name="Name" id="Name" value="@Model?.Name"
-                                       class="form-control text-light border-secondary"
-                                       style="background-color: #374151;" />
+        /* Animated background particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .particle {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: rgba(59, 130, 246, 0.5);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @@keyframes float {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+                opacity: 1;
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(180deg);
+                opacity: 0.8;
+            }
+        }
+
+        .particle:nth-child(1) {
+            left: 10%;
+            animation-delay: 0s;
+            top: 10%;
+        }
+
+        .particle:nth-child(2) {
+            left: 20%;
+            animation-delay: 1s;
+            top: 20%;
+        }
+
+        .particle:nth-child(3) {
+            left: 30%;
+            animation-delay: 2s;
+            top: 30%;
+        }
+
+        .particle:nth-child(4) {
+            left: 40%;
+            animation-delay: 3s;
+            top: 40%;
+        }
+
+        .particle:nth-child(5) {
+            left: 50%;
+            animation-delay: 4s;
+            top: 50%;
+        }
+
+        .particle:nth-child(6) {
+            left: 60%;
+            animation-delay: 5s;
+            top: 60%;
+        }
+
+        .particle:nth-child(7) {
+            left: 70%;
+            animation-delay: 6s;
+            top: 70%;
+        }
+
+        .particle:nth-child(8) {
+            left: 80%;
+            animation-delay: 7s;
+            top: 80%;
+        }
+
+        .particle:nth-child(9) {
+            left: 90%;
+            animation-delay: 8s;
+            top: 90%;
+        }
+
+        .main-content {
+            position: relative;
+            z-index: 1;
+            padding: 2rem 0;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @@keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .form-container {
+            background: rgba(30, 41, 59, 0.9);
+            backdrop-filter: blur(15px);
+            border-radius: 25px;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            animation: slideInFromCenter 0.8s ease-out;
+            position: relative;
+        }
+
+        @@keyframes slideInFromCenter {
+            from {
+                opacity: 0;
+                transform: scale(0.9) translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .form-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6, #3b82f6);
+            background-size: 200% 100%;
+            animation: gradientShift 3s ease-in-out infinite;
+        }
+
+        @@keyframes gradientShift {
+            0%, 100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .form-header {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+            padding: 2rem;
+            text-align: center;
+            animation: slideInFromTop 0.6s ease-out;
+        }
+
+        @@keyframes slideInFromTop {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .form-title {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .form-body {
+            padding: 2.5rem;
+            animation: fadeInContent 0.8s ease-out 0.2s both;
+        }
+
+        @@keyframes fadeInContent {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .form-group {
+            margin-bottom: 2rem;
+            animation: slideInFromLeft 0.6s ease-out both;
+        }
+
+            .form-group:nth-child(1) {
+                animation-delay: 0.1s;
+            }
+
+            .form-group:nth-child(2) {
+                animation-delay: 0.2s;
+            }
+
+            .form-group:nth-child(3) {
+                animation-delay: 0.3s;
+            }
+
+        @@keyframes slideInFromLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .form-label {
+            color: #e2e8f0;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            display: block;
+            font-size: 1.1rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+            .form-label::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 4px;
+                height: 4px;
+                background: #3b82f6;
+                border-radius: 50%;
+                box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+            }
+
+        .form-control-custom {
+            background: rgba(55, 65, 81, 0.8);
+            border: 2px solid rgba(59, 130, 246, 0.3);
+            border-radius: 15px;
+            color: #f1f5f9;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            position: relative;
+        }
+
+            .form-control-custom:focus {
+                background: rgba(55, 65, 81, 0.95);
+                border-color: #3b82f6;
+                box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25), 0 0 20px rgba(59, 130, 246, 0.2);
+                color: #f1f5f9;
+                transform: translateY(-2px);
+            }
+
+            .form-control-custom::placeholder {
+                color: #94a3b8;
+            }
+
+        .input-group {
+            position: relative;
+        }
+
+        .input-icon {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #60a5fa;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+
+        .form-control-custom:focus + .input-icon {
+            color: #3b82f6;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2.5rem;
+            animation: slideInFromBottom 0.6s ease-out 0.4s both;
+        }
+
+        @@keyframes slideInFromBottom {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .btn-primary-custom {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 15px;
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+            .btn-primary-custom::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+                transition: left 0.5s ease;
+            }
+
+            .btn-primary-custom:hover::before {
+                left: 100%;
+            }
+
+            .btn-primary-custom:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+                background: linear-gradient(135deg, #2563eb, #1e40af);
+            }
+
+            .btn-primary-custom:active {
+                transform: translateY(-1px);
+            }
+
+        .btn-secondary-custom {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            border: 2px solid rgba(59, 130, 246, 0.4);
+            padding: 1rem 2rem;
+            border-radius: 15px;
+            color: #60a5fa;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            backdrop-filter: blur(10px);
+        }
+
+            .btn-secondary-custom:hover {
+                background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.2));
+                border-color: rgba(59, 130, 246, 0.6);
+                color: #93c5fd;
+                transform: translateY(-3px);
+                box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
+            }
+
+        .form-validation {
+            color: #ef4444;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+            display: none;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .success-message {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(16, 185, 129, 0.1));
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            color: #4ade80;
+            text-align: center;
+            display: none;
+            animation: slideInFromTop 0.5s ease-out;
+        }
+
+        .loading-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(30, 41, 59, 0.9);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            z-index: 10;
+        }
+
+        .loading-spinner {
+            border: 3px solid rgba(59, 130, 246, 0.3);
+            border-top: 3px solid #3b82f6;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @@keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Responsive design */
+        @@media (max-width: 768px) {
+            .form-title {
+                font-size: 2rem;
+            }
+
+            .form-header {
+                padding: 1.5rem;
+            }
+
+            .form-body {
+                padding: 2rem;
+            }
+
+            .btn-container {
+                flex-direction: column;
+            }
+        }
+
+        /* Focus states for accessibility */
+        .btn-primary-custom:focus,
+        .btn-secondary-custom:focus {
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated background particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="form-container">
+                        <div class="loading-overlay">
+                            <div class="text-center">
+                                <div class="loading-spinner mx-auto mb-3"></div>
+                                <p class="text-light">Processing...</p>
+                            </div>
+                        </div>
+
+                        <div class="form-header">
+                            <h1 class="form-title">
+                                <i class="fas fa-plus-circle"></i>
+                                Add Supplier
+                            </h1>
+                        </div>
+
+                        <div class="form-body">
+                            <div class="success-message">
+                                <i class="fas fa-check-circle me-2"></i>
+                                Supplier added successfully!
                             </div>
 
-                            <div class="mb-4">
-                                <label class="form-label text-light">Address</label>
-                                <input type="text" name="Adress" id="Adress" value="@Model?.Adress"
-                                       class="form-control text-light border-secondary"
-                                       style="background-color: #374151;" />
-                            </div>
+                            <form method="post" action="/Supplier/SaveNew" id="supplierForm">
+                                <div class="form-group">
+                                    <label class="form-label" for="Name">
+                                        <i class="fas fa-building me-2"></i>
+                                        Supplier Name
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text"
+                                               name="Name"
+                                               id="Name"
+                                               class="form-control form-control-custom"
+                                               placeholder="Enter supplier name..."
+                                               required>
+                                        <i class="fas fa-user-tie input-icon"></i>
+                                    </div>
+                                    <div class="form-validation">Please enter a valid supplier name.</div>
+                                </div>
 
-                            <div class="d-flex gap-3">
-                                <input type="submit" value="Add Supplier" class="btn btn-primary flex-fill"
-                                       style="background-color: #3b82f6; border-color: #3b82f6;" />
-                                <a class="btn btn-outline-light flex-fill text-center"
-                                   href="/Supplier/Index"
-                                   style="text-decoration: none; display: flex; align-items: center; justify-content: center;">
-                                    Back to List
-                                </a>
-                            </div>
-                        </form>
+                                <div class="form-group">
+                                    <label class="form-label" for="Address">
+                                        <i class="fas fa-map-marker-alt me-2"></i>
+                                        Address
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text"
+                                               name="Address"
+                                               id="Address"
+                                               class="form-control form-control-custom"
+                                               placeholder="Enter supplier address..."
+                                               required>
+                                        <i class="fas fa-location-dot input-icon"></i>
+                                    </div>
+                                    <div class="form-validation">Please enter a valid address.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="Company">
+                                        <i class="fas fa-map-marker-alt me-2"></i>
+                                        Company
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text"
+                                               name="Company"
+                                               id="Company"
+                                               class="form-control form-control-custom"
+                                               placeholder="Enter supplier Company..."
+                                               required>
+                                        <i class="fas fa-location-dot input-icon"></i>
+                                    </div>
+                                    <div class="form-validation">Please enter a valid Company.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="Phone">
+                                        <i class="fas fa-map-marker-alt me-2"></i>
+                                        Phone
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text"
+                                               name="Phone"
+                                               id="Phone"
+                                               class="form-control form-control-custom"
+                                               placeholder="Enter supplier Phone..."
+                                               required>
+                                        <i class="fas fa-location-dot input-icon"></i>
+                                    </div>
+                                    <div class="form-validation">Please enter a valid Phone.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="Email">
+                                        <i class="fas fa-map-marker-alt me-2"></i>
+                                        Email
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text"
+                                               name="Email"
+                                               id="Email"
+                                               class="form-control form-control-custom"
+                                               placeholder="Enter supplier Email..."
+                                               required>
+                                        <i class="fas fa-location-dot input-icon"></i>
+                                    </div>
+                                    <div class="form-validation">Please enter a valid Email.</div>
+                                </div>
+
+                                <div class="btn-container">
+                                    <button type="submit" class="btn btn-primary-custom flex-fill">
+                                        <i class="fas fa-save me-2"></i>
+                                        Add Supplier
+                                    </button>
+                                    <a class="btn btn-secondary-custom flex-fill" href="/Supplier/Index">
+                                        <i class="fas fa-arrow-left me-2"></i>
+                                        Back to List
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('supplierForm');
+            const loadingOverlay = document.querySelector('.loading-overlay');
+            const successMessage = document.querySelector('.success-message');
+            const inputs = document.querySelectorAll('.form-control-custom');
+
+            // Add floating label effect
+            inputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('focused');
+                });
+
+                input.addEventListener('blur', function() {
+                    if (!this.value) {
+                        this.parentElement.classList.remove('focused');
+                    }
+                });
+
+                // Check if input has value on load
+                if (input.value) {
+                    input.parentElement.classList.add('focused');
+                }
+            });
+
+            // Form validation
+            form.addEventListener('submit', function(e) {
+                let isValid = true;
+
+                inputs.forEach(input => {
+                    const validation = input.parentElement.parentElement.querySelector('.form-validation');
+
+                    if (!input.value.trim()) {
+                        validation.style.display = 'block';
+                        input.style.borderColor = '#ef4444';
+                        isValid = false;
+                    } else {
+                        validation.style.display = 'none';
+                        input.style.borderColor = 'rgba(59, 130, 246, 0.3)';
+                    }
+                });
+
+                if (!isValid) {
+                    e.preventDefault();
+                    return false;
+                }
+
+                // Show loading overlay
+                loadingOverlay.style.display = 'flex';
+
+                // Simulate form submission (remove this in production)
+                setTimeout(() => {
+                    loadingOverlay.style.display = 'none';
+                    successMessage.style.display = 'block';
+                    form.reset();
+                }, 2000);
+            });
+
+            // Add ripple effect to buttons
+            const buttons = document.querySelectorAll('.btn-primary-custom, .btn-secondary-custom');
+            buttons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    const ripple = document.createElement('span');
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+
+                    ripple.style.width = ripple.style.height = size + 'px';
+                    ripple.style.left = x + 'px';
+                    ripple.style.top = y + 'px';
+                    ripple.classList.add('ripple');
+
+                    this.appendChild(ripple);
+
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 600);
+                });
+            });
+
+            // Add floating animation to particles
+            const particles = document.querySelectorAll('.particle');
+            particles.forEach((particle, index) => {
+                const randomY = Math.random() * 100;
+                const randomX = Math.random() * 100;
+                particle.style.top = randomY + '%';
+                particle.style.left = randomX + '%';
+                particle.style.animationDelay = (index * 0.5) + 's';
+            });
+        });
+
+        // Add CSS for ripple effect
+        const style = document.createElement('style');
+        style.textContent = `
+            .ripple {
+                position: absolute;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.3);
+                transform: scale(0);
+                animation: ripple-animation 0.6s linear;
+                pointer-events: none;
+            }
+
+            @@keyframes ripple-animation {
+                to {
+                    transform: scale(2);
+                    opacity: 0;
+                }
+            }
+
+            .input-group.focused .input-icon {
+                color: #3b82f6;
+                transform: translateY(-50%) scale(1.1);
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
 </body>
+</html>

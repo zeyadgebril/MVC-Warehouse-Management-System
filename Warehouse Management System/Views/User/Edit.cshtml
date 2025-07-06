@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+}
+
+<body style="background-color: #1f2937; min-height: 100vh;">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card border-0 shadow" style="background-color: #4b5563;">
+                    <div class="card-body p-4">
+                        <h1 class="text-center text-light mb-4">Edit Supplier</h1>
+
+                        <form method="post" action="/User/Update">
+                            <!-- Hidden field for SupplierID - CRITICAL for updates -->
+                            <input type="hidden" FullName="UserID" value="@Model?.UserID" />
+
+                            <div class="form-group mb-3">
+                                <label for="FullName" class="form-label text-light">FullName</label>
+                                <input type="text" FullName="FullName" id="FullName" value="@Model?.FullName"
+                                       class="form-control text-light border-secondary"
+                                       style="background-color: #374151;" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
